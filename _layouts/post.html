@@ -1,9 +1,34 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
-</div>
+<article class="post">
+    <header class="row">
+        <h1>{{ page.title }}</h1>
+        <div class="post-heading">
+            <p class="teaser">{{page.description}}</p>
+            <hr />
+            <p class="post-header">
+                <span class="date">{{page.date | date_to_string}}</span>
+            </p>
+            <hr />
+        </div>
+    </header>
+    <div class="post-body row">
+        {{content}}
+    </div>
+    <p class="pull-xs-right">
+        <em>Si vous avez aimé ce billet, vous pouvez le partager: </em>
+        <a class="share" target="_blank" href="http://twitter.com/home?status=">
+            <span class="fa-stack fa-large">
+                <i class="fa fa-square text-twitter fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+        <a class="share" target="_blank" href="http://facebook.com/sharer.php?u=">
+            <span class="fa-stack fa-large">
+                <i class="fa fa-square text-fb fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </p>
+</article>

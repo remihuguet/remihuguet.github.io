@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rémi launch sites"
+description: "Well. Finally got around to putting this old website together..."
 date: 2016-05-24
 ---
 
