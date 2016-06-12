@@ -18,13 +18,13 @@ layout: default
     </div>
     <p class="pull-xs-right">
         <em>Si vous avez aimé ce billet, vous pouvez le partager: </em>
-        <a class="share" target="_blank" href="http://twitter.com/home?status=">
+        <a class="share" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.author.twitter }}&related={{ site.author.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter">
             <span class="fa-stack fa-large">
                 <i class="fa fa-square text-twitter fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
             </span>
         </a>
-        <a class="share" target="_blank" href="http://facebook.com/sharer.php?u=">
+        <a class="share" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&p[title]={{page.title}}" rel="nofollow" target="_blank" title="Share on Facebook">
             <span class="fa-stack fa-large">
                 <i class="fa fa-square text-fb fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
