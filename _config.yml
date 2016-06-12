@@ -1,5 +1,13 @@
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-seo-tag]
 name: Rémi Huguet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 paginate: 10
+logo: "/assets/img/remi.jpg"
+title: Rémi Huguet
+description: Mes écrits n'engagent que moi. Et encore.
+url: remihuguet.github.io
+author:
+    twitter: RemiHuguet
+twitter:
+    username: RemiHuguet

@@ -3,6 +3,7 @@ layout: post
 title: "#MonSudWebEnUnMot Angine"
 description: "Vaincu par une angine foudroyante, j'ai donc vécu mon premier SudWeb, c en mode"
 date: 2016-06-02
+image: "/assets/remi.jpg"
 ---
 
 ## Un premier SudWeb tronqué ...
