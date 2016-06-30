@@ -3,7 +3,7 @@ layout: post
 title: "Template post title"
 description: "Short description of the post used by list view, metas, ..."
 date: 2016-06-29
-featured-image:
+image: "/assets/img/remi.jpg"
 ---
 
 ## H2 header - don't use h1 ...
@@ -16,13 +16,16 @@ Ut auctor massa sed odio viverra cursus. In commodo erat sit amet odio pellentes
 
 Curabitur venenatis nulla scelerisque, interdum justo sagittis, scelerisque dui. Nam condimentum venenatis quam, non posuere quam convallis id. Morbi odio neque, semper eu fringilla sit amet, porttitor at ligula. Sed quis mattis magna, nec luctus sem. Duis consequat risus eu sapien dapibus sagittis. Vivamus posuere elit massa, vel iaculis orci tincidunt sed. Aenean bibendum diam a facilisis tempor. Maecenas elit justo, aliquam vitae erat viverra, volutpat sodales lacus. Nam facilisis finibus imperdiet. Praesent varius ornare sapien, in tincidunt dui lobortis id. Vestibulum a nisl quam. Vestibulum facilisis risus vitae enim lacinia, in convallis ex cursus.
 
+#### A h4 is goopd!
+
 *Mauris eros lorem, imperdiet sed dui quis, rutrum iaculis risus.*
 _Vestibulum elementum lorem a urna convallis, ut aliquet mi egestas._
 
 
  As I said:
 
- >Nulla egestas, urna at sagittis elementum, odio sem iaculis nisl, ac congue felis diam pulvinar massa. Curabitur quis convallis lacus. Nunc in elit varius, blandit lacus pulvinar, suscipit turpis. Fusce euismod orci nec enim rutrum, ac viverra urna mattis. Integer faucibus consectetur diam sed mattis. Ut at lectus nec tortor suscipit tincidunt. Mauris lacinia odio vitae enim aliquam, a faucibus purus cursus. Donec finibus mauris est, sit amet porttitor elit rutrum vitae. Vestibulum viverra diam vel purus lobortis, eget ornare libero euismod. Nullam consectetur urna at nisl tempus ultricies quis eu turpis. Aenean ullamcorper vitae leo in ornare. Sed fringilla ante urna, id vestibulum tortor elementum eu. Donec luctus viverra diam ac malesuada. Mauris eros lorem, imperdiet sed dui quis, rutrum iaculis risus. Vestibulum elementum lorem a urna convallis, ut aliquet mi egestas. <footer class="blockquote-footer">Un auteur</footer>
+ >Nulla egestas, urna at sagittis elementum, odio sem iaculis nisl, ac congue felis diam pulvinar massa. Curabitur quis convallis lacus. Nunc in elit varius, blandit lacus pulvinar, suscipit turpis. Fusce euismod orci nec enim rutrum, ac viverra urna mattis. Integer faucibus consectetur diam sed mattis. Ut at lectus nec tortor suscipit tincidunt. Mauris lacinia odio vitae enim aliquam, a faucibus purus cursus. Donec finibus mauris est, sit amet porttitor elit rutrum vitae. Vestibulum viverra diam vel purus lobortis, eget ornare libero euismod. Nullam consectetur urna at nisl tempus ultricies quis eu turpis. Aenean ullamcorper vitae leo in ornare. Sed fringilla ante urna, id vestibulum tortor elementum eu. Donec luctus viverra diam ac malesuada. Mauris eros lorem, imperdiet sed dui quis, rutrum iaculis risus. Vestibulum elementum lorem a urna convallis, ut aliquet mi egestas.
+ ><cite>Un auteur</cite>
 
 
 
@@ -30,14 +33,15 @@ _Vestibulum elementum lorem a urna convallis, ut aliquet mi egestas._
 
 Curabitur venenatis nulla scelerisque, interdum justo sagittis, scelerisque dui. Nam condimentum venenatis quam, non posuere quam convallis id. Morbi odio neque, semper eu fringilla sit amet, porttitor at ligula. Sed quis mattis magna, nec luctus sem. Duis consequat risus eu sapien dapibus sagittis. Vivamus posuere elit massa, vel iaculis orci tincidunt sed. Aenean bibendum diam a facilisis tempor. Maecenas elit justo, aliquam vitae erat viverra, volutpat sodales lacus. Nam facilisis finibus imperdiet. Praesent varius ornare sapien, in tincidunt dui lobortis id. Vestibulum a nisl quam. Vestibulum facilisis risus vitae enim lacinia, in convallis ex cursus.
 
-My list:
+My list below
+
 * item 1
 * item 2
 * item 3
 * item 4
 
+Ordered list
 
-And other orderd list:
 1. Item 1
 2. Item 2
 3. Item 3
@@ -47,13 +51,27 @@ And other orderd list:
 
 Mauris eros lorem, imperdiet sed dui quis, rutrum iaculis risus. Vestibulum elementum lorem a urna convallis, ut aliquet mi egestas. Nulla egestas, urna at sagittis elementum, odio sem iaculis nisl, ac congue felis diam pulvinar massa. Curabitur quis convallis lacus. Nunc in elit varius, blandit lacus pulvinar, suscipit turpis. Fusce euismod orci nec enim rutrum, ac viverra urna mattis. Integer faucibus consectetur diam sed mattis. Ut at lectus nec tortor suscipit tincidunt. Mauris lacinia odio vitae enim aliquam, a faucibus purus cursus. Donec finibus mauris est, sit amet porttitor elit rutrum vitae. Vestibulum viverra diam vel purus lobortis, eget ornare libero euismod. Nullam consectetur urna at nisl tempus ultricies quis eu turpis. Aenean ullamcorper vitae leo in ornare. Sed fringilla ante urna, id vestibulum tortor elementum eu. Donec luctus viverra diam ac malesuada.
 
+
 ![Ma face](/assets/img/remi.jpg)
-
-
 
 Mauris eros lorem, imperdiet sed dui quis, rutrum iaculis risus. Vestibulum elementum lorem a urna convallis, ut aliquet mi egestas. Nulla egestas, urna at sagittis elementum, odio sem iaculis nisl, ac congue felis diam pulvinar massa. Curabitur quis convallis lacus. Nunc in elit varius, blandit lacus pulvinar, suscipit turpis. Fusce euismod orci nec enim rutrum, ac viverra urna mattis. Integer faucibus consectetur diam sed mattis. Ut at lectus nec tortor suscipit tincidunt. Mauris lacinia odio vitae enim aliquam, a faucibus purus cursus. Donec finibus mauris est, sit amet porttitor elit rutrum vitae. Vestibulum viverra diam vel purus lobortis, eget ornare libero euismod. Nullam consectetur urna at nisl tempus ultricies quis eu turpis. Aenean ullamcorper vitae leo in ornare. Sed fringilla ante urna, id vestibulum tortor elementum eu. Donec luctus viverra diam ac malesuada.
 
+## Bonus
 
+### Code snippet
+
+```python
+def function_to_sheat(arg, **kwargs):
+    return arg > kwargs['arg']
+```
+
+### Table
+
+First col | Second col | Third col
+----------|------------|----------
+Content | content | content
+Content | content | content
+Content | content | content
 
 ## Thanks
 
