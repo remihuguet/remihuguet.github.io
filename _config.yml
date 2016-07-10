@@ -3,7 +3,7 @@ name: Rémi Huguet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 paginate: 10
-logo: "/assets/img/remi.jpg"
+logo: "/assets/img/remi-nb.jpg"
 title: Rémi Huguet
 description: Mes écrits n'engagent que moi. Et encore.
 url: remihuguet.github.io

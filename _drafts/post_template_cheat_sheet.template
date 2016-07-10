@@ -10,7 +10,7 @@ image: "/assets/img/remi.jpg"
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis bibendum lacus, sodales maximus eros pharetra in. Duis sodales risus nec mi sagittis viverra. Donec lacus ipsum, pharetra a tempus at, lacinia quis eros. Nam eget urna sed erat lacinia luctus sed ut purus. Fusce et odio tempor, semper augue ac, commodo nunc. Donec in dui dignissim, hendrerit lectus vel, molestie lacus. Nulla facilisi. Duis quis maximus tortor. Duis sit amet augue est. Nulla vel luctus mauris. Donec et dui a justo facilisis vehicula. In finibus ex erat, in feugiat massa vehicula id. Vivamus a interdum elit.
 
-Ut auctor massa sed odio viverra cursus. In commodo erat sit amet odio pellentesque, sit amet rhoncus eros mollis. Ut pellentesque dolor et lobortis mollis. Proin non libero felis. Maecenas a tellus a nisi sagittis pharetra. Integer sit amet mi felis. Nulla pharetra nunc odio, vel aliquam neque facilisis non. Donec mollis magna sit amet lacus tempus, eget congue dui molestie. Nulla vitae neque bibendum, maximus ex a, elementum risus.
+Ut auctor massa sed odio viverra cursus. In commodo erat sit amet odio pellentesque, sit amet rhoncus eros mollis. Ut pellentesque dolor et lobortis mollis. Proin non libero felis. Maecenas a tellus a nisi sagittis pharetra. Integer sit amet mi felis. Nulla pharetra nunc odio, vel aliquam neque facilisis non. Donec mollis magna sit amet lacus tempus, eget congue dui molestie. Nulla vitae neque bibendum, maximus ex a, elementum risus[^1].
 
 ### and avoid h3 as there is no pretty style for
 
@@ -76,3 +76,6 @@ Content | content | content
 ## Thanks
 
 and find me at [My site](https://remihuguet.github.io)
+
+
+[^1]: this is a footnote
