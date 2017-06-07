@@ -3,7 +3,6 @@
 <html lang="fr">
 
 <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +10,7 @@
 
 	<link rel="shortcut icon" href="/assets/img/favicon.ico">
 
-	<link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml">
+	<!--<link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml">-->
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/font-awesome/font-awesome.css">
@@ -31,17 +30,16 @@
 
         <nav id="navbar" class="animated navbar navbar-fixed-top navbar-dark navbar-full hidden-lg-up" >
             <div style="overflow:hidden;">
-                <a class="navbar-brand" href="/">RH</a>
-                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                <span class="navbar-brand">Rémi Huguet</span>
+                <!--<button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
                     &#9776;
-                </button>
+                </button>-->
             </div>
-            <div class="collapse navbar-toggleable-md" id="exCollapsingNavbar2">
+            <!--<div class="collapse navbar-toggleable-md" id="exCollapsingNavbar2">
                 <ul class="nav navbar-nav">
                     <li class="nav-item {% if page.url == '/' %}active{% endif %}" id="dropdown-menu-home"><a class="nav-link" href="/">Blog</a></li>
-                    <li class="nav-item {% if page.url == '/about/' %} active {% endif %}"><a class="nav-link" href="/about">À propos</a></li>
                 </ul>
-            </div>
+            </div>-->
         </nav>
 
         <nav class="hidden-md-down sidebar">
@@ -50,14 +48,12 @@
                     Rémi Huguet
                 </p>
                 <p class="sidebar-baseline">
-                    Mes écrits n'engagent que moi. Et encore, pas trop longtemps.
                 </p>
-                <hr />
-                <ul class="nav sidebar-nav">
+                <!--<hr />-->
+                <!--<ul class="nav sidebar-nav">
                     <li class="nav-item {% if page.url == '/' %}active{% endif %}" id="dropdown-menu-home"><a class="nav-link" href="/">Blog</a></li>
-                    <li class="nav-item {% if page.url == '/about/' %} active {% endif %}"><a class="nav-link" href="/about">À propos</a></li>
-                </ul>
-                <hr />
+                </ul>-->
+                <!--<hr />-->
                 <div class="follow-me">
                     <p>
                         <a class="share"  href="https://twitter.com/RemiHuguet">
@@ -66,22 +62,19 @@
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <!--
-                        <span class="fa-stack fa-large">
-                            <i class="fa fa-square text-medium fa-stack-2x"></i>
-                            <i class="fa fa-medium fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <span class="fa-stack fa-large">
-                            <i class="fa fa-square text-google-plus fa-stack-2x"></i>
-                            <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                        </span>
-                    -->
-                        <a class="share" href="https://fr.linkedin.com/in/rémi-huguet-57ba4932">
+                        <a class="share" href="https://www.linkedin.com/in/remihuguet">
                             <span class="fa-stack fa-large">
                                 <i class="fa fa-square text-linkedin fa-stack-2x"></i>
                                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
+                        <a class="share"  href="https://angel.co/remi-huguet">
+                            <span class="fa-stack fa-large">
+                                <i class="fa fa-square fa-stack-2x" style="color:white;border-color:gray;"></i>
+                                <i class="fa fa-angellist fa-stack-1x" style="color:black;"></i>
+                            </span>
+                        </a>
+
                         <a class="share"  href="https://www.facebook.com/revanphy">
                             <span class="fa-stack fa-large">
                                 <i class="fa fa-square text-fb fa-stack-2x"></i>
@@ -89,12 +82,25 @@
                             </span>
                         </a>
 
-                        <a  class="share" href="/atom.xml">
+                        <a class="share"  href="https://medium.com/@remi.huguet">
+                            <span class="fa-stack fa-large">
+                                <i class="fa fa-square text-medium fa-stack-2x"></i>
+                                <i class="fa fa-medium fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <a class="share"  href="https://github.com/remihuguet">
+                            <span class="fa-stack fa-large">
+                                <i class="fa fa-square fa-stack-2x" style="color:#24292e;"></i>
+                                <i class="fa fa-github fa-stack-1x" style="color:white;"></i>
+                            </span>
+                        </a>
+
+                        <!--<a  class="share" href="/atom.xml">
                             <span class="fa-stack fa-large">
                                 <i class="fa fa-square text-rss fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                             </span>
-                        </a>
+                        </a>-->
 
                         <a class="share" href="mailto:revanphy@gmail.com">
                             <span class="fa-stack fa-large">
@@ -103,15 +109,13 @@
                             </span>
                         </a>
 
-                        <!--+RSS +mail to
-                         Ajouter éventuellement github / bitbucket quand y aura quelquechose, soundcloud, lanyrd-->
                     </p>
                 </div>
 
             </div>
             <p class="copyright">
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Sauf mention contraire, tous les contenus de ce site sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.<br />
-                2016 - Rémi Huguet
+                <!--<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Sauf mention contraire, tous les contenus de ce site sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.<br />-->
+                ©2016 - Rémi Huguet
             </p>
         </nav>
 
@@ -121,12 +125,12 @@
 
         <footer class="footer hidden-lg-up">
     		<div class="container-fluid">
-                <div class="col-xs-12">
+                <!--<div class="col-xs-12">
                     <nav class="nav nav-inline">
                         <a class="nav-link" href="/">Blog</a>
                         <a class="nav-link" href="/about">À propos</a>
                     </nav>
-                </div>
+                </div>-->
                 <hr />
                 <div class="follow-me">
                     <p>
@@ -136,22 +140,19 @@
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <!--
-                        <span class="fa-stack fa-large">
-                            <i class="fa fa-square text-medium fa-stack-2x"></i>
-                            <i class="fa fa-medium fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <span class="fa-stack fa-large">
-                            <i class="fa fa-square text-google-plus fa-stack-2x"></i>
-                            <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                        </span>
-                    -->
-                        <a class="share" href="https://fr.linkedin.com/in/rémi-huguet-57ba4932">
+                        <a class="share" href="https://www.linkedin.com/in/remihuguet">
                             <span class="fa-stack fa-large">
                                 <i class="fa fa-square text-linkedin fa-stack-2x"></i>
                                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
+                        <a class="share"  href="https://angel.co/remi-huguet">
+                            <span class="fa-stack fa-large">
+                                <i class="fa fa-square fa-stack-2x" style="color:white;border-color:gray;"></i>
+                                <i class="fa fa-angellist fa-stack-1x" style="color:black;"></i>
+                            </span>
+                        </a>
+
                         <a class="share"  href="https://www.facebook.com/revanphy">
                             <span class="fa-stack fa-large">
                                 <i class="fa fa-square text-fb fa-stack-2x"></i>
@@ -159,12 +160,24 @@
                             </span>
                         </a>
 
-                        <a  class="share" href="/atom.xml">
+                        <a class="share"  href="https://medium.com/@remi.huguet">
+                            <span class="fa-stack fa-large">
+                                <i class="fa fa-square text-medium fa-stack-2x"></i>
+                                <i class="fa fa-medium fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <a class="share"  href="https://github.com/remihuguet">
+                            <span class="fa-stack fa-large">
+                                <i class="fa fa-square fa-stack-2x" style="color:#24292e;"></i>
+                                <i class="fa fa-github fa-stack-1x" style="color:white;"></i>
+                            </span>
+                        </a>
+                        <!--<a  class="share" href="/atom.xml">
                             <span class="fa-stack fa-large">
                                 <i class="fa fa-square text-rss fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                             </span>
-                        </a>
+                        </a>-->
 
                         <a class="share" href="mailto:revanphy@gmail.com">
                             <span class="fa-stack fa-large">
@@ -173,14 +186,13 @@
                             </span>
                         </a>
 
-                        <!--+RSS +mail to
-                         Ajouter éventuellement github / bitbucket quand y aura quelquechose, soundcloud, lanyrd-->
+
                     </p>
                 </div>
     			<div class="col-xs-12">
                     <p class="copyright">
-                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Sauf mention contraire, tous les contenus de ce site sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.<br />
-                        2016 - Rémi Huguet
+                        <!--<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Sauf mention contraire, tous les contenus de ce site sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.<br />-->
+                        ©2016 - Rémi Huguet
 
                     </p>
     			</div>

@@ -1,83 +1,61 @@
 ---
 layout: default
 title: Rémi Huguet
-description: Blog de Rémi Huguet
-keywords: blog
 ---
-<div class="post-list">
-  {% for post in paginator.posts %}
-    <article class="post-resume">
-        <p class="post-header">
-            <span class="date">
-                <!-- Whitespace added for readability -->
-                {% assign m = post.date | date: "%-m" %}
-                {{ post.date | date: "%-d" }}
-                {% case m %}
-                  {% when '1' %}janvier
-                  {% when '2' %}février
-                  {% when '3' %}mars
-                  {% when '4' %}avril
-                  {% when '5' %}mai
-                  {% when '6' %}juin
-                  {% when '7' %}juillet
-                  {% when '8' %}août
-                  {% when '9' %}septembre
-                  {% when '10' %}octobre
-                  {% when '11' %}novembre
-                  {% when '12' %}décembre
-                {% endcase %}
-                {{ post.date | date: "%Y" }}
-            </span>
+
+<article class="post">
+
+    <div class="row">
+        <div class="col-sm-4 hidden-sm-down">
+            <img class="img-fluid img-rounded" src="/assets/img/remi-nb.jpg" alt="Portrait de Rémi" />
+        </div>
+        <div class="col-sm-8">
+            <p class="lead">
+                <strong>I build software and manage teams since 2008.</strong><br/>
+                CTO of <a target="_blank" href="https://www.actiwine.com">Actiwine</a>, the B2B wine marketplace since 2015.<br/>
+                Previously associate at <a target="_blank" href="http://www.tikimove.com">Tiki Move</a>,  part of <a target="_blank" href="http://www.clever-age.com">Clever Age</a>.<br/>
+                <strong>PhD</strong> in theoretical physics.
+            </p>
+        </div>
+    </div>
+    
+    <br />
+        <p>
+            I'm 35, leaving near Bordeaux, France, with my beloved son and wife Marie-Hélène ( see <a target="_blank" href="http://www.mon-horizon.com">Mon Horizon</a>).
         </p>
-        <h2><a href="{{ post.url }}" title="{{post.title}}">{{ post.title }}</a></h2>
-        <p>{{post.description|truncatewords:60}}</p>
-        <p><a href="{{ post.url }}">lire la suite</a></p>
-    </article>
-    {% endfor %}
-    {% if paginator.total_pages > 1 %}
-        <div class="text-center">
-            <ul class="pagination">
-                <li class="page-item">
-                    <span class="page-link">Page {{ paginator.page }} sur {{ paginator.total_pages }}</span>
-                </li>
+        <p>
+            Graduate in physics, geek from a long time, I began to be a "serious" developper during my PhD, making some ugly Fortran code to build nuclear matter models based on subnucleonic constituents. 
+            For the braves: <a target="_blank" href="http://www.theses.fr/2008BOR13604">thesis</a> and <a target="_blank" href="https://arxiv.org/find/nucl-th/1/au:+Huguet_R/0/1/0/all/0/1">publications</a>.
+        </p>
+        <p>
+            Since 2008, I code, design and build softwares, I lead (mostly) technical teams, and I seek to contribute to business projects with great people and human values.
+        </p>
+        <p>
+            
+        </p>
+    
+    <h2>Manifesto</h2>
 
-                {% if paginator.previous_page %}
-                    <li class="page-item prev previous">
-                        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;</a>
-                    </li>
-                {% else %}
-                    <li class="page-item prev previous disabled">
-                        <span class="page-link">&larr;</span>
-                    </li>
+        <h3>Rationale</h3>
+        <p>
+            In my daily life, at work, in the organisations I have been in, I see people wasting their time doing things in sub-optimal ways, or doing things which are useless. 
+            If you can optimize organisations, work habits, if you can make that people spend less time doing stupind or repetitive things, people will benefit of that. 
+            They can spend more time on things which creates more value, for them and for the organisation. 
+            They can work less, be more comfortable at work, spending more time with their families. 
+        </p>
+        <p>
+            People time is what is the most precious. We should not tolerate to let people waste their time.
+        </p>
 
-                {% endif %}
-
-                {% for page in (1..paginator.total_pages) %}
-                    {% if page == paginator.page %}
-                        <li class="page-item active">
-                            <span class = "page-link">{{ page }}</span>
-                        </li>
-                    {% elsif page == 1 %}
-                        <li class="page-item">
-                            <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-                        </li>
-                    {% else %}
-                        <li class="page-item">
-                            <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-
-                {% if paginator.next_page %}
-                    <li class="page-item next">
-                        <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&rarr;</a>
-                    </li>
-                {% else %}
-                    <li class="page-item next disabled">
-                        <span class="page-link">&rarr;</span>
-                    </li>
-                {% endif %}
-            </ul>
-      </div>
-    {% endif %}
-</div>
+        <h3>Goals</h3>
+        <p>
+            I build software to improve the daily lives of users, to improve organizations and create new dynamics of value creation.
+        </p>
+        <p>
+            I promote a work organisation based on empathy, autonomy, trust, personal responsibility,  and requirement.
+        </p>
+        <p>
+            I'm constantly looking for learning and extending my confort zone. I contribute to the sharing of experiences and knowledge to promote the improvement of all.
+        </p>
+        
+</article>
