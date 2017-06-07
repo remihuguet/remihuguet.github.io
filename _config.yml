@@ -5,8 +5,8 @@ permalink: /blog/:year/:month/:day/:title
 paginate: 10
 logo: "/assets/img/remi-nb.jpg"
 title: Rémi Huguet
-description: Mes écrits n'engagent que moi. Et encore.
-url: remihuguet.github.io
+description: I build software and manage teams since 2008.
+url: remihuguet.com
 author:
     twitter: RemiHuguet
 twitter:
