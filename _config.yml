@@ -1,11 +1,10 @@
-gems: [jekyll-paginate, jekyll-seo-tag]
+gems: [jekyll-seo-tag]
 name: Rémi Huguet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-paginate: 10
 logo: "/assets/img/remi-nb.jpg"
 title: Rémi Huguet
-description: I build software and manage teams since 2008.
+description: Software developper, entrepreneur, PhD
 url: remihuguet.com
 author:
     twitter: RemiHuguet
