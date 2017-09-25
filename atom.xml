@@ -4,9 +4,9 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Rémi's Blog</title>
-	<link href="http://remihuguet.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://remihuguet.github.io/blog"/>
+	<title>Rémi Huguet - Blog</title>
+	<link href="http://remihuguet.github.io/atom.xml" rel="self"/>
+	<link href="http://remihuguet.github.io"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://remihuguet.github.io/blog</id>
 	<author>
