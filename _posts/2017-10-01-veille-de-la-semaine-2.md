@@ -15,7 +15,7 @@ Vous connaissez le paradoxe de Fermi? Autour de 1950 ( les circonstances exactes
 
 Un livre [Où sont-ils? Les extraterrestres et le paradoxe de Fermi](https://www.amazon.fr/O%C3%B9-sont-ils-extraterrestres-paradoxe-Fermi/dp/2271116376/ref=sr_1_1?ie=UTF8&qid=1506884973&sr=8-1&keywords=O%C3%B9+sont-ils), publié récemment, propose un état des lieux accessible et passionnant sur le sujet. Co-écrit par deux physiciens, deux astrophysiciens et un économiste, tous les aspects et les dernières connaissances acquises autour du sujet sont balayées: exoplanètes, exobiologie, communication et détection de signaux, stabilité des civilisations, ... 
 
-S'intéresser à cette question, c'est aussi s'intéresser à nos origines et réfléchir aux enjeux posés par notre civilisation. Une excellente lecture que je vous recommande pour un après-midi pluvieux.
+S'intéresser à cette question, c'est aussi s'intéresser à nos origines et réfléchir aux enjeux posés par notre civilisation. Une excellente lecture que je vous recommande pour un après-midi pluvieux. En plus, l'artwork de couverture vaut son pesant de cacahuètes.
 
 ### Dev
 
