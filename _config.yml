@@ -1,4 +1,4 @@
-gems: [jekyll-seo-tag]
+plugins: [jekyll-seo-tag]
 name: Rémi Huguet
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
