@@ -9,7 +9,7 @@ image: "/assets/img/remi.jpg"
 Cette semaine, beaucoup de liens dans ma veille autour du développement, avec notamment le retour de SQL, un peu de Git et du CSS, mais pas seulement. Ne manquez pas notamment le talk [The full-stack anxiety](http://mixinconf.com/videos/full-stack-anxiety/) et l'article [L’obsession du service client chez Captain Train](https://medium.com/@djo/obsession-service-client-captain-train-cb0b91467fd9). 
 
 
-### Y a pas de lien
+### Hors ligne
 
 Vous connaissez le paradoxe de Fermi? Autour de 1950 ( les circonstances exactes ne semblent pas tout à fait connues ), le physicien Enrico Fermi essaye d'évaluer le nombre potentiel de civilisations extraterrestres en mesure d'entrer en contact avec nous. Obtenant un nombre très important, il formule le dit paradoxe: "si le nombre de civilisations en mesure de nous contacter est si grand, comment se fait-il que nous n'en ayons jamais perçu aucun signe ?". 
 
