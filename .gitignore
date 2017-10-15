@@ -2,3 +2,4 @@ _site/
 _bootstrap_theme/
 _drafts/*.md
 _drafts/*.html
+*cv*
