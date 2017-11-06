@@ -20,7 +20,7 @@ Toujours dans le thème de la performance, ce copieux article dresse un panorama
 
 ### [Developers, swallow your pride and just do stuff](https://dev.to/lukaszsagol/developers-swallow-your-pride-and-just-do-stuff)
 
-J'aime beaucoup ce type d'article pour nous rappeller que notre fonction en tant que développeur est avant totu de produire du logiciel qui génère de la valeur. Parfois, dans certains contextes, cela peut impliquer de prendre du recul sur les bonnes pratiques et de juste mettre en oeuvre ce qui ressemble à un bricolage crade. 
+J'aime beaucoup ce type d'article pour nous rappeller que notre fonction en tant que développeur est avant tout de produire du logiciel qui génère de la valeur. Parfois, dans certains contextes, cela peut impliquer de prendre du recul sur les bonnes pratiques et de juste mettre en oeuvre ce qui ressemble à un bricolage crade. 
 
 Attention cependant — comme toujours, tout est dans l'équilibre. Les bonnes pratiques, les méthodes qui visent à améliorer la qualité et la maintenabilité des logiciels sont indispensables. Mais le contexte est roi, et nous devons être capable de prendre le recul nécessaire pour savoir quand utiliser les règles, quand les adapter, quand les contourner, quand les ignorer, &hellip; pour atteindre un objectif.
 
