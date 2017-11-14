@@ -17,7 +17,7 @@ Comme souligné par Arnaud Lemaire, au-delà de conforter la structuration du ma
 
 ### [Full Spectrum developer, une étude de cas](https://medium.com/arpinum/full-spectrum-developer-une-%C3%A9tude-de-cas-7efbe2d78130)
 
-J'avoue, je n'ai toujours pas bien compris ce qu'est un "full spectrum developper" après avoir lu l'article. Il s'agit d'un retour d'expérience très utile d'une démarche de conception et de développement orientée métier et création de valeur. C'est d'abord ça le métier de développeur.
+J'avoue, je n'ai toujours pas bien compris ce qu'est un "full spectrum developer" après avoir lu l'article. Il s'agit d'un retour d'expérience très utile d'une démarche de conception et de développement orientée métier et création de valeur. C'est d'abord ça le métier de développeur.
 
 
 ### [Le temps de chargement est mort !](https://blog.dareboost.com/fr/2017/11/le-temps-de-chargement-est-mort/)
