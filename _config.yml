@@ -4,7 +4,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 logo: "/assets/img/remi-nb.jpg"
 title: Rémi Huguet
-description: Software developper, entrepreneur, PhD
+description: Freelance software developer — Change is life
 url: remihuguet.com
 author:
     twitter: RemiHuguet
