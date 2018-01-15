@@ -16,4 +16,4 @@ Bon, ce ne sont plus les liens de la semaine mais les liens du mois. Je vais ten
 
 - [To Serve Man, with Software](https://blog.codinghorror.com/to-serve-man-with-software/)
 
-- [http://sametmax.com/les-critiques-des-orm-sont-a-cote-de-la-plaque/](Les critiques des ORM sont à côté de la plaque)
+- [Les critiques des ORM sont à côté de la plaque](http://sametmax.com/les-critiques-des-orm-sont-a-cote-de-la-plaque/)
