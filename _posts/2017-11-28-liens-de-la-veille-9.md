@@ -4,7 +4,7 @@ title: "Les liens de la veille - 9"
 description: "Ouch, j'ai perdu le rythme de la veille. Deux raisons: je suis pas mal occupé à autre chose et par ailleurs, je dois bien dire que je trouve peu de contenus qui m'accroche ces dernières semaines. 
 "
 date: 2017-11-28
-image: "/assets/img/remi.jpg"
+tags: posts
 ---
 
 Or donc, une veille légère mais de qualitay. 

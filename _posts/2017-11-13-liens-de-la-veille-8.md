@@ -3,7 +3,7 @@ layout: post
 title: "Les liens de la veille - 8"
 description: "Cette semaine, des liens autour du métier de développeur, l'art de la mesure, le web hostile et l'IA."
 date: 2017-11-13
-image: "/assets/img/remi.jpg"
+tags: posts
 ---
 
 A ne pas rater: [Le temps de chargement est mort !](https://blog.dareboost.com/fr/2017/11/le-temps-de-chargement-est-mort/) et [Against an Increasingly User-Hostile Web](https://www.neustadt.fr/essays/against-a-user-hostile-web/).

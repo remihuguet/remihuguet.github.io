@@ -3,7 +3,7 @@ layout: post
 title: "Les liens de la veille - N°5"
 description: "Cette semaine, beaucoup de lien autour du développement, de l'architecture, des pratiques Agile."
 date: 2017-10-21
-image: "/assets/img/remi.jpg"
+tags: posts
 ---
 
 A ne pas rater: [Technical Debt: an Incomplete Metaphor?](https://redmonk.com/rstephens/2017/08/08/technical-debt/) — une analyse remarquable des limites de la métaphore de la dette technique — et [Construire Une Architecture d’Information adaptée au Mobile](https://blog.stephaniewalter.fr/architecture-information-optimisation-mobile/), le compte-rendu très utile d'un atelier donné il y a peu lors de ParisWeb 2017.

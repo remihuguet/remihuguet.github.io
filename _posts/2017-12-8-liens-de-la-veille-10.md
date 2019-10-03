@@ -3,7 +3,7 @@ layout: post
 title: "Les liens de la veille - 10"
 description: ""
 date: 2017-12-18
-image: "/assets/img/remi.jpg"
+tags: posts
 ---
 
 Je deviens fainéant. Mais bon voilà des lectures que je vous recommande, et c'est déjà pas mal.

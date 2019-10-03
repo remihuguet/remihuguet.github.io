@@ -3,7 +3,7 @@ layout: post
 title: "Les liens de la veille - 7"
 description: "Cette semaine, perfs, perfs, mais pas que."
 date: 2017-11-03
-image: "/assets/img/remi.jpg"
+tags: posts
 ---
 
 A ne pas rater: [optimisation des images](https://blog.dareboost.com/fr/2017/10/optimiser-les-images-et-reduire-leur-poids-formats-outils-et-rwd/) et [un article salutaire sur l'agilité](https://medium.com/@JoshuaKerievsky/id-like-you-to-know-the-definition-of-agile-639d3fd29d54).

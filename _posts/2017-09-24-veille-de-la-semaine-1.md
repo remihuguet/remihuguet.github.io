@@ -3,7 +3,7 @@ layout: post
 title: "Veille de la semaine - N°1"
 description: "Le récap de ma veille de la semaine"
 date: 2017-09-24
-image: "/assets/img/remi.jpg"
+tags: posts
 ---
 
 Voilà quelques temps que je me disais que ce serait pas mal de rationnaliser un peu ma veille perso et les partages que je fais régulièrement. Jusqu'à présent, cela se passait selon le processus hautement scientifique suivant: 
