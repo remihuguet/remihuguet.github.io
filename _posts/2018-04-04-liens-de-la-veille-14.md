@@ -3,7 +3,7 @@ layout: post
 title: "Les liens de la veille - 14"
 description: "Ma livraison de liens du mois de mars"
 date: 2018-04-04
-tags: posts
+image: "/assets/img/portrait2018.png"
 ---
 
 A ne pas rater:

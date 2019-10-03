@@ -3,7 +3,7 @@ layout: post
 title: "Les liens de la veille - 12"
 description: "Livraison des liens récents"
 date: 2018-02-07
-tags: posts
+image: "/assets/img/portrait2018.png"
 ---
 
 Et hop, voici quelques contenus intéressants des dernières semaines:

@@ -3,7 +3,7 @@ layout: post
 title: "Les liens de la veille - 6"
 description: "Beaucoup de contenus non technique."
 date: 2017-10-29
-tags: posts
+image: "/assets/img/portrait2018.png"
 ---
 
 Cette semaine, peu de liens, mais il y a de bonnes choses. A ne pas rater: [Technical interviews are garbage. Here’s what we do instead](https://be.helpful.com/https-medium-com-fnthawar-helpful-technical-interviews-are-garbage-dc5d9aee5acd) et [No, I have no side code projects to show you](https://www.codementor.io/ezekielbuchheit/no-i-have-no-side-code-projects-to-show-you-cz1tyhgdz)

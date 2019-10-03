@@ -3,7 +3,7 @@ layout: post
 title: "Veille de la semaine - N°4"
 description: "Le récap de ma veille de la semaine"
 date: 2017-10-15
-tags: posts
+image: "/assets/img/portrait2018.png"
 ---
 
 Une semaine avec pas mal de liens autour des startups, des liens sur pipenv, le feature flipping, les architectures événementielles. A ne pas rater: [une réflexion sur la professionnalisation des métiers logiciels](https://www.agilealliance.org/agile-and-the-system-of-professions/) et [la foire aux accompagnements pour les startups](https://medium.com/skwid/startup-jungle-la-foire-aux-accompagnements-b78bdf2cb324).

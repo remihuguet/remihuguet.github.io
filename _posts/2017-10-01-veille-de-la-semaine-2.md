@@ -3,7 +3,7 @@ layout: post
 title: "Veille de la semaine - N°2"
 description: "Le récap de ma veille de la semaine"
 date: 2017-10-01
-tags: posts
+image: "/assets/img/portrait2018.png"
 ---
 
 Cette semaine, beaucoup de liens dans ma veille autour du développement, avec notamment le retour de SQL, un peu de Git et du CSS, mais pas seulement. Ne manquez pas notamment le talk [The full-stack anxiety](http://mixinconf.com/videos/full-stack-anxiety/) et l'article [L’obsession du service client chez Captain Train](https://medium.com/@djo/obsession-service-client-captain-train-cb0b91467fd9). 
