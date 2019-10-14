@@ -9,12 +9,7 @@
 
 <script>
 export default {
-  props: ['post'],
-  methods: {
-    fullDate() {
-      console.log(this.post.date);
-    }
-  }
+  props: ['post']
 }
 </script>
 
