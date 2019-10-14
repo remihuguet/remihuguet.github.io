@@ -1,6 +1,6 @@
 <template>
    <div class="post-meta">
-      {{ post.date }} {{fullDate()}}
+      {{ post.date }}
       <template v-if="post.timeToRead">
         <strong>Lecture ~{{ post.timeToRead }} min.</strong>
       </template>
