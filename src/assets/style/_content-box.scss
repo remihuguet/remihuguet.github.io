@@ -1,0 +1,6 @@
+// Used to wrap content inside a nice box.
+.content-box {
+	max-width: var(--content-width);
+	margin: 0 auto;
+	padding: calc(var(--space) / 3) 0;
+}

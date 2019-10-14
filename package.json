@@ -1,0 +1,24 @@
+{
+  "name": "www.remihuguet.com",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d dist"
+  },
+  "dependencies": {
+    "@gridsome/remark-prismjs": "^0.2.0",
+    "@gridsome/source-filesystem": "^0.6.1",
+    "@gridsome/transformer-remark": "^0.3.0",
+    "gh-pages": "^2.1.1",
+    "gridsome": "^0.7.7",
+    "gridsome-plugin-feed": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  }
+}
