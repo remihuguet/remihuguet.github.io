@@ -2,6 +2,8 @@
 for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
+    X-XSS-Protection = "1;mode=block"
+    X-Content-Type-Options = "nosniff"
     Content-Security-Policy = "script-src 'self' fonts.gstatic.com fonts.googleapis.com; base-uri 'self';"
     
 [[headers]]
