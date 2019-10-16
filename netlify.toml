@@ -14,3 +14,6 @@ for = "/*"
     # The Basic-Auth header may not be available on all plans.
     # Basic-Auth = "someuser:somepassword anotheruser:anotherpassword"
     Content-Security-Policy = "script-src 'self' fonts.gstatic.com fonts.googleapis.com"
+for = "/assets/*"
+  [headers.values]
+    cache-control = "max-age=2592000"
