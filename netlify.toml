@@ -2,7 +2,7 @@
 for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
-    Content-Security-Policy = "script-src 'self' fonts.gstatic.com fonts.googleapis.com"
+    Content-Security-Policy = "script-src 'self' fonts.gstatic.com fonts.googleapis.com; base-uri 'self';"
     
 [[headers]]
 for = "/assets/*"

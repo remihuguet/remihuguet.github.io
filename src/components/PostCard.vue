@@ -4,7 +4,7 @@
       <g-link class="post-card__link" :to="post.path"><h2 class="post-card__title" v-html="post.title" /></g-link>
       <PostMeta class="post-card__meta" :post="post" />
       <PostTags class="post-card__tags" :post="post" />
-      <p class="post-card__description" v-html="post.description" />
+      <p class="post-card__description" v-if="post.description" v-html="post.description" />
     </div>
   </div>
 </template>
