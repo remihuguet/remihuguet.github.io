@@ -46,6 +46,11 @@ query ($page: Int){
       }
     }
   }
+  metadata {
+    siteDescription
+    siteName
+    siteUrl
+  }
 }
 </page-query>
 
@@ -60,8 +65,28 @@ export default {
     PostCard,
     Pager
   },
-  metaInfo: {
-    title: 'Accueil'
+  metaInfo() {
+    return {
+      title: 'Accueil',
+      meta: [
+        {
+          property: "og:title",
+          content: this.$page.metadata.siteTitle
+        },
+        {
+          property: "og:description",
+          content: this.$page.metadata.siteDescription
+        },
+        {
+          property: "og:type",
+          content: "website"
+        },
+        {
+          property: "og:url",
+          content: this.$page.metadata.siteUrl
+        }
+      ]
+    };
   },
   computed: {
     nextPageUrl() {

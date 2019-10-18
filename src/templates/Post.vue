@@ -41,9 +41,21 @@ export default {
         {
           name: 'description',
           content: this.$page.post.description
+        },
+        {
+          property: 'og:title',
+          content:  this.$page.post.title + " - " + this.$page.metadata.siteName 
+        },
+        {
+          property: "og:type",
+          content: "article"
+        },
+        {
+          property: "og:url",
+          content: this.$page.metadata.siteUrl + this.$page.post.path
         }
       ]
-    }
+    };
   }
 }
 </script>
@@ -63,6 +75,10 @@ query Post ($id: ID!) {
     description
     content
     cover_image (width: 860, blur: 10)
+  }
+  metadata {
+    siteName
+    siteUrl
   }
 }
 </page-query>

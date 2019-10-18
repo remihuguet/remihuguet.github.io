@@ -29,6 +29,10 @@ query Tag ($id: ID!) {
       }
     }
   }
+  metadata {
+    siteName
+    siteUrl
+  }
 }
 </page-query>
 
@@ -41,8 +45,24 @@ export default {
     Author,
     PostCard
   },
-  metaInfo: {
-    title: 'Tag'
+  metaInfo () {
+    return {
+      title: "#" + this.$page.tag.title,
+      meta: [
+        {
+          property: 'og:title',
+          content:  "#" + this.$page.tag.title + " - " + this.$page.metadata.siteName 
+        },
+        {
+          property: "og:type",
+          content: "website"
+        },
+        {
+          property: "og:url",
+          content: this.$page.metadata.siteUrl + this.$page.tag.path
+        }
+      ]
+    };
   }
 }
 </script>

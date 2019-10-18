@@ -19,7 +19,7 @@
       <p class="footer__copy">
         <span class="footer__copyright">© {{ new Date().getFullYear() }} Rémi Huguet.</span>
         <span class="footer__links">
-          Site statique propulsé par
+          Site propulsé par
           <a href="//gridsome.org" target="_blank" rel="noreferrer">Gridsome</a>.
         </span>
       </p>
@@ -73,7 +73,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.05);
   margin-top: 3rem;
   padding: calc(var(--space) / 2);
   text-align: center;
