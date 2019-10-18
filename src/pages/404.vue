@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="content-box">
+    <div class="quatrecentquatre content-box">
       <h1>Aïe! Cette page n'existe pas.</h1>
       <p>Désolé si je vous ai amené ici, voici un petit chat pour vous consoler.</p>
       <p> Retrouvez votre chemin avec les liens d'en-tête ;)</p>
@@ -27,7 +27,7 @@ query {
 </page-query>
 
 <style lang="scss">
-.content-box {
+.quatrecentquatre {
   text-align: center;
 }
 </style>
