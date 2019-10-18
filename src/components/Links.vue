@@ -1,10 +1,13 @@
 <template>
     <ul class="nav">
         <li>
-            <g-link to="/about/">À propos</g-link>
+            <g-link to="/">Notes</g-link>
         </li>
         <li>
-            <g-link to="/">Veille</g-link>
+            <g-link to="/blog/">Veille</g-link>
+        </li>
+        <li>
+            <g-link to="/about/">À propos</g-link>
         </li>
     </ul>
 </template>

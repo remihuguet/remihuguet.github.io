@@ -1,8 +1,8 @@
 <template>
   <Layout> 
     <div class="title content-box">
-      <h1 class="title__title">Notes</h1>
-      <p class="title__subtitle">Je partage ici mes réflexions dans un format de notes courtes.</p>
+      <h1 class="title__title">Ma veille.</h1>
+      <p class="title__subtitle">Je partage ici ma veille autour du logiciel, entrepreneuriat, et autres ...</p>
     </div>
     
     <div class="posts">
@@ -23,7 +23,7 @@
 
 <page-query>
 query ($page: Int){
-  posts: allNote(perPage: 10, page: $page, filter: { published: { eq: true }}) @paginate {
+  posts: allPost(perPage: 10, page: $page, filter: { published: { eq: true }}) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -46,11 +46,6 @@ query ($page: Int){
       }
     }
   }
-  metadata {
-    siteDescription
-    siteName
-    siteUrl
-  }
 }
 </page-query>
 
@@ -65,28 +60,8 @@ export default {
     PostCard,
     Pager
   },
-  metaInfo() {
-    return {
-      title: 'Accueil',
-      meta: [
-        {
-          property: "og:title",
-          content: this.$page.metadata.siteTitle
-        },
-        {
-          property: "og:description",
-          content: this.$page.metadata.siteDescription
-        },
-        {
-          property: "og:type",
-          content: "website"
-        },
-        {
-          property: "og:url",
-          content: this.$page.metadata.siteUrl
-        }
-      ]
-    };
+  metaInfo: {
+    title: 'Accueil'
   },
   computed: {
     nextPageUrl() {
@@ -108,6 +83,14 @@ export default {
 </script>
 
 <style lang="scss">
+.pager {
+  list-style: none;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: var(--font-headers);
+  font-variant: small-caps;
+}
 .title {
   padding: 0;
   .title__title {
@@ -121,13 +104,4 @@ export default {
     margin: 0;
   }
 }
-.pager {
-  list-style: none;
-  display:flex;
-  align-items: center;
-  justify-content: space-around;
-  font-family: var(--font-headers);
-  font-variant: small-caps;
-}
-
 </style>

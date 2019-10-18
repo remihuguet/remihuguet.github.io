@@ -12,6 +12,7 @@ module.exports = {
   },
   templates: {
     Post: '/blog/:year/:month/:day/:title',
+    Note: '/notes/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
 
@@ -31,6 +32,20 @@ module.exports = {
         }
       }
     },
+    {
+    use: '@gridsome/source-filesystem',
+    options: {
+      typeName: 'Note',
+      path: 'content/notes/*.md',
+      refs: {
+        // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+        tags: {
+          typeName: 'Tag',
+          create: true
+        }
+      }
+    }
+  },
     {
       use: 'gridsome-plugin-feed',
       options: {
