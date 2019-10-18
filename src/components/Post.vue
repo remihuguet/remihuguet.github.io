@@ -4,16 +4,14 @@
       <h1 class="post-title__text">
         {{ post.title }}
       </h1>
-      <PostMeta :post="$page.post" />
+      <PostMeta :post="post" />
+      <PostTags :post="post" />
       <p v-if="post.description" class="post-title__subtitle">{{ post.description }}</p>
     </div>
 
     <div class="post content-box">
       <div class="post__content" v-html="post.content" />
 
-      <div class="post__footer">
-        <PostTags :post="post" />
-      </div>
       <div class="post__note">
           Si vous avez aimé, et que le coeur vous en dit, n'hésitez pas à partager.
           Si vous voyez une coquille, une grosse bêtise, que vous souhaitez réagir ou discuter,
