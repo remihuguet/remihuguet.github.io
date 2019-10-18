@@ -1,11 +1,11 @@
 <template>
     <div class="links">
         Retrouvez moi sur
-        <a target='_blank' href="//twitter.com/remihuguet">Twitter</a>
-        <a target='_blank' href="//github.com/remihuguet">GitHub</a>
-        <a target='_blank' href="//linkedin.com/in/remihuguet/">Linkedin</a>
-        <a target='_blank' href="mailto:revanphy@gmail.com">@mail</a>
-        <a href="/atom.xml">Flux atom</a>
+        <a target='_blank' rel="noreferrer" href="//twitter.com/remihuguet">Twitter</a>
+        <a target='_blank' rel="noreferrer" href="//github.com/remihuguet">GitHub</a>
+        <a target='_blank' rel="noreferrer" href="//linkedin.com/in/remihuguet/">Linkedin</a>
+        <a target='_blank' rel="noreferrer" href="mailto:revanphy@gmail.com">@mail</a>
+        <a rel="noreferrer" targer='_blank' href="/atom.xml">Flux atom</a>
     </div>
 </template>
 

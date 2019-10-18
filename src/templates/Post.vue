@@ -17,7 +17,7 @@
       <div class="post__note">
           Si vous avez aimé, et que le coeur vous en dit, n'hésitez pas à partager.
           Si vous voyez une coquille, une grosse bêtise, que vous souhaitez réagir ou discuter,
-          vous pouvez m'envoyer un message sur Twitter, ou faire une demande sur le <a target='_blank' href="https://github.com/remihuguet/remihuguet.github.io">repository</a> Github du site pour les plus courageux.
+          vous pouvez m'envoyer un message sur Twitter, ou faire une demande sur le <a target='_blank' rel="noreferrer" href="https://github.com/remihuguet/remihuguet.github.io">repository</a> Github du site pour les plus courageux.
       </div>
     </div>
   </Layout>

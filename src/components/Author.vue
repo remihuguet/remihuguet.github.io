@@ -13,13 +13,13 @@
 		<div class="author__second">
 			Je suis un développeur. Je construis des logiciels et aide des équipes à (mieux) construire des logiciels depuis 2008.
 			<br />
-			À l'heure actuelle, je suis lead developer au sein d'<a href="www.eshard.com" target="_blank">eshard</a>, où je m'occupe d'esdynamic une plateforme web
+			À l'heure actuelle, je suis lead developer au sein d'<a href="https://www.eshard.com" target="_blank" rel="noreferrer">eshard</a>, où je m'occupe d'esdynamic une plateforme web
 			pour data science appliquée aux attaques cryptographiques par canaux cachés.
 		</div>
 
 		<div class="author__main">
 			Physicien de formation 
-			(pour les curieux voici <a href="https://tel.archives-ouvertes.fr/file/index/docid/410091/filename/HUGUET_REMI_2008.pdf" target="_blank">ma thèse de doctorat</a> et <a href="https://arxiv.org/find/nucl-th/1/au:+Huguet_R/0/1/0/all/0/1" target='_blank'>mes publications</a>),
+			(pour les curieux voici <a href="https://tel.archives-ouvertes.fr/file/index/docid/410091/filename/HUGUET_REMI_2008.pdf" rel="noreferrer" target="_blank">ma thèse de doctorat</a> et <a href="https://arxiv.org/find/nucl-th/1/au:+Huguet_R/0/1/0/all/0/1" rel="noreferrer" target='_blank'>mes publications</a>),
 			j'ai conçu, développé, opéré ou piloté le développement de code de calcul pour des modèles de matière nucléaire, des systèmes applicatifs métier pour un fournisseur d'énergie, 
 			des applications mobiles en tout genre, des applications métier web pour des plombiers ou des aides à domicile, une place de marché pour vignerons, ...
 			<br />

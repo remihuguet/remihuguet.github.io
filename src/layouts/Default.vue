@@ -20,7 +20,7 @@
         <span class="footer__copyright">© {{ new Date().getFullYear() }} Rémi Huguet.</span>
         <span class="footer__links">
           Site statique propulsé par
-          <a href="//gridsome.org">Gridsome</a>.
+          <a href="//gridsome.org" target="_blank" rel="noreferrer">Gridsome</a>.
         </span>
       </p>
     </footer>

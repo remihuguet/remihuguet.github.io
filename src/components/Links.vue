@@ -1,10 +1,10 @@
 <template>
     <ul class="nav">
         <li>
-            <a href="/about/">À propos</a>
+            <g-link to="/about/">À propos</g-link>
         </li>
         <li>
-            <a href="/">Veille</a>
+            <g-link to="/">Veille</g-link>
         </li>
     </ul>
 </template>
