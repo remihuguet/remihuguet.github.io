@@ -15,8 +15,13 @@
     "gh-pages": "^2.1.1",
     "gridsome": "^0.7.7",
     "gridsome-plugin-feed": "^1.0.2",
+    "typeface-abhaya-libre": "0.0.72",
+    "typeface-aileron": "0.0.66",
+    "typeface-amatic-sc": "0.0.72",
+    "typeface-cooper-hewitt": "0.0.44",
     "typeface-merriweather": "0.0.72",
-    "typeface-oswald": "0.0.75"
+    "typeface-oswald": "0.0.75",
+    "typeface-playfair-display": "0.0.72"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
