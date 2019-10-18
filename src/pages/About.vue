@@ -27,7 +27,7 @@ export default {
       meta: [
         {
           property: "og:title",
-          content: this.metadata.siteTitle
+          content: this.$page.metadata.siteTitle
         },
         {
           property: "og:description",
@@ -39,7 +39,7 @@ export default {
         },
         {
           property: "og:url",
-          content: this.metadata.siteUrl + '/about'
+          content: this.$page.metadata.siteUrl + '/about'
         }
       ]
     };
