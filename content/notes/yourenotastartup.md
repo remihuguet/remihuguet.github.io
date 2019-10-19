@@ -24,7 +24,7 @@ C'est un type extrêmement précis, et réduit, d'entreprise.
 
 Toutes les nouvelles entreprises innovantes ne sont pas dans un processus de découverte d'un modèle de création de valeur.
 Toutes les jeunes entreprises n'ont pas pour vocation de se dupliquer à l'international, ou d'atteindre la scalabilité, ou les deux.
-Toutes les entreprises qui cherchent de nouveaux nouveuax modèles de création de valeur ne vont pas forcément être répétable. Ou scalable. Il est parfaitement légitime de vouloir développer une entreprise qui reste à dimension humaine, ou locale, ou ce que vous voulez.
+Toutes les entreprises qui cherchent de nouveaux modèles de création de valeur ne vont pas forcément être répétables. Ou scalables. Il est parfaitement légitime de vouloir développer une entreprise qui reste à dimension humaine, ou locale, ou ce que vous voulez.
 Ce n'est pas parce que vous levez des fonds que vous êtes une startup. Et inversement.
 
 
