@@ -1,8 +1,8 @@
 <template>
   <Layout> 
     <div class="title content-box">
-      <h1 class="title__title">Notes</h1>
-      <p class="title__subtitle">Je partage ici mes réflexions dans un format de notes courtes.</p>
+      <h1 class="title__title">Mes notes</h1>
+      <!-- <p class="title__subtitle">Je partage ici mes réflexions dans un format de notes courtes.</p> -->
     </div>
     
     <div class="posts">
