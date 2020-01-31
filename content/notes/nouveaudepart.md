@@ -21,5 +21,5 @@ Dès lundi, je vais travailler avec une boîte géniale qui s'appelle [Opquast](
 
 ---
 
-PS: mes collègues si gentil m'ont offert ce magnifique visuel. Merci à tous 🥰🚀
+PS: mes collègues si gentils m'ont offert ce magnifique visuel. Merci à tous 🥰🚀
 ![Photomontage de Rémi décollant de la planète eshard](../../static/eshard-depart.jpg)
