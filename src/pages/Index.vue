@@ -1,69 +1,27 @@
 <template>
   <Layout> 
     <div class="title content-box">
-      <h1 class="title__title">Mes notes</h1>
-      <!-- <p class="title__subtitle">Je partage ici mes réflexions dans un format de notes courtes.</p> -->
+      <h1 class="title__title">{{ $t("hello") }}</h1>
     </div>
-    
-    <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
-    </div>
-    <ul class="pager content-box">
-        <li v-if="$page.posts.pageInfo.hasPreviousPage" class="pager__previous">
-            <g-link :to="previousPageUrl">Précédent</g-link>
-        </li>
-        <li>Page {{$page.posts.pageInfo.currentPage}} / {{$page.posts.pageInfo.totalPages}}</li>
-        <li v-if="$page.posts.pageInfo.hasNextPage" class="pager__next">
-            <g-link :to="nextPageUrl">Suivant</g-link>
-        </li>
-  </ul>
-
   </Layout>
 </template>
 
 <page-query>
-query ($page: Int){
-  posts: allNote(perPage: 10, page: $page, filter: { published: { eq: true }}) @paginate {
-    pageInfo {
-      totalPages
-      currentPage
-      hasPreviousPage
-      hasNextPage
-    }
-    edges {
-      node { 
-        id
-        title
-        date (format: "DD/MM/YYYY")
-        timeToRead
-        description
-        path
-        tags {
-          id
-          title
-          path
-        }
-      }
+  query {
+    metadata {
+      siteDescription
+      siteName
+      siteUrl
     }
   }
-  metadata {
-    siteDescription
-    siteName
-    siteUrl
-  }
-}
 </page-query>
 
 <script>
 import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
-import {Pager} from 'gridsome';
 
 export default {
   components: {
-    Author,
-    PostCard,
-    Pager
+    Author
   },
   metaInfo() {
     return {
@@ -88,22 +46,6 @@ export default {
       ]
     };
   },
-  computed: {
-    nextPageUrl() {
-      return String(this.$page.posts.pageInfo.currentPage + 1) + '/';
-    },
-    previousPageUrl() {
-      if (this.$page.posts.pageInfo.hasPreviousPage) {
-          if (this.$page.posts.pageInfo.currentPage === 2) {
-              return '/';
-          }
-          else {
-              return String(this.$page.posts.pageInfo.currentPage - 1) + '/';
-          }
-      }
-      return '/';
-    }
-  }
 }
 </script>
 

@@ -5,8 +5,7 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d dist"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@gridsome/cli": "^0.3.1",
@@ -19,11 +18,13 @@
     "gridsome-plugin-feed": "^1.0.2",
     "typeface-merriweather": "0.0.72",
     "typeface-oswald": "0.0.75",
-    "vue-i18n": "^8.16.0"
+    "vue-i18n": "^8.16.0",
+    "vue-i18n-loader": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "node-sass": "^4.13.1",
+    "prettier": "^2.0.4",
     "sass-loader": "^8.0.2"
   }
 }
