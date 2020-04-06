@@ -32,7 +32,6 @@ query Note ($id: ID!) {
     path
     date (format: "DD/MM/YYYY")
     timeToRead
-    lang { id }
     tags {
       id
       title

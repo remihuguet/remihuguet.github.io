@@ -43,7 +43,6 @@ query Post ($id: ID!) {
     title
     path
     date (format: "DD/MM/YYYY")
-    lang {id}
     timeToRead
     tags {
       id

@@ -6,35 +6,4 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function (api) {
-  api.createPages(({ createPage }) => {
-      createPage({
-        path: '/en/notes',
-        component: './src/templates/Notes.vue',
-        context: {lang: 'en'} });
-    });
-
-  api.createPages(({ createPage }) => {
-      createPage({
-        path: '/fr/notes',
-        component: './src/templates/Notes.vue',
-        context: {lang: 'fr'} });
-    });
-  // api.loadSource(({ addCollection }) => {
-  //   const collection = addCollection('Notes');
-
-  //   collection.addNode({
-  //     'lang': 'en'
-  //   });
-  //   collection.addNode({
-  //     'lang': 'fr'
-  //   });
-  //   const collection_2 = addCollection('Posts');
-  //   collection_2.addNode({
-  //     'lang': 'en'
-  //   });
-  //   collection_2.addNode({
-  //     'lang': 'fr'
-  //   });
-
-  // })
 }
