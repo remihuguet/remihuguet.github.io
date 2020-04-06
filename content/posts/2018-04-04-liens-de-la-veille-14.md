@@ -4,6 +4,7 @@ description: "Ma livraison de liens du mois de mars"
 date: 2018-04-04
 tags: ["veille"]
 published: true
+lang: fr
 ---
 
 A ne pas rater:

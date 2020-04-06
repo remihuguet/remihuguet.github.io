@@ -1,13 +1,13 @@
 ---
 title: "Vous n'êtes pas une startup"
-description: "Où l'on revient sur la définition d'une startup, et pourquoi tout n'est pas une startup, fort heureusement."
+description: "In which we explain why every small business is not a startup - and so what is a startup"
 date: 2019-10-18
 tags: ["entrepreneuriat"]
 cover_image: ./images/author.png
-lang: fr
+lang: en
 published: true
 ---
-
+OIN ENGLISH PLEASE
 Si vous êtes à la tête d'une jeune entreprise en France, plus ou moins dans le domaine techno et / ou innovant, il est fort possible que vous vous donniez le titre de startup.
 Malheureusement, les pouvoirs publics, les media, et l'écosystème tech en général poussent à cela. Dans l'ambiance de retour de bâton actuel, j'entends de plus en plus souvent des phrases du type: "Nous ne faisons pas comme les autres startups." Parce que nous ne levons pas des sommes folles. Parce que nous avons une croissance raisonnable. Parce que nous n'avons pas de table de ping pong. Parce que nous avons un comportement éthique.
 

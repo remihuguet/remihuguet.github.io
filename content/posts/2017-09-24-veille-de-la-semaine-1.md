@@ -4,6 +4,7 @@ description: "Le récap de ma veille de la semaine"
 date: 2017-09-24
 tags: ["veille"]
 cover_image: ./images/author.png
+lang: fr
 published: true
 ---
 

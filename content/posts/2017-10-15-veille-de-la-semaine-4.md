@@ -3,6 +3,7 @@ title: "Veille de la semaine - N°4"
 description: "Le récap de ma veille de la semaine"
 date: 2017-10-15
 tags: ["veille"]
+lang: fr
 published: true
 ---
 

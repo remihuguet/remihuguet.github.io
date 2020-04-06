@@ -3,6 +3,7 @@ title: "Les liens de la veille - 7"
 description: "Cette semaine, perfs, perfs, mais pas que."
 date: 2017-11-03
 tags: ["veille"]
+lang: fr
 published: true
 ---
 

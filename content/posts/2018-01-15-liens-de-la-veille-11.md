@@ -4,6 +4,7 @@ description: "Les premiers liens de l'année."
 date: 2018-01-15
 tags: ["veille"]
 published: true
+lang: fr
 ---
 
 Bon, ce ne sont plus les liens de la semaine mais les liens du mois. Je vais tenter de retrouver un peu de rythme, maintenant la période des fêtes passées. Allez hop, les liens qui vont bien :

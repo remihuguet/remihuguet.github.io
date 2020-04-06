@@ -3,6 +3,7 @@ title: "Les liens de la veille - 10"
 description: ""
 date: 2017-12-18
 tags: ["veille"]
+lang: fr
 published: true
 ---
 

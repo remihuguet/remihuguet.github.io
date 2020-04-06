@@ -11,8 +11,8 @@ module.exports = {
     trailingSlash: false
   },
   templates: {
-    Post: '/blog/:year/:month/:day/:title',
-    Note: '/notes/:year/:month/:day/:title',
+    Post: '/:lang/blog/:year/:month/:day/:title',
+    Note: '/:lang/notes/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
 
@@ -39,6 +39,10 @@ module.exports = {
       path: 'content/notes/*.md',
       refs: {
         // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+        lang: {
+          typeName: 'Lang',
+          create: true
+        },
         tags: {
           typeName: 'Tag',
           create: true
