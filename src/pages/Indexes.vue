@@ -1,28 +1,40 @@
 <template>
   <Layout> 
     <div class="title content-box">
-      <h1 class="title__title">{{ $t("hello") }}</h1>
+      <h1 class="title__title">Les langues</h1>
+    </div>
+    
+    <div>
+      <ul>
+        <li v-for="edge in $page.indexes.edges" :key="edge.node.id">
+          <g-link :to="edge.node.path"> GO </g-link>
+          {{edge.node.id}} - {{edge.node.path}} - {{edge.node.hello}}</li>
+      </ul>
     </div>
   </Layout>
 </template>
 
 <page-query>
-  query {
-    metadata {
-      siteDescription
-      siteName
-      siteUrl
+query {
+  indexes: allIndex {
+    edges {
+      node {
+        id
+        path
+        hello
+      }
     }
   }
+  metadata {
+    siteDescription
+    siteName
+    siteUrl
+  }
+}
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-
 export default {
-  components: {
-    Author
-  },
   metaInfo() {
     return {
       title: 'Accueil',

@@ -6,4 +6,19 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function (api) {
+
+    // api.createPages(({ createPage }) => {
+    //     createPage({
+    //       path: '/fr/',
+    //       component: './src/templates/Index.vue',
+    //       context: {'lang': 'fr'}
+    //     });
+    //   });
+    // api.createPages(({ createPage }) => {
+    //     createPage({
+    //       path: '/en/',
+    //       component: './src/templates/Index.vue',
+    //       context: {'lang': 'en', 'contents': messages.en}
+    //     });
+    //   });
 }

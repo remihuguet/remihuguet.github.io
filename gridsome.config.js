@@ -11,12 +11,20 @@ module.exports = {
     trailingSlash: false
   },
   templates: {
+    Index: '/:id/',
     Post: '/blog/:year/:month/:day/:title',
     Note: '/notes/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
 
   plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Index',
+        path: 'content/locales/*.json',
+      }
+    },
     {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
