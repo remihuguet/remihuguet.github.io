@@ -1,43 +1,40 @@
 <template>
   <Layout> 
     <div class="title content-box">
-      <h1 class="title__title">Les langues</h1>
-    </div>
-    
-    <div>
-      <ul>
-        <li v-for="edge in $page.indexes.edges" :key="edge.node.id">
-          <g-link :to="edge.node.path"> GO </g-link>
-          {{edge.node.id}} - {{edge.node.path}} - {{edge.node.hello}}</li>
-      </ul>
+      <lang/>
+      <h1 class="title__title">{{ $page.locale.hello }}</h1>
     </div>
   </Layout>
 </template>
 
 <page-query>
-query {
-  indexes: allIndex {
-    edges {
-      node {
-        id
-        path
-        hello
-      }
-    }
+query Locale ($id: ID!) {
+  locale: locale (id: $id) {
+    id
+    path
+    hello
   }
   metadata {
-    siteDescription
-    siteName
-    siteUrl
+      siteDescription
+      siteName
+      siteUrl
+    }
   }
-}
 </page-query>
 
 <script>
+import Lang from '~/components/LanguageSwitch.vue'
+
 export default {
+  components: {
+    Lang
+  },
   metaInfo() {
     return {
       title: 'Accueil',
+      htmlAttrs: {
+        lang: this.$page.locale.id
+      },
       meta: [
         {
           property: "og:title",
@@ -57,7 +54,7 @@ export default {
         }
       ]
     };
-  },
+  }
 }
 </script>
 

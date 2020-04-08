@@ -1,8 +1,8 @@
 import '~/assets/style/index.scss'
 import 'typeface-merriweather';
 import 'typeface-oswald';
+import CountryFlag from 'vue-country-flag'
 import DefaultLayout from '~/layouts/Default.vue'
-import VueI18n from 'vue-i18n'
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 export default function (Vue, { router, head, appOptions, isClient }) {
@@ -14,14 +14,9 @@ export default function (Vue, { router, head, appOptions, isClient }) {
     browser_language = window.navigator.language.split('-')[0];
   }
   let languages = ['fr', 'en'];
-  let selected_language = languages.includes(browser_language) ? browser_language : 'en';
+  let selected_language = languages.includes(browser_language) ? browser_language : 'fr';
 
-  
-  // appOptions.i18n = new VueI18n({
-  //   locale: selected_language,
-  //   fallbackLocale: 'fr',
-  //   messages
-  // });
-  // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
+    // Set default layout as a global component
+    Vue.component('country-flag', CountryFlag);
+    Vue.component('Layout', DefaultLayout);
 }

@@ -7,18 +7,11 @@
 
 module.exports = function (api) {
 
-    // api.createPages(({ createPage }) => {
-    //     createPage({
-    //       path: '/fr/',
-    //       component: './src/templates/Index.vue',
-    //       context: {'lang': 'fr'}
-    //     });
-    //   });
-    // api.createPages(({ createPage }) => {
-    //     createPage({
-    //       path: '/en/',
-    //       component: './src/templates/Index.vue',
-    //       context: {'lang': 'en', 'contents': messages.en}
-    //     });
-    //   });
+    api.createPages(({ createPage }) => {
+        createPage({
+          path: '/',
+          component: './src/templates/Locale.vue',
+          context: {'id': 'fr'}
+        });
+      });
 }

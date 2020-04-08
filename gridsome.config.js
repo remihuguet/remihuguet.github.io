@@ -11,7 +11,7 @@ module.exports = {
     trailingSlash: false
   },
   templates: {
-    Index: '/:id/',
+    Locale: '/:id/',
     Post: '/blog/:year/:month/:day/:title',
     Note: '/notes/:year/:month/:day/:title',
     Tag: '/tag/:id'
@@ -21,7 +21,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Index',
+        typeName: 'Locale',
         path: 'content/locales/*.json',
       }
     },
