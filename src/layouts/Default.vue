@@ -5,6 +5,7 @@
         <Logo v-if="showLogo" />
       </div>
       <div class="header__right">
+        <Lang/>
         <Links />
       </div>
     </header>
@@ -31,6 +32,7 @@
 import Logo from "~/components/Logo.vue";
 import Links from "~/components/Links.vue";
 import Social from "~/components/Social.vue";
+import Lang from '~/components/LanguageSwitch.vue'
 
 export default {
   props: {
@@ -39,7 +41,8 @@ export default {
   components: {
     Logo,
     Links,
-    Social
+    Social,
+    Lang
   }
 };
 </script>
@@ -67,8 +70,6 @@ export default {
 }
 
 .footer {
-
-  // font-family: var(--font-headers);
   display: flex;
   flex-direction: column;
   align-items: center;

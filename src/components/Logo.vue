@@ -1,9 +1,7 @@
 <template>
-	<g-link class="logo" to="/">
-	  <span class="logo__text">
-	    {{ $static.metadata.siteName }}
-	  </span>
-	</g-link>
+	<span class="logo">
+		{{ $static.metadata.siteName }}
+	</span>
 </template>
 
 <static-query>
@@ -22,14 +20,5 @@ query {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 2rem;
-
-	&__image {
-		vertical-align: middle;
-		border-radius: 99px;
-		height: 40px;
-		width: 40px;
-		margin-right: .5em;
-	}
-
 }
 </style>
