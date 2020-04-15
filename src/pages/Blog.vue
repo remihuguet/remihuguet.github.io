@@ -1,9 +1,9 @@
 <template>
   <Layout> 
-    <div class="title content-box">
+    <!-- <div class="title content-box">
       <h1 class="title__title">Ma veille.</h1>
       <p class="title__subtitle">Je partage ici ma veille autour du logiciel, entrepreneuriat, et autres ...</p>
-    </div>
+    </div> -->
     
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
