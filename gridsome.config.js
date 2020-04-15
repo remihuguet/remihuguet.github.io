@@ -13,7 +13,6 @@ module.exports = {
   templates: {
     Locale: '/:id/',
     Post: '/blog/:year/:month/:day/:title',
-    Note: '/notes/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
 
@@ -26,13 +25,11 @@ module.exports = {
       }
     },
     {
-      // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Post',
         path: 'content/posts/*.md',
         refs: {
-          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
             create: true
@@ -41,25 +38,12 @@ module.exports = {
       }
     },
     {
-    use: '@gridsome/source-filesystem',
-    options: {
-      typeName: 'Note',
-      path: 'content/notes/*.md',
-      refs: {
-        tags: {
-          typeName: 'Tag',
-          create: true
-        }
-      }
-    }
-  },
-    {
       use: 'gridsome-plugin-feed',
       options: {
         contentTypes: ['Post'],
         feedOptions: {
           title: 'Rémi Huguet',
-          description: 'La veille de Rémi'
+          description: 'Blog'
         },
         rss: {
           enabled: true,

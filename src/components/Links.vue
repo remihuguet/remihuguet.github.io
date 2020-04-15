@@ -1,10 +1,11 @@
 <template>
     <ul class="nav">
         <li>
-            <g-link to="/">Accueil</g-link>
+            <g-link to="/fr">Accueil (fr)</g-link> / 
+            <g-link to="/en">Home (en)</g-link>
         </li>
         <li>
-            <g-link to="/blog/">Notes</g-link>
+            <g-link to="/blog/">Blog</g-link>
         </li>
         <li>
             <g-link to="/about/">À propos</g-link>
@@ -25,7 +26,6 @@ ul.nav {
      & a {
         letter-spacing: 0.06ch;
         font-family: var(--font-headers);
-        // text-decoration: none;
         font-weight: 700;
         font-size: 1.2rem;
      }

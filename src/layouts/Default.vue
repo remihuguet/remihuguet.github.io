@@ -5,7 +5,6 @@
         <Logo v-if="showLogo" />
       </div>
       <div class="header__right">
-        <Lang/>
         <Links />
       </div>
     </header>
@@ -34,7 +33,6 @@
 import Logo from "~/components/Logo.vue";
 import Links from "~/components/Links.vue";
 import Social from "~/components/Social.vue";
-import Lang from '~/components/LanguageSwitch.vue';
 import Breadcrumb from '~/components/Breadcrumb.vue';
 
 export default {
@@ -45,7 +43,6 @@ export default {
     Logo,
     Links,
     Social,
-    Lang,
     Breadcrumb
   }
 };
