@@ -1,23 +1,23 @@
 <template>
     <div>
-    <div class="post-title content-box">
-      <h1 class="post-title__text">
-        {{ post.title }}
-      </h1>
-      <PostMeta :post="post" />
-      <PostTags :post="post" />
-      <p v-if="post.description" class="post-title__subtitle">{{ post.description }}</p>
-    </div>
-
-    <div class="post content-box">
-      <div class="post__content" v-html="post.content" />
-
-      <div class="post__note">
-          Si vous avez aimé, et que le coeur vous en dit, n'hésitez pas à partager.
-          Si vous voyez une coquille, une grosse bêtise, que vous souhaitez réagir ou discuter,
-          vous pouvez m'envoyer un message sur Twitter, ou faire une demande sur le <a target='_blank' href="https://github.com/remihuguet/remihuguet.github.io">repository</a> Github du site pour les plus courageux.
+      <div class="post-title content-box">
+        <h1 class="post-title__text">
+          {{ post.title }}
+        </h1>
+        <PostMeta :post="post" />
+        <PostTags :post="post" />
+        <p v-if="post.description" class="post-title__subtitle">{{ post.description }}</p>
       </div>
-    </div>
+
+      <div class="post content-box">
+        <div class="post__content" v-html="post.content" />
+
+        <div class="post__note">
+            Si vous avez aimé, et que le coeur vous en dit, n'hésitez pas à partager.
+            Si vous voyez une coquille, une grosse bêtise, que vous souhaitez réagir ou discuter,
+            vous pouvez m'envoyer un message sur Twitter, ou faire une demande sur le <a target='_blank' href="https://github.com/remihuguet/remihuguet.github.io">repository</a> Github du site pour les plus courageux.
+        </div>
+      </div>
     </div>
 </template>
 

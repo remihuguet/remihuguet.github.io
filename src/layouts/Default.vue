@@ -11,6 +11,8 @@
     </header>
 
     <main class="main">
+
+      <Breadcrumb />
       <slot />
     </main>
 
@@ -32,7 +34,8 @@
 import Logo from "~/components/Logo.vue";
 import Links from "~/components/Links.vue";
 import Social from "~/components/Social.vue";
-import Lang from '~/components/LanguageSwitch.vue'
+import Lang from '~/components/LanguageSwitch.vue';
+import Breadcrumb from '~/components/Breadcrumb.vue';
 
 export default {
   props: {
@@ -42,7 +45,8 @@ export default {
     Logo,
     Links,
     Social,
-    Lang
+    Lang,
+    Breadcrumb
   }
 };
 </script>
@@ -66,7 +70,7 @@ export default {
 
 .main {
   margin: 0 auto;
-  padding: 1.5vw 15px 0;
+  padding: 0 15px;
 }
 
 .footer {
