@@ -80,7 +80,7 @@ export default {
       meta: [
         {
           property: "og:title",
-          content: this.$page.metadata.siteTitle
+          content: this.$page.metadata.siteName
         },
         {
           property: "og:description",

@@ -1,9 +1,9 @@
 <template>
   <Layout> 
-    <!-- <div class="title content-box">
-      <h1 class="title__title">Ma veille.</h1>
-      <p class="title__subtitle">Je partage ici ma veille autour du logiciel, entrepreneuriat, et autres ...</p>
-    </div> -->
+    <div class="title content-box">
+      <h1 class="title__title">Le blog</h1>
+      <!-- <p class="title__subtitle">Je partage ici ma veille autour du logiciel, entrepreneuriat, et autres ...</p> -->
+    </div>
     
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
@@ -50,13 +50,11 @@ query ($page: Int){
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 import {Pager} from 'gridsome';
 
 export default {
   components: {
-    Author,
     PostCard,
     Pager
   },
@@ -65,15 +63,15 @@ export default {
   },
   computed: {
     nextPageUrl() {
-      return String(this.$page.posts.pageInfo.currentPage + 1) + '/';
+      return 'blog/' + String(this.$page.posts.pageInfo.currentPage + 1) + '/';
     },
     previousPageUrl() {
       if (this.$page.posts.pageInfo.hasPreviousPage) {
           if (this.$page.posts.pageInfo.currentPage === 2) {
-              return '/';
+              return '/blog/';
           }
           else {
-              return String(this.$page.posts.pageInfo.currentPage - 1) + '/';
+              return '/blog/' + String(this.$page.posts.pageInfo.currentPage - 1) + '/';
           }
       }
       return '/';
