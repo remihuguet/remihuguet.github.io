@@ -11,12 +11,6 @@
 
       <div class="post content-box">
         <div class="post__content" v-html="post.content" />
-
-        <div class="post__note">
-            Si vous avez aimé, et que le coeur vous en dit, n'hésitez pas à partager.
-            Si vous voyez une coquille, une grosse bêtise, que vous souhaitez réagir ou discuter,
-            vous pouvez m'envoyer un message sur Twitter, ou faire une demande sur le <a target='_blank' href="https://github.com/remihuguet/remihuguet.github.io">repository</a> Github du site pour les plus courageux.
-        </div>
       </div>
     </div>
 </template>
@@ -24,11 +18,9 @@
 <script>
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
-import Author from '~/components/Author.vue'
 
 export default {
   components: {
-    Author,
     PostMeta,
     PostTags
   },

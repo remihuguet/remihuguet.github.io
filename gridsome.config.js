@@ -1,12 +1,7 @@
-// This is where project configuration and plugin options are located.
-// Learn more: https://gridsome.org/docs/config
-
-// Changes here requires a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
 module.exports = {
   siteName: 'Rémi Huguet',
-  siteDescription: 'On software and others',
-  siteUrl: 'https://www.remihuguet.com',
+  siteDescription: 'Freelance software engineer & consultant',
+  siteUrl: 'https://remihuguet.dev',
   permalinks: {
     trailingSlash: false
   },
@@ -15,7 +10,6 @@ module.exports = {
     Post: '/blog/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
-
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -38,48 +32,27 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-feed',
+      use: 'gridsome-plugin-rss',
       options: {
-        contentTypes: ['Post'],
+        contentTypeName: 'Post',
+        latest: true,
         feedOptions: {
-          title: 'Rémi Huguet',
-          description: 'Blog'
+          title: 'Rémi Huguet - Le Blog',
+          description: 'Le flux du blog du site de Rémi Huguet, freelance software engineer.',
+          feed_url: 'https://remihuguet.dev/rss.xml',
+          site_url: 'https://remihuguet.dev'
         },
-        rss: {
-          enabled: true,
-          output: '/feed.xml'
-        },
-        atom: {
-          enabled: true,
-          output: '/feed.atom'
-        },
-        json: {
-          enabled: false,
-          output: '/feed.json'
-        },
-        // Optional: an array of properties passed to `Feed.addItem()` that will be parsed for
-        // URLs in HTML (ensures that URLs are full `http` URLs rather than site-relative).
-        // To disable this functionality, set to `null`.
-        htmlFields: ['description', 'content'],
-        // Optional: if you wish to enforce trailing slashes for site URLs
-        enforceTrailingSlashes: false,
-        // Optional: a method that accepts a node and returns true (include) or false (exclude)
-        // Example: only past-dated nodes: `filterNodes: (node) => node.date <= new Date()`
-        filterNodes: (node) => true,
-        // Optional: a method that accepts a node and returns an object for `Feed.addItem()`
-        // See https://www.npmjs.com/package/feed#example for available properties
-        // NOTE: `date` field MUST be a Javascript `Date` object
-        nodeToFeedItem: (node) => ({
-          title: node.title,
-          date: node.date || node.fields.date,
-          content: node.content
+        feedItemOptions: node => ({
+            title: node.title,
+            description: node.description,
+            url: 'https://remihuguet.dev' + node.path,
+            date: node.date || node.fields.date,
+            author: node.author
         })
       }
     }
   ],
-
   transformers: {
-    //Add markdown support to all file-system sources
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
