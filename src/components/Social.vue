@@ -5,7 +5,7 @@
         <a target='_blank' rel="noreferrer" href="//gitlab.com/remihuguet">Gitlab</a>
         <a target='_blank' rel="noreferrer" href="//twitter.com/remihuguet">Twitter</a>
         <a target='_blank' rel="noreferrer" href="mailto:me@remihuguet.dev">@mail</a>
-        <!-- <a rel="noreferrer" targer='_blank' href="/atom.xml">Flux atom</a> -->
+        <a target='_blank' rel="noreferrer" href="/rss.xml">Flux RSS</a>
     </div>
 </template>
 
