@@ -10,15 +10,12 @@
       <div class="content-box pres">
         <g-image alt=""
 				  class="pres__image"
-				  src="~/assets/images/author.png" blur="5"
+				  src="~/assets/images/author.jpg" blur="5"
         />
         <div class="pres__text">
           <p v-for="p in $page.locale.press" :key="p">{{p}}</p>
           <p class="mantra">{{$page.locale.pres_mantra}}</p>
         </div>
-      </div>
-      <div class="content-box social">
-        <Social/>
       </div>
       <div class="content-box">
         <h2>{{$page.locale.doing_title}}</h2>
@@ -125,8 +122,6 @@ export default {
 
 h2 {
   border-bottom: 2px solid var(--title-color);
-  text-align: right;
-  font-style: italic;
   font-weight: 300;
   color: lighten(black, 20%);
   margin-top:0;
@@ -162,18 +157,8 @@ h2 {
   }
 }
 
-.social {
-  margin: 0 auto;
-  padding: 0;
-
-  .links {
-    font-size: 1.2rem;
-  }
-}
-
 .skills {
   p {
-    text-align: center;
     font-weight: 300;
     padding: 0 calc(var(--space) * 1.5);
     span:not(:last-of-type):after {
