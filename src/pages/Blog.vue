@@ -38,6 +38,7 @@ query ($page: Int){
         timeToRead
         description
         path
+        cover_image (width: 1920, quality: 90)
         tags {
           id
           title

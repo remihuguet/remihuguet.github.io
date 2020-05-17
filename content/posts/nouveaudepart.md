@@ -3,7 +3,6 @@ title: "Au revoir eshard, bonjour indépendant!"
 description: "Où j'annonce mon départ d'eshard et la reprise de ma vie d'indépendant."
 date: 2020-01-31
 tags: ["personnel", "job"]
-cover_image: ./images/author.png
 lang: fr
 published: true
 ---
