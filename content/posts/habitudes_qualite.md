@@ -3,12 +3,9 @@ title: "La force des habitudes"
 description: "Où il est question des habitudes de développeur."
 date: 2020-05-20
 tags: ["software craft", "qualité", "habitudes"]
-cover_image: "./images/william-warby-oZKmP9VdvB0-unsplash.jpg"
 lang: fr
 published: true
 ---
-
-Photo by William Warby on Unsplash
 
 La force d'une habitude, c'est que l'on continue à l'avoir en situation de stress. C'est le propre d'une habitude: rendre un comportement tellement automatique qu'il perdure même lorsque le contexte change - dans une certaine mesure.
 
