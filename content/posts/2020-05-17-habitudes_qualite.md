@@ -1,7 +1,7 @@
 ---
 title: "La force des habitudes"
 description: "Où il est question des habitudes de développeur."
-date: 2020-05-20
+date: 2020-05-17
 tags: ["software craft", "qualité", "habitudes"]
 lang: fr
 published: true
