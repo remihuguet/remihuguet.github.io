@@ -51,7 +51,6 @@ query Post ($id: ID!) {
     }
     description
     content
-    cover_image (width: 1920, quality: 90)
   }
   metadata {
     siteName

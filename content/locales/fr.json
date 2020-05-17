@@ -25,15 +25,15 @@
   "values":[
       "Le changement c'est la vie. Le changement se produira, il vaut donc mieux être prêt à le gérer.",
       "Je recherche l'amélioration continue. Le changement se produira, le statu quo n'est pas une possibilité.",
-      "Je puise de l'inspiration dans toutes les pratiques qui peuvent m'aider à produire un logiciel qui change facilement: Agile et Software craftsmanship manifesto, le code propre, la conception pilotée par domaine (TDD), le développement piloté par les tests (TDD).",
+      "Je puise de l'inspiration dans toutes les pratiques qui peuvent m'aider à produire un logiciel qui change facilement: Agile et Software craftsmanship manifesto, le code propre, la conception pilotée par domaine (DDD), le développement piloté par les tests (TDD).",
       "J'essaie de développer une culture, un état d'esprit et des compétences qui aident les équipes techniques à adopter le changement."
     ],
   "skills_title": "Compétences",
   "skills": [
     "Architecture & développement",
-    "Python",
     "Test driven development",
     "Team organisation",
+    "Python",
     "Django",
     "Javascript",
     "DevOps",
