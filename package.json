@@ -14,14 +14,14 @@
     "@gridsome/transformer-json": "^0.2.1",
     "@gridsome/transformer-remark": "^0.3.0",
     "global": "^4.4.0",
-    "gridsome": "^0.7.7",
+    "gridsome": "^0.7.14",
     "gridsome-plugin-rss": "^1.2.0",
     "typeface-merriweather": "0.0.72",
     "typeface-oswald": "0.0.75"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "prettier": "^2.0.4",
     "sass-loader": "^8.0.2"
   }
