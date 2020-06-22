@@ -1,6 +1,6 @@
 ---
-title: "Links - "
-description: "Links from my feeds - "
+title: "Links - Python and more"
+description: "Links from my feeds - Python and more"
 date: 2020-06-22
 tags: ["veille", "software craft"]
 published: true
