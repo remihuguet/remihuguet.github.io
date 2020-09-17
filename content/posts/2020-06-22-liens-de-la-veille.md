@@ -2,7 +2,7 @@
 title: "Links - Python and more"
 description: "Links from my feeds - Python and more"
 date: 2020-06-22
-tags: ["veille", "software craft"]
+tags: ["veille", "software craft", "links"]
 published: true
 lang: en
 ---
