@@ -1,0 +1,316 @@
+{
+    "$schema": "https://json.schemastore.org/resume",
+    "basics": {
+        "name": "Rémi Huguet",
+        "label": "Fullstack software engineer 💻 - Web & Python 🐍 expert - Crafter 🛠️ - Tech lead 🥇",
+        "image": "https://remihuguet.dev/assets/static/author.47aaf4d.0f798715a70e166dfa2aa160d2286178.jpg",
+        "email": "me@remihuguet.dev",
+        "phone": "(+33) 06 83 43 72 72",
+        "url": "https://www.remihuguet.dev",
+        "summary": "J'aide les organisations à concevoir, construire et opérer des logiciels de qualité. Pour cela, j'apprends et perfectionne en permanence mon savoir faire en ingéniérie logicielle. Je peux vous aider avec les problèmes suivants : \n- Création de votre produit avec les normes de qualité et de durabilité les plus élevées \n - Aidez votre équipe à progresser, à améliorer la qualité et à accélérer \n - Reprendre le contrôle de votre software legacy",
+        "location": {
+            "address": "Région de Bordeaux, France",
+            "postalCode": "33000",
+            "city": "Bordeaux",
+            "countryCode": "FR",
+            "region": "Aquitaine"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "remihuguet",
+                "url": "https://www.linkedin.com/in/remihuguet/"
+            },
+            {
+                "network": "Twitter",
+                "username": "RemiHuguet",
+                "url": "https://twitter.com/RemiHuguet"
+            },
+            {
+                "network": "Github",
+                "username": "remihuguet",
+                "url": "https://github.com/remihuguet"
+            },
+            {
+                "network": "Malt",
+                "username": "remihuguet",
+                "url": "https://www.malt.fr/profile/remihuguet"
+            }
+
+        ]
+    },
+    "work": [
+        {
+            "name": "Opquast",
+            "position": "Freelance software engineer",
+            "url": "https://www.opquast.com",
+            "startDate": "2020-02-01",
+            "endDate": "2021-01-31",
+            "summary": "Opquast est la certification de compétences pour les métiers du web et propose un référentiel de bonnes pratiques, des formations en ligne et une certification. Après avoir validé son modèle, Opquast accélère son développement en France, et s'étend à l'international. \nJ'aide l'équipe d'Opquast à préparer la plateforme logicielle et l'équipe technique au passage à l'échelle. \n- conseil et stratégie sur la trajectoire technique avec le CEO\n- trajectoire d'architecture de la plateforme\n- développement de nouvelles fonctionnalités \n- coaching et développement des compétences craft de l'équipe technique (2 développeurs)\n Actions: \n- plan d'action et architecture pour la consolidation des anciens logiciels \n- plan d'action pour la mise en place d'une nouvelle infrastructure: passage progressif vers un Paas, utilisation de services managés \n- revue et amélioration de l'organisation des développements: communication, suivi des problèmes \n- mise en place de tests automatisés \n- mise en place de l'intégration continue \n- formation et accompagnement de l'équipe pour développer ses compétences: clean code, tests automatisés, TDD, clean architecture, introduction à DDD \n- développement de nouvelles fonctionnalités",
+            "highlights": [
+                "Développement de nouvelles fonctionnalités dont un service IAM dédié, passage d'examen sous supervision automatique - entre autres",
+                "Passage d'une couverture de test de zéro à 50% sur la plateforme d'administration",
+                "Equipe technique travaillant avec TDD et s'améliorant quotidiennement sur les meilleures pratiques",
+                "Recentrage sur le cœur de métier: arrêt de nombreux services entraînant la suppression de milliers de lignes de code et d'infrastructures",
+                "Simplification de l'infrastructure, migration vers Paas Platform.sh",
+                "TDD, clean architecture, Kanban flow, DDD, Python, Django, PostgreSQL, Platform.sh, Docker, Gitlab CI, PHP, Wordpress, MySQLs"
+            ]
+        },
+        {
+            "name": "Rhug",
+            "position": "Freelance Software engineer",
+            "url": "https://remihuguet.dev",
+            "startDate": "2017-12-31",
+            "endDate": "",
+            "highlights": [
+            ],
+            "summary": "- Expertise en développement Web - Profil full-stack avec un focus sur les architectures backends et services \n- Expertise Craft - TDD, DDD, Clean architecture and clean, CI / CD, Flow \n- Expertise Python - Craft avec Python (TDD, Clean architecture et clean code, DDD)"
+        },
+        {
+            "name": "eshard",
+            "position": "Lead Developer",
+            "startDate": "2018-02-28",
+            "endDate": "2020-01-31",
+            "summary": "eshard est une startup experte en sécurité des objets connectés. \nesDynamic est la plateforme logicielle des experts en sécurité. Basé sur les meilleurs outils open-source pour la science des données (Jupyterlab, Python, Numpy), esDynamic fournit des outils d'analyse pour les attaques sideèchannel traditionnelles ou en deep learning, ainsi que des outils de traçage et des défauts logiciels pour les boîtes blanches cryptographiques. Je dirige l'équipe produit esdynamic.",
+            "highlights": [
+                "Piloter la feuille de route et le développement produit esDynamic",
+                "Architecture et développement de la bibliothèque open-source scared",
+                "Gestion de l'équipe de développement principale et des contributeurs experts en sécurité",
+                "Implémentation et évangélisation des meilleures pratiques logicielles",
+                "TDD, DDD, Python, Jupyter Notebook, Jupyter Lab, Numpy, Gitlab CI, Docker"
+            ],
+            "url": "https://eshard.com"
+        },
+        {
+            "name": "Actiwine",
+            "startDate": "2015-04-30",
+            "endDate": "2017-11-30",
+            "position": "Chief Technology Officer",
+            "summary": "Actiwine est une place de marché en ligne pour les professionnels du vin. Je rejoins l'entreprise à ses débuts pour construire le produit. Actiwine lève 0,5 M € en 2016 pour accompagner son développement. \nJe rejoins l'équipe fondatrice pour développer la plateforme et piloter la technologie.",
+            "highlights": [
+                "Architecture, conception et développement de la marketplace",
+                "Recrutement et management de l'équipe produit (3 développeurs)",
+                "Organisation et structuration du produit et des processus techniques",
+                "Kanban Flow, Python, Django, PostgreSQL Javascript, Vue.js, Webpack, HTML, CSS & SCSS, Amazon WebServices"
+            ],
+            "url": "https://web.archive.org/web/20190520090417/https://www.actiwine.com/"
+        },
+        {
+            "name": "Tiki Move",
+            "startDate": "2011-05-31",
+            "endDate": "2015-03-31",
+            "position": "Directeur de production, associé",
+            "summary": "Créée en 2008, Tiki Move est une société spécialisée dans le développement d'applications et de jeux vidéo sur plateformes mobiles. En quelques années, Tiki Move délivre plus de 100 applications, et aborde le développement de dispositifis multicanaux pour le compte de ses clients. En 2014, Tiki Move a rejoint Clever Age pour renforcer la division mobile. \n J'ai rejoint Tiki Move en 2011 en tant que directeur de production pour accompagner la croissance de l'entreprise.",
+            "highlights": [
+                "Architecture et développements pour les backends et les applications mobiles",
+                "Recrutement et management de l'équipe: de 5 à 15 devs entre 2011 et fin 2012",
+                "Gestion de projet et de production",
+                "Processus de développement et de livraison et système qualité",
+                "Gestion de l'intégration Tiki Move au sein de Clever Age",
+                "Développement et pilotage d'une activité de développement avec un partenaire étranger (Vietnam)",
+                "Python, Django, Amazon WebServices, Kanban flow, Google AppEngine, Android, iOS"
+            ],
+            "url": ""
+        },
+        {
+            "name": "Logica",
+            "position": "Software engineer",
+            "startDate": "2008-10-31",
+            "endDate": "2011-04-30",
+            "summary": "Dans le cadre de la tierce maintenance applicative SICOM (SI COMmercial) pour le compte d'EDF, j'ai réalisé différentes missions sur une application de production de services pour la facturation des clients grands comptes d'EDF.",
+            "highlights": [
+                "Responsable de l'activité MCO (3 ETP) puis responsable applicatif (5 ETP, évolutions> 300 jours / heure)",
+                "Analyste technique et fonctionnel",
+                "Conception et développement"
+            ],
+            "url": ""
+        },
+        {
+            "name": "CENBG",
+            "endDate": "2008-08-31",
+            "position": "PhD researcher and teacher",
+            "startDate": "2005-09-30",
+            "summary": "Groupe de physique théorique",
+            "highlights": [
+                "Création de modèles de description de la matière nucléaire stable à partir des degrés sous-nucléoniques de libertés",
+                "Enseignements en licence: physique générale, relativité restreinte, informatique pour la physique, formation au projet professionnel."
+            ],
+            "url": ""
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "Université de Bordeaux",
+            "area": "Physique théorique",
+            "studyType": "Doctorat",
+            "startDate": "2005-12-31",
+            "endDate": "2008-12-31",
+            "score": "",
+            "courses": []
+        },
+        {
+            "institution": "Université de Bordeaux",
+            "area": "Physique",
+            "studyType": "Licence & Master recherche",
+            "startDate": "2003-12-31",
+            "endDate": "2005-12-31",
+            "score": "Mention très bien",
+            "courses": []
+        },
+        {
+            "institution": "Classe préparatoire aux grandes écoles, Lycée Camille Jullian",
+            "area": "Physique - Chimie",
+            "studyType": "PCSI - PC",
+            "startDate": "2001-12-31",
+            "endDate": "2002-12-31",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [
+        {
+            "name": "Description de la matière nucléaire incluant la structure en quarks des hadrons",
+            "publisher": "Thèse de doctorat",
+            "releaseDate": "2008-07-01",
+            "url": "https://tel.archives-ouvertes.fr/tel-00410091/document",
+            "summary": ""
+        },
+        {
+            "name": "A nuclear matter description based on quark structure of the nucleon and pion exchange",
+            "publisher": "Nuclear Physics A",
+            "releaseDate": "2008-06-09",
+            "url": "http://arxiv.org/abs/0712.3661",
+            "summary": ""
+        },
+        {
+            "name": "In-medium omega meson mass and quark condensate in a Nambu Jona-Lasinio model constrained by recent experimental data",
+            "publisher": "Physical Review C",
+            "releaseDate": "2007-03-13",
+            "url": "http://arxiv.org/abs/nucl-th/0703040",
+            "summary": ""
+        },
+        {
+            "name": "Saturation properties of nuclear matter in a relativistic mean field model constrained by the quark dynamics",
+            "publisher": "Nuclear Physics A",
+            "releaseDate": "2006-10-26",
+            "url": "http://arxiv.org/abs/nucl-th/0610099",
+            "summary": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages et frameworks",
+            "level": "",
+            "keywords": [
+                "Python",
+                "Django",
+                "Javascript",
+                "VueJS",
+                "HTML",
+                "CSS",
+                "Numpy",
+                "Jupyter",
+                "Gridsome"
+            ]
+        },
+        {
+            "name": "Software design",
+            "level": "",
+            "keywords": [
+                "Web architecture",
+                "REST API",
+                "Mobile applications"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "",
+            "keywords": [
+                "SQL",
+                "PostgreSQL",
+                "MySQL"
+                
+            ]
+        },
+        {
+            "name": "Software craft",
+            "level": "",
+            "keywords": [
+                "TDD",
+                "DDD",
+                "Clean code",
+                "Clean architecture",
+                "CI / CD",
+                "Agile: Kanban, Flow, XP"
+            ]
+        },
+        {
+            "name": "Management",
+            "level": "",
+            "keywords": [
+                "Tech leadership",
+                "CTO",
+                "Team management",
+                "Project management",
+                "Gitlab",
+                "Jira"
+            ]
+        },
+        {
+            "name": "Ops and tools",
+            "level": "",
+            "keywords": [
+                "Cloud computing",
+                "Docker",
+                "AWS",
+                "Sentry",
+                "Paas: Platform.sh, Clever Cloud",
+                "Nginx",
+                "Gitlab CI",
+                "Linux",
+                "Gunicorn",
+                "Git"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional"
+        }
+    ],
+    "references": [
+        {
+            "name": "Regis FLORET - Software developer",
+            "reference": "J'ai eu l'opportunité de travailler avec Rémi pendant un an et sous sa direction je n'ai jamais autant progressé et en si peu de temps. Avec lui, j'ai eu le sentiment d'être à la pointe de ce qui se fait, tant dans le domaine du design que dans l'utilisation des dernières technologies. \nIl a cette grande qualité d'être sensible à vos arguments et recommandations. Ce qui est important pour Rémi, c'est le produit, pas l'ego des développeurs. \nJ'ai vraiment aimé travailler avec Rémi."
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+              "Ferrets",
+              "Unicorns"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "The world wide web",
+            "description": "A so cool project",
+            "highlights": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "",
+            "roles": [],
+            "entity":"",
+            "type": ""
+        }
+    ]
+}
