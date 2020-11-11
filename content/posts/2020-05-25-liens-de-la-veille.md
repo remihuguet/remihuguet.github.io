@@ -4,7 +4,7 @@ description: "Les liens intéressants de ma semaine"
 date: 2020-05-25
 tags: ["veille", "software craft"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 ## [Second-guessing the modern web](https://macwright.org/2020/05/10/spa-fatigue.html)

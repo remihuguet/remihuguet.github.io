@@ -4,7 +4,7 @@ description: "Les liens intéressants de ma semaine"
 date: 2020-05-17
 tags: ["veille", "software craft"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 Je reprends la publication des liens intéressants vus dans ma veille cette semaine.

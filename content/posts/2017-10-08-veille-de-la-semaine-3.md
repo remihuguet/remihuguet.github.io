@@ -4,7 +4,7 @@ description: "Le récap de ma veille de la semaine"
 date: 2017-10-08
 tags: ["veille"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 Cette semaine, des liens sur GraphQL, WebComponents et Grid Layout côté tech, un peu d'UX et de typo. A ne pas rater, un [brillant debunk de l'IA washing](http://www.oezratty.net/wordpress/2017/douze-mythes-intelligence-artificielle/), et une réflexion de fond pour éviter [l'apocalypse du logiciel](https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/?utm_source=twb).

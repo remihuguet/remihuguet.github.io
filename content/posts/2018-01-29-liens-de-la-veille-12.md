@@ -4,7 +4,7 @@ description: "Livraison des liens récents"
 date: 2018-02-07
 tags: ["veille"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 Et hop, voici quelques contenus intéressants des dernières semaines:

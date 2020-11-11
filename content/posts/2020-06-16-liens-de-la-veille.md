@@ -4,7 +4,7 @@ description: "Les liens intéressants de ma semaine - DDD, thinking, async et co
 date: 2020-06-16
 tags: ["veille", "software craft"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 Beaucoup de ressources - plutôt que de véritables articles - cette semaine.

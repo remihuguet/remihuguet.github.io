@@ -3,7 +3,7 @@ title: "Vous n'êtes pas une startup"
 description: "Où l'on revient sur la définition d'une startup, et pourquoi tout n'est pas une startup, fort heureusement."
 date: 2019-10-18
 tags: ["entrepreneuriat"]
-lang: fr
+locale: fr-fr
 published: true
 ---
 

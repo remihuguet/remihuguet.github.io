@@ -7,10 +7,10 @@
       <div class="header__right">
         <Links />
       </div>
+      <!-- <LocaleSwitcher /> -->
     </header>
 
     <main class="main">
-
       <Breadcrumb />
       <slot />
     </main>
@@ -34,6 +34,7 @@ import Logo from "~/components/Logo.vue";
 import Links from "~/components/Links.vue";
 import Social from "~/components/Social.vue";
 import Breadcrumb from '~/components/Breadcrumb.vue';
+import LocaleSwitcher from '~/components/LocaleSwitcher.vue';
 
 export default {
   props: {
@@ -43,7 +44,8 @@ export default {
     Logo,
     Links,
     Social,
-    Breadcrumb
+    Breadcrumb,
+    LocaleSwitcher
   }
 };
 </script>

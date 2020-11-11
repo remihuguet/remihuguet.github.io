@@ -4,7 +4,7 @@ description: "Où il est question de l'utilité de l'analyse stratégique DDD po
 date: 2020-07-09
 tags: ["software", "ddd", "strategic", "legacy"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 L'utilisation des concepts stratégiques du Domain Driven Design est très puissante pour aborder sereinement la mise sous contrôle d'un logiciel legacy devenu incontrolable. Construire une cartographie sommaire des domaines et sous-domaines, de leur relations et des contextes existants apporte beaucoup d'information.

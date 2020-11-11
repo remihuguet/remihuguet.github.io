@@ -3,7 +3,7 @@ title: "Veille de la semaine - N°1"
 description: "Le récap de ma veille de la semaine"
 date: 2017-09-24
 tags: ["veille"]
-lang: fr
+locale: fr-fr
 published: true
 ---
 

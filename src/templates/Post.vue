@@ -71,6 +71,7 @@ query Post ($id: ID!) {
     }
     description
     content
+    locale
   }
   metadata {
     siteName

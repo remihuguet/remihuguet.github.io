@@ -1,8 +1,8 @@
 <template>
    <div class="post-tags">
-   		<g-link class="post-tags__link" v-for="tag in post.tags" :key="tag.id" :to="tag.path">
-   			<span>#</span>{{ tag.title }}
-   		</g-link>
+        <g-link class="post-tags__link" v-for="tag in post.tags" :key="tag.id" :to="tag.path">
+        <span>#</span>{{ tag.title }}
+        </g-link>
     </div>
 </template>
 
@@ -20,8 +20,7 @@ export default {
   	margin-right: .7em;
 	font-size: .8em;
 	font-family: var(--font-headers);
-	text-transform: lowercase;  
-  	// background-color: var(--bg-color);
+	text-transform: lowercase;
   	border-radius: var(--radius);
   }
 }

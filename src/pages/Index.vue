@@ -4,61 +4,46 @@
       <div class="banner">
         <div class="content-box">
           <h1>
-            <span v-for="(b, i) in $page.locale.banners" :key="i">{{b}}</span></h1>
+            <span v-for="(b, i) in $t('banners')" :key="i">{{b}}</span></h1>
         </div>
       </div>
       <div class="content-box pres">
         <g-image alt=""
-				  class="pres__image"
-				  src="~/assets/images/author.jpg" blur="5"
+          class="pres__image"
+          src="~/assets/images/author.jpg" blur="5"
         />
         <div class="pres__text">
-          <p v-for="p in $page.locale.press" :key="p">{{p}}</p>
-          <p class="mantra">{{$page.locale.pres_mantra}}</p>
+          <p v-for="p in $t('press')" :key="p">{{p}}</p>
+          <p class="mantra">{{$t('pres_mantra')}}</p>
         </div>
       </div>
       <div class="content-box">
-        <h2>{{$page.locale.doing_title}}</h2>
-        <p v-for="p in $page.locale.doings" :key="p">{{p}}</p>
+        <h2>{{$t('doing_title')}}</h2>
+        <p v-for="p in $t('doings')" :key="p">{{p}}</p>
         <ul>
-          <li v-for="v in $page.locale.challenges" :key="v">{{v}}</li>
+          <li v-for="v in $t('challenges')" :key="v">{{v}}</li>
         </ul>
       </div>
       <div class="content-box">
-        <h2>{{$page.locale.values_title}}</h2>
-        <p v-for="v in $page.locale.values" :key="v">{{v}}</p>
+        <h2>{{$t('values_title')}}</h2>
+        <p v-for="v in $t('values')" :key="v">{{v}}</p>
       </div>
       <div class="content-box skills">
-        <h2>{{$page.locale.skills_title}}</h2>
-        <p><span v-for="s in $page.locale.skills" :key="s"> {{s}}</span></p>
+        <h2>{{$t('skills_title')}}</h2>
+        <p><span v-for="s in $t('skills')" :key="s"> {{s}}</span></p>
       </div>
     </div>
   </Layout>
 </template>
 
 <page-query>
-query Locale ($id: ID!) {
-  locale: locale (id: $id) {
-    id
-    path
-    banners,
-    pres_title,
-    press,
-    pres_mantra,
-    doing_title,
-    doings,
-    challenges,
-    values_title,
-    values,
-    skills_title,
-    skills
-  }
+query {
   metadata {
-      siteDescription
-      siteName
-      siteUrl
-    }
+    siteDescription
+    siteName
+    siteUrl
   }
+}
 </page-query>
 
 <script>
@@ -72,7 +57,7 @@ export default {
     return {
       title: 'Accueil',
       htmlAttrs: {
-        lang: this.$page.locale.id
+        lang: this.$context.locale
       },
       meta: [
         {

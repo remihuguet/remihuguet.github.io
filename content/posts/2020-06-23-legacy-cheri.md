@@ -4,7 +4,7 @@ description: "Où il est question de ce truc affreux: le legacy software."
 date: 2020-06-23
 tags: ["software", "quality", "legacy"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 Le legacy est un concept commun dans l'ingéniérie logicielle. Il est connoté très négativement. Cet héritage est lourd à porter. Il est n'est pas maintenable, conçu et codé en dépit du bon sens. La moindre modification est difficile à mener. 

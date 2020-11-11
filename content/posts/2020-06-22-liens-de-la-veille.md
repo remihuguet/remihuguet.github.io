@@ -4,7 +4,7 @@ description: "Links from my feeds - Python and more"
 date: 2020-06-22
 tags: ["veille", "software craft", "links"]
 published: true
-lang: en
+locale: en-gb
 ---
 
 Ok, this week I go full english - since most of the links I share are ... in english.

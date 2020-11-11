@@ -4,7 +4,7 @@ description: "Ma livraison de liens du mois de février"
 date: 2018-02-25
 tags: ["veille"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 A ne pas rater:
