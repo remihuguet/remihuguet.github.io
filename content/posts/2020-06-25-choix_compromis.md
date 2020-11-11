@@ -4,7 +4,7 @@ description: "Où il est question d'abstraction, d'avoir conscience des choix qu
 date: 2020-06-25
 tags: ["software", "abstraction", "choices"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 Se placer à un niveau d'abstraction logicielle donnée, c'est faire plus ou moins de choix pour atteindre un objectif.

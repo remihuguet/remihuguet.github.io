@@ -3,7 +3,7 @@ title: "Les liens de la veille - 6"
 description: "Beaucoup de contenus non technique."
 date: 2017-10-29
 tags: ["veille"]
-lang: fr
+locale: fr-fr
 published: true
 ---
 

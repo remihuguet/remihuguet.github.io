@@ -1,10 +1,6 @@
 <template>
     <ul class="nav">
         <li>
-            <g-link to="/fr">Accueil (fr)</g-link> / 
-            <g-link to="/en">Home (en)</g-link>
-        </li>
-        <li>
             <g-link to="/blog/">Blog</g-link>
         </li>
         <li>

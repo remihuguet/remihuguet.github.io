@@ -4,7 +4,7 @@ description: "Où il est question de construire des solutions et de bien compren
 date: 2020-06-04
 tags: ["software", "quality", "domain", "solutions"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 La mission de l'ingénieur logiciel c'est de construire la solution la plus appropriée pour un problème donné. C'est déjà un travail difficile que de bien comprendre le problème, et de construire une solution qui soit bien alignée avec.

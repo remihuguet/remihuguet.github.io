@@ -4,7 +4,7 @@ description: "Les liens intéressants de ma semaine - Identité, produit et hype
 date: 2020-06-01
 tags: ["veille", "software craft"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 Et hop quelques liens pour cette semaine!

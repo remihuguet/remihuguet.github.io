@@ -4,7 +4,7 @@ description: "Links from my readings of the summer: software, product, startups 
 date: 2020-09-17
 tags: ["veille", "software craft", "startups", "links"]
 published: true
-lang: en
+locale: en-gb
 ---
 
 I had quite a long interruption this summer. Here is a long list of the best reads I had during that time.

@@ -4,7 +4,7 @@ description: "Ouch, j'ai perdu le rythme de la veille. Deux raisons: je suis pas
 "
 date: 2017-11-28
 tags: ["veille"]
-lang: fr
+locale: fr-fr
 published: true
 ---
 

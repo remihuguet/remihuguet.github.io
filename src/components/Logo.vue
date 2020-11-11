@@ -1,7 +1,9 @@
 <template>
-	<span class="logo">
-		{{ $static.metadata.siteName }}
-	</span>
+    <g-link :to="$tp('/')">
+        <span class="logo">	
+            {{ $static.metadata.siteName }}
+        </span>
+    </g-link>
 </template>
 
 <static-query>
@@ -20,5 +22,9 @@ query {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
 }
 </style>

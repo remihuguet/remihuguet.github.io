@@ -3,7 +3,7 @@ title: "Pareto et qualité logicielle"
 description: "Où il est question de ce que coûte la qualité logicielle."
 date: 2020-05-15
 tags: ["software craft", "qualité"]
-lang: fr
+locale: fr-fr
 published: true
 ---
 

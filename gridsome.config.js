@@ -6,16 +6,27 @@ module.exports = {
     trailingSlash: false
   },
   templates: {
-    Locale: '/:id/',
     Post: '/blog/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
+      use: "gridsome-plugin-i18n",
       options: {
-        typeName: 'Locale',
-        path: 'content/locales/*.json',
+        locales: [
+          'fr-fr',
+          'en-gb'
+        ],
+        pathAliases: {
+          'fr-fr': 'fr',
+          'en-gb': 'en'
+        },
+        defaultLocale: 'en',
+        fallbackLocale: 'en',
+        messages: {
+          'fr-fr': require('./content/locales/fr.json'),
+          'en-gb': require('./content/locales/en.json'),
+        }
       }
     },
     {

@@ -3,14 +3,14 @@
     <header class="header">
       <div class="header__left">
         <Logo v-if="showLogo" />
-      </div>
+        <slot name="headerleft"></slot>
+      </div>  
       <div class="header__right">
         <Links />
       </div>
     </header>
 
     <main class="main">
-
       <Breadcrumb />
       <slot />
     </main>
@@ -23,6 +23,7 @@
         <span class="footer__links">
           Site propulsé par
           <a href="//gridsome.org" target="_blank" rel="noreferrer">Gridsome</a>.
+          Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
         </span>
       </p>
     </footer>
@@ -34,6 +35,7 @@ import Logo from "~/components/Logo.vue";
 import Links from "~/components/Links.vue";
 import Social from "~/components/Social.vue";
 import Breadcrumb from '~/components/Breadcrumb.vue';
+import LocaleSwitcher from '~/components/LocaleSwitcher.vue';
 
 export default {
   props: {
@@ -43,7 +45,8 @@ export default {
     Logo,
     Links,
     Social,
-    Breadcrumb
+    Breadcrumb,
+    LocaleSwitcher
   }
 };
 </script>

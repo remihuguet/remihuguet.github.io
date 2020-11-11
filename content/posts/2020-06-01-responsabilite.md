@@ -4,7 +4,7 @@ description: "Où il est question de se comporter en adulte et assumer nos respo
 date: 2020-06-01
 tags: ["software", "quality", "responsabilité"]
 published: true
-lang: fr
+locale: fr-fr
 ---
 
 L'une des conversations qui doit se produire le plus souvent dans notre métier ressemble peu ou prou à cela:
