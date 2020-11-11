@@ -3,11 +3,11 @@
     <header class="header">
       <div class="header__left">
         <Logo v-if="showLogo" />
-      </div>
+        <slot name="headerleft"></slot>
+      </div>  
       <div class="header__right">
         <Links />
       </div>
-      <!-- <LocaleSwitcher /> -->
     </header>
 
     <main class="main">
@@ -23,6 +23,7 @@
         <span class="footer__links">
           Site propulsé par
           <a href="//gridsome.org" target="_blank" rel="noreferrer">Gridsome</a>.
+          Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
         </span>
       </p>
     </footer>

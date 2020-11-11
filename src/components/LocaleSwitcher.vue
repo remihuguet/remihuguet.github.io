@@ -1,7 +1,12 @@
 <template>
-  <select v-model="currentLocale" @change="localeChanged">
-    <option v-for="locale in availableLocales" :key="locale" :value="locale">{{ locale }}</option>
-  </select>
+    <div class="lang">
+        <button class="btn-lang" v-if="currentLocale == 'en-gb'" @click="localeChanged('fr-fr')">
+            <g-image width="30" src="~/assets/images/france.svg"/>
+        </button>
+        <button class="btn-lang" v-if="currentLocale == 'fr-fr'" @click="localeChanged('en-gb')">
+            <g-image width="30" src="~/assets/images/united-kingdom.svg"/>
+        </button>
+    </div>
 </template>
 
 <script>
@@ -14,11 +19,25 @@ export default {
     }
   },
   methods: {
-    localeChanged () {
+    localeChanged (locale) {
+      this.currentLocale = locale;
       this.$router.push({
-        path: this.$tp(this.$route.path, this.currentLocale, true)
+        path: this.$tp(this.$route.path, locale, true)
       })
     }
   }
 }
 </script>
+
+<style>
+
+div.lang {
+    display: flex;
+    align-items: center;
+}
+
+button.btn-lang {
+    border: none;
+    background-color: transparent;
+}
+</style>

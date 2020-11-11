@@ -1,6 +1,9 @@
 <template>
-  <Layout> 
-    <div>
+  <Layout>
+    <template v-slot:headerleft>
+      <LocaleSwitcher />
+    </template>
+    <template v-slot:default>
       <div class="banner">
         <div class="content-box">
           <h1>
@@ -32,7 +35,7 @@
         <h2>{{$t('skills_title')}}</h2>
         <p><span v-for="s in $t('skills')" :key="s"> {{s}}</span></p>
       </div>
-    </div>
+    </template>
   </Layout>
 </template>
 
@@ -48,10 +51,12 @@ query {
 
 <script>
 import Social from '~/components/Social.vue';
+import LocaleSwitcher from '~/components/LocaleSwitcher.vue';
 
 export default {
   components: {
-    Social
+    Social,
+    LocaleSwitcher
   },
   metaInfo() {
     return {

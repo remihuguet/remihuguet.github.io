@@ -21,6 +21,8 @@ module.exports = {
           'fr-fr': 'fr',
           'en-gb': 'en'
         },
+        defaultLocale: 'en',
+        fallbackLocale: 'en',
         messages: {
           'fr-fr': require('./content/locales/fr.json'),
           'en-gb': require('./content/locales/en.json'),
