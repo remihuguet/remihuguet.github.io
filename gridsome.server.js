@@ -5,5 +5,12 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-// module.exports = function (api) {
-// }
+module.exports = function (api) {
+    api.createPages(({ createPage }) => {
+        createPage({
+          path: '/',
+          component: './src/templates/Locale.vue',
+          context: {'id': 'fr'}
+        });
+      });
+}

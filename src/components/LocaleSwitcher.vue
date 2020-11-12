@@ -1,9 +1,9 @@
 <template>
     <div class="lang">
-        <button class="btn-lang" v-if="currentLocale == 'en-gb'" @click="localeChanged('fr-fr')">
+        <button class="btn-lang" v-if="currentLocale == 'en'" @click="localeChanged('fr')">
             <g-image width="30" src="~/assets/images/france.svg"/>
         </button>
-        <button class="btn-lang" v-if="currentLocale == 'fr-fr'" @click="localeChanged('en-gb')">
+        <button class="btn-lang" v-if="currentLocale == 'fr'" @click="localeChanged('en')">
             <g-image width="30" src="~/assets/images/united-kingdom.svg"/>
         </button>
     </div>
@@ -12,17 +12,11 @@
 <script>
 export default {
   name: "LocaleSwitcher",
-  data: function () {
-    return {
-      currentLocale: this.$i18n.locale.toString(),
-      availableLocales: this.$i18n.availableLocales
-    }
-  },
+  props: ['currentLocale', 'rawPath'],
   methods: {
     localeChanged (locale) {
-      this.currentLocale = locale;
       this.$router.push({
-        path: this.$tp(this.$route.path, locale, true)
+        path: '/' + locale + this.rawPath
       })
     }
   }

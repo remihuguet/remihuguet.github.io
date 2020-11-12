@@ -1,5 +1,5 @@
 <template>
-    <g-link :to="$tp('/')">
+    <g-link :to="'/'">
         <span class="logo">	
             {{ $static.metadata.siteName }}
         </span>
