@@ -57,7 +57,7 @@ module.exports = {
             title: node.title,
             description: node.description,
             url: 'https://remihuguet.dev' + node.path,
-            date: node.date || node.fields.date,
+            date: node.date,
             author: node.author
         })
       }
