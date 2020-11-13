@@ -6,7 +6,7 @@ module.exports = {
     trailingSlash: false
   },
   templates: {
-    Locale: '/:id/',
+    Landing: '/:locale/:rawpath',
     Post: '/blog/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
@@ -14,8 +14,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Locale',
-        path: 'content/locales/*.json',
+        typeName: 'Landing',
+        path: 'content/pages/landing/*.json',
       }
     },
     {

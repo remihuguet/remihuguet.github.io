@@ -1,11 +1,11 @@
 {
-  "id": "en",
-  "rawPath": "/",
+  "id": "home_en",
+  "locale": "en",
+  "rawpath": "home",
   "banners": [
     "Welcome! I am a freelance software engineer.",
     "I help teams building products and improve their engineering practices."
   ],
-  "pres_title": "woami",
   "press": [
     "I’m a developer with 12+ years experience in building software and managing tech teams.",
     "I seek to build useful software, help organisations thrive, help developers grow and improve engineering practices (not necessarily in that order)."

@@ -20,10 +20,9 @@ ul.nav {
         margin: 0;
         padding: 0 0.4rem;
      & a {
-        letter-spacing: 0.06ch;
-        font-family: var(--font-headers);
+        font-family: var(--font-body);
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
      }
     }
 

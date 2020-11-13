@@ -56,10 +56,10 @@ export default {
   display: flex;
   justify-content: space-between;
   min-height: var(--header-height);
-  padding: 0 0 calc(var(--space) / 3) 0;
-  max-width: var(--content-width);
-  margin: calc(var(--space) / 2) auto;
-  border-bottom: solid 5px var(--link-color);
+  padding: calc(2 * var(--space)) calc(8 * var(--space));
+  margin: 0 0 calc(var(--space) / 2) 0;
+  background-color:var(--cultured);
+  box-shadow: 0px 2px 5px var(--platinum);
 
   &__left,
   &__right {

@@ -1,0 +1,109 @@
+{
+    "id": "landing_en",
+    "locale": "en",
+    "rawpath": "landing",
+    "valueprop": "Level up your tech team",
+    "presentation": [
+        "Hello, I'm Rémi.",
+        "I'm a software developper.",
+        "I help organisations design, build and run great softwares. For that purpose, I continuously learn and perfect my craft of software engineering."
+    ],
+    "why_me": [
+        "Transparence & no bullshit",
+        "Excellence transverse & technique",
+        "Entrepreneurial mindset & knowledge"
+    ],
+    "solve_problems": [
+        "Creating your product with highest quality and sustainability standards",
+        "Help your team level up to improve quality and accelerate",
+        "Take back control of a legacy system"
+    ],
+    "skill_domain_1": ["Craft expertise", "TDD, DDD, Clean architecture and clean, CI / CD, Flow"],
+    "skill_domain_2": ["Web development expertise", "full-stack profile with a focus on backends and services architectures"],
+    "skill_domain_3": ["Python expertise", "Craft with python (TDD, Clean architecture and clean code, DDD patterns)"],
+    "offer_1": [
+            "Software development",
+            "Build a new software, alone or with a team",
+            "Improve existing software, help team reach the upper level",
+            "Take back control of your legacy software - Improve your delivery"
+    ],
+    "offer_2": [
+            "Craft coaching",
+            "Train and work with team to start a craft journey",
+            "workshops and training around software craft: TDD, DDD, Clean architecture, Clean code, XP, Flow",
+            "help the team passing the first steps: building the first test, the first CI, ...",
+            "coaching on the long run"
+    ],
+    "offer_3": [
+        "CTO as a service",
+        "Work with executives on tech strategy",
+        "technical consulting and auditing",
+        "team auditing, management consulting",
+        "tech strategy and vision"
+    ],
+    "skills": [
+        [
+            "Languages and frameworks", [
+                "Python",
+                "Django",
+                "Javascript",
+                "VueJS",
+                "HTML",
+                "CSS",
+                "Numpy",
+                "Jupyter",
+                "Gridsome"
+            ]
+        ],
+        [
+            "Databases", [
+                "SQL",
+                "PostgreSQL",
+                "MySQL"
+            ]
+        ],
+        [
+            "Design",
+            [
+                "Web architecture",
+                "Software design",
+                "REST API",
+                "Mobile applications"
+            ]
+        ],
+        [
+            "Software craft", [
+                "TDD",
+                "DDD",
+                "Clean code",
+                "Clean architecture",
+                "CI / CD",
+                "Agile: Kanban, Flow, XP"
+            ]
+        ],
+        [
+            "Management", [
+                "Tech leadership",
+                "CTO",
+                "Team management",
+                "Project management",
+                "Gitlab",
+                "Jira"
+            ]
+        ],
+        [
+            "Ops", [
+                "Cloud computing",
+                "Docker",
+                "AWS",
+                "Sentry",
+                "Paas: Platform.sh, Clever Cloud",
+                "Nginx",
+                "Gitlab CI",
+                "Linux",
+                "Gunicorn",
+                "Git "
+            ]
+        ]
+    ]
+}

@@ -1,7 +1,8 @@
 <template>
     <g-link :to="'/'">
-        <span class="logo">	
-            {{ $static.metadata.siteName }}
+        <span class="logo">
+          🏠
+            <!-- {{ $static.metadata.siteName }} -->
         </span>
     </g-link>
 </template>
@@ -14,17 +15,22 @@ query {
 }
 </static-query>
 
-<style lang="scss">
+<style lang="scss" >
 .logo {
-	text-decoration: none;
-	color: var(--body-color)!important;
-	font-family: var(--font-headers);
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 2rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8rem;
+  // letter-spacing: 0.06ch;
+  // color: var(--body-color)!important;
+  // text-decoration: none;
+  // text-transform: uppercase;
+  // font-size: 2rem;
 }
 
 a {
+  &:hover {
+    text-decoration: none;
+  }
     text-decoration: none;
 }
 </style>

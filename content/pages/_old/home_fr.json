@@ -1,11 +1,11 @@
 {
-  "id": "fr",
-  "rawPath": "/",
+  "id": "home_fr",
+  "locale": "fr",
+  "rawpath": "home",
   "banners": [
     "Bienvenue! Je suis ingénieur logiciel indépendant.",
     "J’aide les équipes à construire des produits et à améliorer leurs pratiques d'ingéniérie."
   ],
-  "pres_title": "kisuis",
   "press": [
     "Je suis un développeur avec plus de 12 ans d'expérience dans la création de logiciels et la gestion d'équipes tech.",
     "Je cherche à créer des logiciels utiles, à aider les organisations à prospérer, à aider les développeurs à progresser et à améliorer les pratiques (pas nécessairement dans cet ordre)."

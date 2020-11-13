@@ -12,11 +12,11 @@
 <script>
 export default {
   name: "LocaleSwitcher",
-  props: ['currentLocale', 'rawPath'],
+  props: ['currentLocale', 'rawpath'],
   methods: {
     localeChanged (locale) {
       this.$router.push({
-        path: '/' + locale + this.rawPath
+        path: '/' + locale +'/' + this.rawpath
       })
     }
   }
