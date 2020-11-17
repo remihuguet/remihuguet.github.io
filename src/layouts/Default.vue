@@ -4,7 +4,10 @@
       <div class="header__left">
         <Logo v-if="showLogo" />
         <slot name="headerleft"></slot>
-      </div>  
+      </div>
+      <div class="header__center">
+        Rémi Huguet
+      </div>
       <div class="header__right">
         <Links />
       </div>
@@ -57,15 +60,24 @@ export default {
   justify-content: space-between;
   min-height: var(--header-height);
   padding: calc(2 * var(--space)) calc(8 * var(--space));
-  margin: 0 0 calc(var(--space) / 2) 0;
+  margin: 0 0 calc(2 * var(--space)) 0;
   background-color:var(--cultured);
   box-shadow: 0px 2px 5px var(--platinum);
 
   &__left,
-  &__right {
+  &__right,
+  &__center {
     display: flex;
     align-items: center;
   }
+  &__center {
+    // font-family: var(--font-headers);
+    // font-size: 2em;
+    // font-variant: small-caps;
+    font-weight: 700;
+    color: var(--independence);
+  }
+
 }
 
 .main {

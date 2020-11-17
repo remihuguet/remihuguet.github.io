@@ -2,7 +2,6 @@
 
 html {
   --base-font-size: 24px;
-
 }
 
 // Light default theme
@@ -13,20 +12,21 @@ body {
   --platinum: #e6e6e9ff;
   --cultured: #f4f4f6ff;
   --pine-tree: #2a2c24ff;
-  
+  --black: #2a2c24;
   --white: #FEFDFF;
   --blue: #0E499F;
+  --light-grey: #fffcf182;
 
   --font-body: "Merriweather", system-ui, Times, serif;
   --font-headers: "Oswald", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --bg-color: var(--white);
-  --bg-code: #f7f7f7;
+  --bg-code: var(--cultured);
   --body-color: var(--pine-tree);
   --title-color: var(--pine-tree);
   --link-color: var(--independence);
-  --border-color: rgba(0,0,0,0);
-  --border-quote: rgb(71, 71, 71);
-  --header-color: white;
+  --border-color: var(--pine-tree);
+  --border-quote: var(--black);
+  --header-color: var(--white);
   --space: 0.5rem;
   --content-width: 1080px;
   --header-height: 40px;
@@ -40,7 +40,7 @@ body {
   }
   body {
     --space: 1.6rem;
-    --header-height: 40px;
+    --header-height: 30px;
   }
 }
 

@@ -1,20 +1,30 @@
 <template>
   <Localized :locale="$page.messages.locale" :rawpath="$page.messages.rawpath"> 
-    <div class="content-box pres">
-      <g-image alt=""
-          class="pres__image"
-          src="~/assets/images/author.jpg" blur="5"
-      />
-    </div>
-    <div class="valueprop">
-      <p>{{$page.messages.valueprop}}</p>
-    </div>
 
-    <div class="content-box">
-      <p v-for="(p, i) in $page.messages.presentation" :key="i">
-        {{p}}
-      </p>
-    </div>
+    <Problems 
+      :valueprop="$page.messages.valueprop"
+      :intro="$page.messages.problems_intro"
+      :problems="$page.messages.solve_problems"
+      :cta="$page.messages.cta1"
+    />
+
+    <Presentation :presentations="$page.messages.presentation" />
+    
+    <Skills 
+      :presentation="$page.messages.skills_presentation"
+      :domains="[$page.messages.skill_domain_2, $page.messages.skill_domain_1, $page.messages.skill_domain_3]"
+      :cta="$page.messages.cta2"
+    />
+    <!-- <WhyMe
+      :valueprop="$page.messages.why_me_vp"
+      :args="$page.messages.why_me"
+    /> -->
+
+    <Offers
+      :presentation="$page.messages.offers_presentation"
+      :offers="[$page.messages.offer_1, $page.messages.offer_2, $page.messages.offer_3]"
+    />
+    <Testimony :testimonies="$page.messages.testimonies" :title="$page.messages.testimonies_title" />
   </Localized>
 </template>
 
@@ -34,7 +44,22 @@ query Landing ($id: ID!) {
     skill_domain_3,
     offer_1,
     offer_2,
-    offer_3
+    offer_3,
+    cta1,
+    cta2,
+    problems_intro,
+    skills_presentation,
+    offers_presentation,
+    why_me_vp,
+    testimonies {
+      name,
+      image,
+      context,
+      text,
+      linkedin,
+      link
+    },
+    testimonies_title
   }
   metadata {
       siteDescription
@@ -48,12 +73,24 @@ query Landing ($id: ID!) {
 import Localized from '~/layouts/Localized.vue';
 import Social from '~/components/Social.vue';
 import LocaleSwitcher from '~/components/LocaleSwitcher.vue';
+import Presentation from '~/components/landing/Presentation.vue';
+import Problems from '~/components/landing/Problems.vue';
+import Skills from '~/components/landing/Skills.vue';
+import WhyMe from '~/components/landing/WhyMe.vue';
+import Offers from '~/components/landing/Offers.vue';
+import Testimony from '~/components/landing/Testimony.vue';
 
 export default {
   components: {
     Social,
     LocaleSwitcher,
-    Localized
+    Localized,
+    Presentation,
+    Problems,
+    Skills,
+    WhyMe,
+    Offers,
+    Testimony
   },
   metaInfo() {
     return {
@@ -84,28 +121,24 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+button.cta {
+  font-family: var(--font-body);
+  font-size: 1em;
 
-.pres {
-  display: flex;
-  margin: 0 auto;
-  .pres__image {
-    // max-width: 200px;
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: 2px 2px 5px var(--independence);
+  
+  background-color: var(--persian-green);
+  color: var(--white);
+
+  padding: calc(1.5 * var(--space)) calc(3 * var(--space));
+
+  align-self: center;
+  &:hover {
+    box-shadow: 5px 5px 10px var(--independence);
   }
 }
 
-.valueprop {
-    // flex-basis: 77%;
-    flex-grow: 1;
-    background-color: var(--ruby);
-    color: var(--white);
-    font-family: var(--font-headers);
-    font-size: 6rem;
-    font-weight: 700;
-    line-height: 1;
-    padding: calc(8 * var(--space));
-    p {
-      margin:0;
-    }
-  }
 </style>
