@@ -115,31 +115,31 @@
             ]
         ]
     ],
-    "testimonies_title": "Recommandations",
+    "testimonies_title": "I've worked with these people",
     "testimonies": [
         {
             "name": "Mickaël Hoareau",
             "image": "micka_ijnnhj.jpeg",
-            "context": "Software engineer - Opquast",
+            "context": "Développeur - Opquast",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.opquast.com",
-            "text": "Your team of developers have the capacity to organize themselves better, but they cannot do it alone. [...] Rémi is clearly the person who can help a small team to structure itself, he has a disconcerting ease in dive into code he does not know, correct it, improve it, train teams so as not to fall back into the same traps. He looks for the solutions that best adapt to the functioning of the team. It is a real asset to have in the team, not to mention his kindness, his good humor and his ability to work 100% remote and adapting to colleagues with jet lag."
+            "text": "Votre équipe de développeur a la capacité de s'organiser mieux, mais n'y arrive pas seul.[...]Rémi, c'est clairement la personne qui peut aider une petite équipe à se structurer, il a une facilité déconcertante à plonger dans du code qu'il ne connaît pas, à le corriger, à l'améliorer, à former les équipes pour ne plus retomber dans les mêmes pièges. Il cherche les solutions qui s'adaptent le mieux au fonctionnement de l'équipe.\n C'est un véritable atout à avoir dans l'équipe, sans parler de sa bienveillance, de sa bonne humeur et de sa capacité à bosser à 100% en télétravail et à s'adapter aux collègues en décalage horaire."
         },
         {
             "name": "Elie Sloïm",
             "image": "elie_y6wxuo.jpeg",
-            "context": "CEO / founder - Opquast",
+            "context": "CEO and founder - Opquast",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.opquast.com",
-            "text": "[...]The technical situation of the company before Rémi's mission was as follows: a significant technical debt, a very heavy and not very scalable legacy code, [...] long development times, applications that were too fragile [...] Rémi worked with the developer teams and with the rest of the teams. [...] He organized workshops with developers and fundamentally changed both the ways of working, the architecture, and the technological choices of the company. [...] Rémi showed a listening and a capacity of adaptation out of the ordinary, being able to pass with ease from a strategic assignement to a treatment of bugs [...] His intervention with 'one team is at least useful and at least as far as Opquast is concerned, has been extremely profitable.[...]"
+            "text": "[...]La situation technique de la société avant la mission de Rémi était la suivante : une dette technique importante, un code legacy très lourd et peu évolutif,[...] des temps de développements longs, des applications trop fragiles [...] Rémi a travaillé avec les équipes de développeurs et avec le reste des équipes. [...] Il a organisé des ateliers auprès des développeurs et changé en profondeur à la fois les modes de travail, l’architecture, et les choix technologiques de l’entreprise. [...] Rémi a fait preuve d’une écoute et d’une capacité d’adaptation hors du commun, pouvant passer avec aisance d’un chantier stratégique à un chantier de traitement de bugs [...] Son intervention auprès d’une équipe est au minimum utile et au moins en ce qui concerne Opquast, a été extrêmement rentable. [...]"
         },
         {
             "name": "Régis Floret",
-            "context": "Software engineer - Actiwine",
+            "context": "Développeur - Actiwine",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.linkedin.com/in/regis-floret-09728458/",
             "image": "regis_ezqj1j.jpeg",
-            "text": "I had the opportunity to work with Rémi for a year and under his leadership I have never progressed so much and in such a short time. With him, I had the feeling of being at the forefront of state of the art, both in the field of design and in the use of the latest technologies.[...]"
+            "text": "J'ai eu l'occasion de travailler avec Rémi pendant un an et sous son impulsion je n'ai jamais autant progressé et en aussi peu de temps. Avec lui, j'ai eu le sentiment d'être à la pointe de ce qui se fait, tant dans le domaine de la conception que dans l'utilisation des dernières technologies.[...]"
         }
     ]
 }

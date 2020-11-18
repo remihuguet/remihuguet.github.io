@@ -1,5 +1,6 @@
 <template>
   <Localized :locale="$page.messages.locale" :rawpath="$page.messages.rawpath"> 
+    <Presentation :presentations="$page.messages.presentation" />
 
     <Problems 
       :valueprop="$page.messages.valueprop"
@@ -8,7 +9,6 @@
       :cta="$page.messages.cta1"
     />
 
-    <Presentation :presentations="$page.messages.presentation" />
     
     <Skills 
       :presentation="$page.messages.skills_presentation"
@@ -20,10 +20,10 @@
       :args="$page.messages.why_me"
     /> -->
 
-    <Offers
+    <!-- <Offers
       :presentation="$page.messages.offers_presentation"
       :offers="[$page.messages.offer_1, $page.messages.offer_2, $page.messages.offer_3]"
-    />
+    /> -->
     <Testimony :testimonies="$page.messages.testimonies" :title="$page.messages.testimonies_title" />
   </Localized>
 </template>

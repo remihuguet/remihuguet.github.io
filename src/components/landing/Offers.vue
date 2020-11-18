@@ -43,7 +43,6 @@ const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
 
 .bg-wrapper {
   background-color: var(--light-grey);
-  padding: calc(6 * var(--space));
 
     .offers {
         display: flex;
@@ -57,10 +56,11 @@ const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
         &__offer {
             display:flex;
             margin: calc(2 * var(--space)) calc(2 * var(--space));
+            justify-content: space-evenly;
             
         }
         &__offercol {
-            flex-basis: 33%;
+            flex-basis: 25%;
             text-align: center;
             margin: var(--space);
             padding: calc(2 * var(--space));

@@ -49,7 +49,7 @@ export default {
   &__testimony {
     display: flex;
     flex-direction: column;
-    flex-basis: 47%;
+    flex-basis: 25%;
     flex-shrink: 0;
     flex-grow: 0;
     background-color: var(--cultured);
