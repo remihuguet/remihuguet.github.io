@@ -1,57 +1,46 @@
 <template>
-  <div class="whyme">
-    <ul class="whyme__text">
-      <li v-for="(p, i) in args" :key="i">{{p}}</li>
-    </ul>
-    <div class="whyme__vp">
-     {{valueprop}}
+  <div class="bg-wrapper">
+    <div class="whyme">
+      <div class="whyme__pres">
+      <h2>{{valueprop}}</h2>
+      <hr />
+        <ul class="whyme__text">
+          <li v-for="(p, i) in items" :key="i">{{p}}</li>
+        </ul>
+      </div>
+      <button class="cta">{{cta}}</button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["valueprop", "args"]
+  props: ["valueprop", "items", "cta"]
 }
 </script>
 
 <style lang="scss" scoped>
+.bg-wrapper {
+  // background-color: var(--light-grey);
+  padding: calc(2 * var(--space)) calc(6 * var(--space));
 
-.whyme {
-  display: flex;
-  &__vp {
+  .whyme {
     display: flex;
-    flex-basis: 52%;
-    margin: 0 calc(-1 * var(--space)) 0 0;
-    background-color: var(--persian-green);
-    color: var(--white);
-    font-family: var(--font-headers);
-    font-size: 5.5em;
-    font-weight: 700;
-    line-height: 1;
-    padding: calc(8 * var(--space));
-    text-align: left;
-  }
-
-&__text {
-    display: flex;
-    flex-basis: 50%;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 0 0 calc(12 * var(--space));
-    border: 4px solid var(--persian-green);
-    border-right: none;
-    margin: 0;
-    margin-left: calc(-1 * var(--space));
+    align-items: center;
 
-    & li {
+    &__text {
+      max-width: var(--content-width);
+      margin: calc(2 * var(--space)) calc(2 * var(--space));
+
+      & li {
         &::marker {
-        content: "✔";
-        color: var(--persian-green);
+          content: "✔";
+          color: var(--persian-green);
+        }
+        padding-left: var(--space);
+        margin-bottom: calc(2 * var(--space));
       }
-      padding-left: var(--space);
-      margin-bottom: calc(2 * var(--space));
     }
   }
 }

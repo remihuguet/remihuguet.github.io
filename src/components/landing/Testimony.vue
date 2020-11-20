@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="content-box title text-center">
+    <div class="content-box">
       <h2>{{title}}</h2>
       <hr />
     </div>
@@ -44,19 +44,17 @@ export default {
 .testimonies {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-
+  justify-content: center;
   &__testimony {
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
+    flex-basis: 20%;
     flex-shrink: 0;
     flex-grow: 0;
     background-color: var(--cultured);
     padding: calc(2 * var(--space));
-    margin: calc(2 * var(--space)) 0;
+    margin: calc(2 * var(--space)) calc(2 * var(--space));
     font-size: 0.8em;
-
 
     &__text {
       margin-bottom: calc(2 * var(--space));

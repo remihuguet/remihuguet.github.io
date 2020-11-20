@@ -1,54 +1,55 @@
 {
-    "id": "landing_en",
-    "locale": "en",
+    "id": "landing_fr",
+    "locale": "fr",
     "rawpath": "landing",
-    "cta1": "I need help! 🔥",
-    "cta2": "I want to upgrade my software 🪜",
+    "cta1": "Discutons ! 💬",
+    "cta2": "Mettre à niveau ma stack logicielle 💬",
     "presentation": [
-        "Hello! I'm Rémi 👋",
-        "I'm a software developper 💻",
-        "I help organisations design, build and run better softwares, faster 🚀"
+        "Bonjour! Je suis Rémi 👋",
+        "Je suis développeur logiciel 💻",
+        "J'aide les organisations à concevoir, construire et exécuter de meilleurs logiciels, plus rapidement 🚀"
     ],
-    "valueprop": "Level up your tech  ⚡",
-    "problems_intro": "Building software is hard. I can help you:",
+    "valueprop": "Améliorez votre équipe tech ⚡",
+    "problems_intro": "Construire un logiciel avec les standards de qualité et de durabilité les plus élevées est difficile. Je peux vous aider:",
     "solve_problems": [
-        "regain control of your legacy software",
-        "level up your team - deliver better and faster",
-        "build your product with highest quality and sustainability standards"
+        "faites passer votre équipe au niveau supérieur pour délivrer mieux et plus vite",
+        "reprenez le contrôle de votre logiciel legacy",
+        "créez votre produit avec des pratiques de premier ordre"
     ],
-    "skills_presentation": ["Theoretical physicist (PhD) turned software engineer, I am a constant learner with great ability to adapt, a strong problem solver and a creative mind.", "I build software and manage software teams since 2008. I seek to build useful software, help organisations thrive, help developers grow and improve engineering practices."],
-    "skill_domain_1": ["🛠 Software craft expertise", "practice and improve daily on TDD, DDD, Clean architecture and clean code, continuous integration and deployment"],
-    "skill_domain_2": ["⌨ Full-stack developer", "my main focus is on backends and services architectures, and I cultivate a large spectrum of skills from product to operations and front-end development"],
-    "skill_domain_3": ["🐍 Python expertise", "after years with Python as my primary language, I got a strong expertise with the ecosystem, from web development to scientific and data applications"],
-    "why_me_vp": "My bonus points",
+    "who": "Qui je suis 💭",
+    "skills_presentation": ["Physicien théoricien (PhD) devenu ingénieur logiciel, je suis un apprenant constant avec une grande capacité d'adaptation, un  problem solver et un esprit créatif.", "Je crée des logiciels et encadre des équipes depuis 2008. Je cherche à créer des logiciels utiles, à aider les organisations à prospérer, à aider les développeurs à se développer et à améliorer leurs pratiques d'ingénierie."],
+    "skill_domain_1": ["🛠 Software craft expertise", "J'adhère à l'esprit du software craft - la qualité et la durabilité sont primordiales dans ma pratique", "Je pratique et perfectionne  le développement piloté par les tests (TDD), la conception pilotée par domaine (DDD), le développement lean et agile, l'intégration et le déploiement continus"],
+    "skill_domain_2": ["⌨ Ingénieur full-stack", "Mon coeur de compétences sont les backends et l'architecture", "Je cultive un large spectre de compétences, du produit aux opérations, en passant par le développement front-end"],
+    "skill_domain_3": ["🐍 Expertise Python", "Après des années avec Python comme langage principal, j'ai acquis une solide expertise et connaissance de l'écosystème","Du développement web aux applications scientifiques et data"],
+    "why_me_vp": "Mes plus secrets 🎯",
     "why_me": [
-        "Transparence & no bullshit",
-        "Excellence transverse & technique",
-        "Entrepreneurial mindset & knowledge"
+        "Transparence & franchise radicale - vous saurez ce que je pense être le mieux pour votre produit, ce que je fais et ce que j'ai fait à chaque étape de notre collaboration",
+        "Recherche d'excellence - J'apprends tous les jours pour atteindre l'excellence en ingénierie produit",
+        "Problem solver - Je cherche tous les problèmes de votre organisation produit et veut y remédier",
+        "J'ai tendance à utiliser la bienveillance, l'humour et trop de GIF comme moyens de communication."
     ],
-    "offers_presentation": "Missions",
+    "offers_title": "Missions 🎟",
+    "offers_presentation": "Je propose les prestations suivantes",
     "offer_1": [
             "coding__1_sbxf45",
-            "Software development",
-            "Build a new software, alone or with a team",
-            "Improve existing software, help team reach the upper level",
-            "Take back control of your legacy software - Improve your delivery"
+            "Développement",
+            "Améliorer un produit existant - aider l'équipe à atteindre le niveau supérieur",
+            "Reprendre le contrôle de votre legacy - retrouver qualité et vélocité",
+            "Concevoir et démarrer un nouveau produit - seul ou avec une équipe"
     ],
     "offer_2": [
         "team_work_jtjsh2",
-        "Craft coaching",
-        "Train and work with team to start a craft journey",
-        "workshops and training around software craft: TDD, DDD, Clean architecture, Clean code, XP, Flow",
-        "help the team passing the first steps: building the first test, the first CI, ...",
-        "coaching on the long run"
+        "Accompagnement craft - premiers pas en équipe",
+        "Ateliers et mise en pratiques - développement piloté par les tests, conception pilotée par le domaine, architecture propre, intégration continue",
+        "Travailler intégré à l'équipe pour atteindre les premier jalons: le premier test, commencer l'intégration continuer, construire un flow agile adapté à l'équipe"
     ],
     "offer_3": [
         "brainstorming__if0tdv",
         "CTO as a service",
-        "Work with executives on tech strategy",
-        "technical consulting and auditing",
-        "team auditing, management consulting",
-        "tech strategy and vision"
+        "Travailler avec les C-levels sur la stratégie tech",
+        "Conseil et audit technique",
+        "Audit d'équipe et conseil en management",
+        "Stratégie et vision logicielle, architecture"
     ],
     "skills": [
         [
@@ -115,7 +116,7 @@
             ]
         ]
     ],
-    "testimonies_title": "I've worked with these people",
+    "testimonies_title": "Témoignages ⭐",
     "testimonies": [
         {
             "name": "Mickaël Hoareau",
@@ -128,7 +129,7 @@
         {
             "name": "Elie Sloïm",
             "image": "elie_y6wxuo.jpeg",
-            "context": "CEO and founder - Opquast",
+            "context": "CEO et fondateur - Opquast",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.opquast.com",
             "text": "[...]La situation technique de la société avant la mission de Rémi était la suivante : une dette technique importante, un code legacy très lourd et peu évolutif,[...] des temps de développements longs, des applications trop fragiles [...] Rémi a travaillé avec les équipes de développeurs et avec le reste des équipes. [...] Il a organisé des ateliers auprès des développeurs et changé en profondeur à la fois les modes de travail, l’architecture, et les choix technologiques de l’entreprise. [...] Rémi a fait preuve d’une écoute et d’une capacité d’adaptation hors du commun, pouvant passer avec aisance d’un chantier stratégique à un chantier de traitement de bugs [...] Son intervention auprès d’une équipe est au minimum utile et au moins en ce qui concerne Opquast, a été extrêmement rentable. [...]"

@@ -1,9 +1,13 @@
 <template>
   <div class="bg-wrapper">
     <div class="skills">
-      <div class="skills_pres">
+      
+      <div class="skills__pres">
+        <h2>{{title}}</h2>
+        <hr />
         <p v-for="(p, i) in presentation" :key="i">{{p}}</p>
       </div>
+      
       <div class="skills__domains">
         <div v-for="(domain, j) in domains" :key="j" class="skills__domain">
           <p v-for="(p,i) in domain" :key="i">
@@ -12,14 +16,16 @@
           </p>
         </div>
       </div>
+      
       <button class="cta">{{cta}}</button>
+
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props : ["domains", "presentation", "cta"]
+  props : ["domains", "presentation", "cta", "title"]
 }
 </script>
 
@@ -27,8 +33,8 @@ export default {
 <style lang="scss" scoped>
 
 .bg-wrapper {
-  // background-color: var(--light-grey);
-  padding: calc(6 * var(--space));
+  background-color: var(--light-grey);
+  padding: calc(2 * var(--space)) calc(6 * var(--space));
 
 
   .skills {
@@ -36,14 +42,15 @@ export default {
     flex-direction: column;
     align-items: center;
 
-    &_pres {
+    &__pres {
       max-width: var(--content-width);
+      margin: calc(2 * var(--space)) calc(2 * var(--space));
     }
 
     &__domains {
       display:flex;
       margin: calc(2 * var(--space)) calc(2 * var(--space));
-      justify-content: space-evenly;
+      justify-content: space-between;
     }
 
     &__domain {
