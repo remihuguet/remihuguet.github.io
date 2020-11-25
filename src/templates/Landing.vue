@@ -21,7 +21,7 @@
     <Offers
       :presentation="$page.messages.offers_presentation"
       :title="$page.messages.offers_title"
-      :offers="[$page.messages.offer_1, $page.messages.offer_2, $page.messages.offer_3]"
+      :offers="[$page.messages.offer_1, $page.messages.offer_2]"
     />
 
 
@@ -52,7 +52,6 @@ query Landing ($id: ID!) {
     skill_domain_3,
     offer_1,
     offer_2,
-    offer_3,
     cta1,
     cta2,
     problems_intro,

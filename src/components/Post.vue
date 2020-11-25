@@ -1,11 +1,13 @@
 <template>
     <div>
       <div class="post-title content-box">
-        <h1 class="post-title__text">
+        <h1 class="post-title__title">
           {{ post.title }}
         </h1>
-        <PostMeta :post="post" />
-        <PostTags :post="post" />
+        <div class="post-title__meta">
+          <PostTags :post="post" />
+          <PostMeta :post="post" />
+        </div>
         <p v-if="post.description" class="post-title__subtitle">{{ post.description }}</p>
       </div>
 
@@ -42,56 +44,48 @@ export default {
 <style lang="scss">
 .post-title {
   text-align: center;
-  
-  &__text {
-    margin-bottom: 0.5rem;
+
+  &__title {
+    margin-bottom: var(--space);
+    color: var(--primary-color);
+
+    @media screen and (max-width: 650px) {
+      font-size: 4rem;
+    }
   }
+
+  &__meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__subtitle {
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--independence);
     font-family: var(--font-headers);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 1rem 0;
-    border-top: solid 1px var(--link-color);
-    border-bottom: solid 1px var(--link-color);
+    border-top: solid 1px var(--secondary-color);
+    border-bottom: solid 1px var(--secondary-color);
     font-variant: small-caps;
     margin-top: var(--space);
   }
-
 }
 
 .post {
+  padding-top: 0;
 
-  &__header {
-    width: calc(100% + var(--space) * 2);
-    margin-left: calc(var(--space) * -1);
-    margin-top: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) / 2);
-    overflow: hidden;
-    border-radius: var(--radius) var(--radius) 0 0;
-
-    img {
-      width: 100%;
-    }
-
-    &:empty {
-      display: none;
-    }
-  }
-
-  &__note{
-    margin: 1rem 0;
-    padding-top: 0.5rem;
-    border-top: solid 1px rgba(0, 0, 0, 0.4);
-    font-style: italic;
-    color: rgba(0, 0, 0, 0.6);
-  }
   &__content {
+    font-size: 0.95rem;
+
     h2:first-child {
       margin-top: 0;
     }
 
-    p:first-of-type {
-      font-size: 1rem;
+    h2 {
+      & a {
+        color: var(--secondary-color);
+      }
     }
 
     img {
@@ -101,9 +95,5 @@ export default {
       max-width: none;
     }
   }
-}
-
-.post-author {
-  margin-top: calc(var(--space) / 2);
 }
 </style>

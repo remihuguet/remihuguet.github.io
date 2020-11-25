@@ -36,6 +36,9 @@ export default {
   background-color: var(--light-grey);
   padding: calc(2 * var(--space)) calc(6 * var(--space));
 
+  @media screen and (max-width: 650px) {
+    padding: calc(2 * var(--space)) calc(2 * var(--space));
+  }
 
   .skills {
     display: flex;
@@ -44,13 +47,18 @@ export default {
 
     &__pres {
       max-width: var(--content-width);
-      margin: calc(2 * var(--space)) calc(2 * var(--space));
+      margin: calc(2 * var(--space));
     }
 
     &__domains {
       display:flex;
-      margin: calc(2 * var(--space)) calc(2 * var(--space));
-      justify-content: space-between;
+      margin: calc(2 * var(--space));
+      justify-content: space-evenly;
+
+      @media screen and (max-width: 1080px) {
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+      }
     }
 
     &__domain {
@@ -58,8 +66,15 @@ export default {
       text-align: center;
       margin: var(--space);
       padding: calc(2 * var(--space));
-      // border: 2px solid var(--border-color);
-      // border-radius: var(--radius);
+
+      @media screen and (min-width:651px ) and (max-width: 1080px) {
+        flex-basis: 35%;
+      }
+
+      @media screen and (max-width: 650px) {
+        flex-basis: 90%;
+      }
+
 
       & span.rule {
         display: block;

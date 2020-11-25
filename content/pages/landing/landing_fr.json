@@ -43,14 +43,6 @@
         "Ateliers et mise en pratiques - développement piloté par les tests, conception pilotée par le domaine, architecture propre, intégration continue",
         "Travailler intégré à l'équipe pour atteindre les premier jalons: le premier test, commencer l'intégration continuer, construire un flow agile adapté à l'équipe"
     ],
-    "offer_3": [
-        "brainstorming__if0tdv",
-        "CTO as a service",
-        "Travailler avec les C-levels sur la stratégie tech",
-        "Conseil et audit technique",
-        "Audit d'équipe et conseil en management",
-        "Stratégie et vision logicielle, architecture"
-    ],
     "skills": [
         [
             "Languages and frameworks", [
@@ -121,7 +113,7 @@
         {
             "name": "Mickaël Hoareau",
             "image": "micka_ijnnhj.jpeg",
-            "context": "Développeur - Opquast",
+            "context": "Ingénieur logiciel - Opquast",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.opquast.com",
             "text": "Votre équipe de développeur a la capacité de s'organiser mieux, mais n'y arrive pas seul.[...]Rémi, c'est clairement la personne qui peut aider une petite équipe à se structurer, il a une facilité déconcertante à plonger dans du code qu'il ne connaît pas, à le corriger, à l'améliorer, à former les équipes pour ne plus retomber dans les mêmes pièges. Il cherche les solutions qui s'adaptent le mieux au fonctionnement de l'équipe.\n C'est un véritable atout à avoir dans l'équipe, sans parler de sa bienveillance, de sa bonne humeur et de sa capacité à bosser à 100% en télétravail et à s'adapter aux collègues en décalage horaire."
@@ -136,11 +128,19 @@
         },
         {
             "name": "Régis Floret",
-            "context": "Développeur - Actiwine",
+            "context": "Ingénieur logiciel - Actiwine",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.linkedin.com/in/regis-floret-09728458/",
             "image": "regis_ezqj1j.jpeg",
             "text": "J'ai eu l'occasion de travailler avec Rémi pendant un an et sous son impulsion je n'ai jamais autant progressé et en aussi peu de temps. Avec lui, j'ai eu le sentiment d'être à la pointe de ce qui se fait, tant dans le domaine de la conception que dans l'utilisation des dernières technologies.[...]"
+        },
+        {
+            "name": "Samuel Martin",
+            "context": "Software engineer - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "image": "sam_ilb6xj",
+            "text": "[...] Il y a des rencontres que l’on sait importantes[...] La rencontre de Rémi fait partie  d’une étape importante, [...] a très largement consolidé la qualité de production et la résilience de l’équipe technique Opquast. Rémi, doté d’une incroyable bienveillance, a la capacité rare de comprendre immédiatement votre projet, votre module, votre code, d’en tirer ses faiblesses, d’entrevoir les axes d’améliorations. Rémi vous accompagne et vous emmène à revoir vos schémas de pensée, vous invite à vous poser les bonnes questions pour répondre aux besoins fonctionnels de vos utilisateurs. [...] Rémi maitrise la technique, Django chez nous, les concepts, une grande partie des designs patterns mais son expérience professionnelle lui permet de proposer un accompagnement et des formations toujours éclairées jamais dogmatiques [...]"
         }
     ]
 }

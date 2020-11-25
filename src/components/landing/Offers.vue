@@ -45,27 +45,40 @@ const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
   background-color: var(--light-grey);
   padding: calc(2 * var(--space)) calc(6 * var(--space));
 
+  @media screen and (max-width: 650px) {
+    padding: calc(2 * var(--space)) calc(2 * var(--space));
+  }
+
   .offers {
     display: flex;
     flex-direction: column;
-    align-items: center;
     
     &__pres {
-      width: var(--content-width);
-      margin: 0 calc(2 * var(--space));
-    }
-
-    &__offer {
-      display:flex;
+      flex-wrap: wrap;
+      max-width: var(--content-width);
+      min-width: 60vw;
+      align-self: center;
       margin: calc(2 * var(--space)) calc(2 * var(--space));
       justify-content: space-evenly;
     }
 
+    &__offer {
+      display: flex;
+      justify-content: space-evenly;
+    }
     &__offercol {
-      flex-basis: 25%;
+      flex-basis: 40%;
       text-align: center;
       margin: var(--space);
       padding: calc(2 * var(--space));
+      
+      @media screen and (min-width:651px ) and (max-width: 1080px) {
+        flex-basis: 45%;
+      }
+
+      @media screen and (max-width: 650px) {
+        flex-basis: 95%;
+      }
 
       & img {
         width: 66.6%;

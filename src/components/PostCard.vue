@@ -1,11 +1,15 @@
 <template>
-  <div class="post-card content-box">
-    <div class="post-card__content">
-      <g-link class="post-card__link" :to="post.path"><h2 class="post-card__title" v-html="post.title" /></g-link>
-      <PostMeta class="post-card__meta" :post="post" />
-      <PostTags class="post-card__tags" :post="post" />
+  <div class="post-card">
+    <g-link :to="post.path">
+      <div class="post-card__header">
+        <PostTags class="post-card__tags" :post="post" />
+        <div class="post-card__title">
+          <h2> {{post.title}}</h2>
+          <PostMeta class="post-card__meta" :post="post" />
+        </div>
+      </div>
       <p class="post-card__description" v-if="post.description" v-html="post.description" />
-    </div>
+    </g-link>
   </div>
 </template>
 
@@ -24,27 +28,49 @@ export default {
 
 <style lang="scss">
 .post-card {
-  margin-bottom: calc(var(--space) / 3);
-  position: relative;
-  border-bottom: solid 1px var(--link-color);
+  display: flex;
+  border-bottom: 1px solid var(--persian-green);
+  border-left: none;
+  border-right: none;
+  margin: calc(var(--space)) auto;
+  margin-bottom: 0;
+  width: 100%;
+  &:hover {
+    transform: translate(5px, 5px);
+    border: 2px solid var(--ruby);
+  }
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 0;
+
+    &:hover {
+      opacity: inherit;
+    }
+  }
+
+  &__header {
+    padding: calc(2 * var(--space));
+    padding-bottom: 0;
+  }
 
   &__title {
-    font-size: 1.8rem;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
-  &__tags {
-    z-index: 1;
-    position: relative;
-  }
-
-  &__link {
-    text-decoration: none;
+    & > h2 {
+      font-size: 1.5rem;
+      line-height: 1.1;
+      margin-top: 0;
+      margin-bottom: var(--space);
+    }
   }
 
   &__description {
-    color: lighten(#292929, 20);
+    padding: 0 calc(2 * var(--space));
+    font-size: 0.8em;
   }
 }
 </style>

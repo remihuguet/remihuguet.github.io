@@ -2,11 +2,10 @@
   <div id="app">
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" />
         <slot name="headerleft"></slot>
       </div>
       <div class="header__center">
-        Rémi Huguet
+        <a href="/">Rémi Huguet</a>
       </div>
       <div class="header__right">
         <Links />
@@ -25,8 +24,9 @@
         <span class="footer__copyright">© {{ new Date().getFullYear() }} Rémi Huguet.</span>
         <span class="footer__links">
           Site propulsé par
-          <a href="//gridsome.org" target="_blank" rel="noreferrer">Gridsome</a>.
-          Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <a href="//gridsome.org"  title="Gridsome" target="_blank" rel="noreferrer">Gridsome</a>. <br />
+          Icons made by <a href="http://www.freepik.com/" target="_blank" rel="noreferrer" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> <br />
+          Illustrations made by <a href="https://www.manypixels.co" target="_blank" rel="noreferrer" title="Manypixels">Manypixels</a>
         </span>
       </p>
     </footer>
@@ -68,14 +68,19 @@ export default {
   &__right,
   &__center {
     display: flex;
+    flex-basis: 33%;
     align-items: center;
   }
   &__center {
-    // font-family: var(--font-headers);
-    // font-size: 2em;
-    // font-variant: small-caps;
     font-weight: 700;
     color: var(--independence);
+    justify-content: center;
+  }
+  &__left {
+    justify-content: flex-start;
+  }
+  &__right {
+    justify-content: flex-end;
   }
 
 }
@@ -92,7 +97,7 @@ export default {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.05);
   margin-top: 3rem;
-  padding: calc(var(--space) / 2);
+  padding: calc(2 * var(--space));
   text-align: center;
   font-size: 0.8em;
 
@@ -102,12 +107,13 @@ export default {
 
   &__copy {
     margin: 0.5rem 0;
+    font-size: 0.7em;
   }
 }
 
 @media screen and (max-width: 920px) {
   .header {
-    padding: 0 calc(var(--space) / 3) calc(var(--space) / 3) calc(var(--space) / 3);
+    padding: 0 var(--space) var(--space) var(--space);
   }
 }
 

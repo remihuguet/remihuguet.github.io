@@ -38,6 +38,11 @@ export default {
     line-height: 1;
     padding: calc(12 * var(--space)) calc(10 * var(--space));
     justify-content: center;
+
+  
+    @media screen and (max-width: 650px) {
+      font-size:4em;
+    }
   }
 
   &__text {
@@ -48,12 +53,17 @@ export default {
     margin: calc(4 * var(--space));
     padding: calc(2 * var(--space));
 
-    // border-bottom: 1px solid var(--persian-green);
-
     &__inner {
       display: flex;
       flex-direction: column;
       width: 50%;
+
+      @media screen and (min-width:651px ) and (max-width: 1080px) {
+        width: 75%;
+      }
+      @media screen and (max-width: 650px) {
+        width: 100%;
+      }
 
       & li {
         margin-bottom: var(--space);

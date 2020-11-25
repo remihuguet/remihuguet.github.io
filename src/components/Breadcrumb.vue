@@ -32,7 +32,8 @@ export default {
 <style lang="scss">
 .breadcrumb {
     padding:0;
-    margin: 0 auto calc(var(--space) / 2) auto;
+    margin: 0 auto calc(2 * var(--space)) auto;
+    font-size: 0.8em;
 }
 
 </style>

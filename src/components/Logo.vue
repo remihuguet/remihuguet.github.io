@@ -1,8 +1,6 @@
 <template>
     <g-link :to="'/'">
         <span class="logo">
-          🏠
-            <!-- {{ $static.metadata.siteName }} -->
         </span>
     </g-link>
 </template>
@@ -20,11 +18,6 @@ query {
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 0.8rem;
-  // letter-spacing: 0.06ch;
-  // color: var(--body-color)!important;
-  // text-decoration: none;
-  // text-transform: uppercase;
-  // font-size: 2rem;
 }
 
 a {

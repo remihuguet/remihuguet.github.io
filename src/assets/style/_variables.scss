@@ -17,16 +17,19 @@ body {
   --blue: #0E499F;
   --light-grey: #fffcf182;
 
+  --primary-color: var(--persian-green);
+  --secondary-color: var(--ruby);
+
   --font-body: "Merriweather", system-ui, Times, serif;
   --font-headers: "Oswald", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --bg-color: var(--white);
   --bg-code: var(--cultured);
   --body-color: var(--pine-tree);
-  --title-color: var(--pine-tree);
   --link-color: var(--independence);
   --border-color: var(--pine-tree);
   --border-quote: var(--black);
   --header-color: var(--white);
+  --title-color: var(--secondary-color);
   --space: 0.5rem;
   --content-width: 1080px;
   --header-height: 40px;
@@ -36,11 +39,25 @@ body {
 // Make  things smaller for mobile
 @media screen and (max-width: 650px) {
   html {
-    --base-font-size: 14px;
+    --base-font-size: 16px;
   }
   body {
-    --space: 1.6rem;
+    --space: 0.4rem;
+    --header-height: 20px;
+    --content-width: 560px;
+
+  }
+}
+
+@media screen and (min-width:651px ) and (max-width: 1080px) {
+  html {
+    --base-font-size: 20px;
+  }
+  body {
+    --space: 0.5rem;
     --header-height: 30px;
+    --content-width: 820px;
+
   }
 }
 

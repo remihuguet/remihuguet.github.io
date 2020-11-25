@@ -43,14 +43,6 @@
         "Workshops and practical hands-on - testing, Test Driven Development, Domain Driven Design, clean architecture, lean & flow agile",
         "Work with team to reach the first milestones: the first test, starting continuous integration, build an agile flow tailored to the team"
     ],
-    "offer_3": [
-        "brainstorming__if0tdv",
-        "CTO as a service",
-        "Work with C-levels on tech strategy",
-        "Technical consulting and auditing",
-        "Team auditing, management consulting",
-        "Tech strategy and vision"
-    ],
     "skills": [
         [
             "Languages and frameworks", [
@@ -144,11 +136,11 @@
         },
         {
             "name": "Samuel Martin",
-            "context": "Software engineer - Opquast",
+            "context": "Ingénieur logiciel - Opquast",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
-            "link":"",
-            "image": "",
-            "text": "Soon"
+            "link":"https://www.opquast.com",
+            "image": "sam_ilb6xj",
+            "text": "[...] There are meetings that we know are important [...] Rémi's meeting is part of an important step, [...] it has greatly consolidated the quality of production and the resilience of the Opquast technical team . Rémi, endowed with incredible benevolence, has the rare ability to immediately understand your project, your module, your code, to draw out its weaknesses, to see areas for improvement. Rémi accompanies you and takes you to review your thought patterns, invites you to ask yourself the right questions to meet the functional needs of your users. [...] Rémi masters the technique, Django with us, the concepts, a large part of the design patterns but his professional experience allows him to offer support and training that is always enlightened, never dogmatic [...]"
         }
     ]
 }

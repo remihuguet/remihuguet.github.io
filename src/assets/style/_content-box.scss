@@ -2,5 +2,5 @@
 .content-box {
 	max-width: var(--content-width);
 	margin: 0 auto;
-	padding: calc(var(--space) / 3) 0;
+	padding: calc(3 * var(--space)) 0;
 }

@@ -1,12 +1,14 @@
 <template>
-    <div class="lang">
-        <button class="btn-lang" v-if="currentLocale == 'en'" @click="localeChanged('fr')">
-            <g-image width="30" src="~/assets/images/france.svg"/>
-        </button>
-        <button class="btn-lang" v-if="currentLocale == 'fr'" @click="localeChanged('en')">
-            <g-image width="30" src="~/assets/images/united-kingdom.svg"/>
-        </button>
-    </div>
+  <div class="lang">
+    <a class="lang__link" v-if="currentLocale == 'en'" :href="localeChanged('fr')">
+        Français 
+        <g-image width="30" src="~/assets/images/france.svg"/>
+    </a>
+    <a class="lang__link" v-if="currentLocale == 'fr'" :href="localeChanged('en')">
+        English
+        <g-image width="30" src="~/assets/images/united-kingdom.svg"/>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -15,23 +17,24 @@ export default {
   props: ['currentLocale', 'rawpath'],
   methods: {
     localeChanged (locale) {
-      this.$router.push({
-        path: '/' + locale +'/' + this.rawpath
-      })
+      return '/' + locale +'/' + this.rawpath;
     }
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
-div.lang {
-    display: flex;
-    align-items: center;
-}
+  .lang {
 
-button.btn-lang {
-    border: none;
-    background-color: transparent;
-}
+    &__link {
+      font-size: 0.8em;
+      display: flex;
+      justify-content: space-evenly;
+
+      & img {
+        margin: 0 var(--space);
+      }
+    }
+  }
 </style>
