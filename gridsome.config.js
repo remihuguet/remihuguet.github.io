@@ -1,12 +1,12 @@
 module.exports = {
-  siteName: 'Rémi Huguet',
-  siteDescription: 'Freelance software engineer & consultant',
+  siteName: '🚀 Build better software, faster.',
+  siteDescription: 'Software explorer - I can build better software and help teams level up.',
   siteUrl: 'https://remihuguet.dev',
   permalinks: {
     trailingSlash: false
   },
   templates: {
-    Locale: '/:id/',
+    Landing: '/:locale/:rawpath',
     Post: '/blog/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
@@ -14,8 +14,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Locale',
-        path: 'content/locales/*.json',
+        typeName: 'Landing',
+        path: 'content/pages/landing/*.json',
       }
     },
     {
@@ -37,8 +37,8 @@ module.exports = {
         contentTypeName: 'Post',
         latest: true,
         feedOptions: {
-          title: 'Rémi Huguet - Le Blog',
-          description: 'Le flux du blog du site de Rémi Huguet, freelance software engineer.',
+          title: 'Blog - Rémi Huguet, Software explorer',
+          description: 'Feed for the blog of Rémi Huguet, software explorer.',
           feed_url: 'https://remihuguet.dev/rss.xml',
           site_url: 'https://remihuguet.dev'
         },

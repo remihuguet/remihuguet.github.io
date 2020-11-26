@@ -2,7 +2,6 @@
   <Layout> 
     <div class="title content-box">
       <h1 class="title__title">Le blog</h1>
-      <!-- <p class="title__subtitle">Je partage ici ma veille autour du logiciel, entrepreneuriat, et autres ...</p> -->
     </div>
     
     <div class="posts">
@@ -38,6 +37,7 @@ query ($page: Int){
         timeToRead
         description
         path
+        locale
         tags {
           id
           title
@@ -59,7 +59,7 @@ export default {
     Pager
   },
   metaInfo: {
-    title: 'Accueil'
+    title: 'Blog'
   },
   computed: {
     nextPageUrl() {
@@ -88,18 +88,32 @@ export default {
   justify-content: space-around;
   font-family: var(--font-headers);
   font-variant: small-caps;
+  font-size: 0.8em;
 }
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--content-width);
+  margin: calc(3 * var(--space)) auto;
+}
+
 .title {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+
   .title__title {
-    font-size: 4rem;
+    font-size: 6em;
     margin: 0;
+    color: var(--primary-color);
   }
-  .title__subtitle {
-    font-size: 1.5rem;
-    font-variant: small-caps;
-    color: rgba(0, 0, 0, 0.7);
-    margin: 0;
+
+  hr {
+    border: 1px solid var(--primary-color);
+    width: 66.67%;
+    margin-left: 0;
   }
+
 }
 </style>

@@ -1,13 +1,15 @@
 <template>
   <Layout>
+    <template v-slot:headerleft>
+      <LocaleSwitcher currentLocale="fr" rawpath="about" />
+    </template>
+
     <div class="author content-box">
       <h1>À propos ...</h1>
 
       <h2>... de moi</h2>
-      <p>Ce site est avant tout le reflet de mes activités professionnelles. Cependant, les frontières sont poreuses - voici donc un peu de ma sphère privée ;)</p>
-
       <p>
-      J'ai {{age}} ans, je suis marié et j'ai deux enfants qui m'occupent beaucoup, pour le meilleur :).
+      J'ai {{age}} ans, je suis marié et j'ai deux enfants qui m'occupent beaucoup, pour le meilleur 😍.
       </p>
       <p>
       En dehors du numérique et de l'entrepreuneuriat, je m'intéresse à la musique, aux sciences, à l'économie et à la politique, je lis beaucoup, j'écris trop peu,
@@ -23,7 +25,8 @@
       <h2>... de ce site</h2>
 
       Ce site statique est compilé et propulsé par <a href="https://gridsome.org/" rel="noreferrer" target="_blank">Gridsome</a> et hébergé par <a href="https://www.netlify.com/" rel="noreferrer" target="_blank">Netlify</a>.
-      Il n'utilise aucun cookie et ne fait aucune mesure d'audience ou tracking.
+
+      Il n'utilise aucun cookie.
 
       <h2>Mentions légales</h2>
 
@@ -54,6 +57,7 @@ query {
 </page-query>
 <script>
 import Social from '~/components/Social.vue';
+import LocaleSwitcher from '~/components/LocaleSwitcher.vue';
 
 export default {
 	props: ['showTitle'],
@@ -63,11 +67,15 @@ export default {
 		}
 	},
 	components: {
-		Social
+    Social,
+    LocaleSwitcher
 	},
   metaInfo() {
     return {
-      title: 'À propos',
+      htmlAttrs: {
+        lang: 'fr-fr'
+      },
+      title: 'About',
       meta: [
         {
           property: "og:title",
@@ -75,7 +83,7 @@ export default {
         },
         {
           property: "og:description",
-          content: 'À propos'
+          content: 'About'
         },
         {
           property: "og:type",
@@ -83,13 +91,10 @@ export default {
         },
         {
           property: "og:url",
-          content: this.$page.metadata.siteUrl + '/about'
+          content: this.$page.metadata.siteUrl + '/fr/about'
         }
       ]
     };
   }
 }
 </script>
-
-<style lang="scss">
-</style>

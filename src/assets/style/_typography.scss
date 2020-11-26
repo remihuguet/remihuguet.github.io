@@ -61,7 +61,7 @@ blockquote {
   color: var(--border-quote);
   font-size: 0.8rem;
   border-left: 4px solid var(--border-quote);
-  padding-left: calc(var(--space) / 2);
+  padding-left: calc(2 * var(--space));
 }
 
 em {

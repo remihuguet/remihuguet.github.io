@@ -9,8 +9,14 @@ module.exports = function (api) {
     api.createPages(({ createPage }) => {
         createPage({
           path: '/',
-          component: './src/templates/Locale.vue',
-          context: {'id': 'fr'}
+          component: './src/templates/Landing.vue',
+          context: {'id': 'landing_fr'}
+        });
+      });
+    api.createPages(({ createPage }) => {
+        createPage({
+          path: '/about',
+          component: './src/pages/fr/About.vue'
         });
       });
 }

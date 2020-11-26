@@ -15,16 +15,23 @@
 export default {
     computed: {
         crumbs () {
-            let c = [{name: 'Accueil', path: '/'}];
+            let c = [{name: 'Home', path: '/'}];
             if (this.$route.params.title) {
                 return c.concat([{name: "Blog", path: '/blog/'}, {name: this.$page.post.title}]);
             }
             else if (this.$route.path == "/blog/") {
                 return c.concat([{name: "Blog"}]);
             }
+            else if ((this.$route.path == "/fr/about")){
+                return c.concat([{name: "À propos"}]);
+            }
             else if ((this.$route.path == "/about/")){
                 return c.concat([{name: "À propos"}]);
             }
+            else if ((this.$route.path == "/en/about")){
+                return c.concat([{name: "About"}]);
+            }
+
         }
     }
 }
@@ -32,7 +39,8 @@ export default {
 <style lang="scss">
 .breadcrumb {
     padding:0;
-    margin: 0 auto calc(var(--space) / 2) auto;
+    margin: 0 auto calc(2 * var(--space)) auto;
+    font-size: 0.8em;
 }
 
 </style>

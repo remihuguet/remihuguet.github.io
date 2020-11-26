@@ -16,8 +16,10 @@ body {
 a:not(.button) {
 	color: var(--link-color);
  	transition: opacity .2s;
-	&:hover {
-		opacity: .8;
+	text-decoration: underline;
+	 &:hover {
+		// text-decoration: underline;
+		opacity: .7;
 	}
 }
 

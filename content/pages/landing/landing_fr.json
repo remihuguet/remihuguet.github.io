@@ -1,0 +1,147 @@
+{
+    "id": "landing_fr",
+    "locale": "fr",
+    "rawpath": "landing",
+    "cta1": "Discutons 💬",
+    "cta3": "Engagez moi 💬",
+    "cta2": "Mettre à niveau ma stack logicielle 💬",
+    "presentation": [
+        "Bonjour! Je suis Rémi 👋",
+        "Je suis développeur logiciel 💻",
+        "J'aide les organisations à concevoir, construire et exécuter de meilleurs logiciels, plus rapidement 🚀"
+    ],
+    "valueprop": "Améliorez votre équipe tech ⚡",
+    "problems_intro": "Construire un logiciel avec les standards de qualité et de durabilité les plus élevées est difficile. Je peux vous aider:",
+    "solve_problems": [
+        "passer au niveau supérieur pour délivrer un meilleur logiciel, plus vite",
+        "reprenez le contrôle d'un logiciel legacy",
+        "créez un produit avec des pratiques de premier ordre"
+    ],
+    "who": "Qui je suis 💭",
+    "skills_presentation": ["Physicien théoricien (PhD) devenu ingénieur logiciel, je suis un apprenant constant avec une grande capacité d'adaptation, un  problem solver et un esprit créatif.", "Je crée des logiciels et encadre des équipes depuis 2008. Je cherche à créer des logiciels utiles, à aider les organisations à prospérer, à aider les développeurs à se développer et à améliorer leurs pratiques d'ingénierie."],
+    "skill_domain_1": ["🛠 Software craft expertise", "J'adhère à l'esprit du software craft - la qualité et la durabilité sont primordiales dans ma pratique", "Je pratique et perfectionne  le développement piloté par les tests (TDD), la conception pilotée par domaine (DDD), le développement lean et agile, l'intégration et le déploiement continus"],
+    "skill_domain_2": ["⌨ Ingénieur full-stack", "Mon coeur de compétences sont les backends et l'architecture", "Je cultive un large spectre de compétences, du produit aux opérations, en passant par le développement front-end"],
+    "skill_domain_3": ["🐍 Expertise Python", "Après des années avec Python comme langage principal, j'ai acquis une solide expertise et connaissance de l'écosystème","Du développement web aux applications scientifiques et data"],
+    "why_me_vp": "Mes plus secrets 🎯",
+    "why_me": [
+        "Transparence & franchise radicale - vous saurez ce que je pense être le mieux pour votre produit, ce que je fais et ce que j'ai fait à chaque étape de notre collaboration",
+        "Recherche d'excellence - J'apprends tous les jours pour atteindre l'excellence en ingénierie produit",
+        "Problem solver - Je cherche tous les problèmes de votre organisation produit et veut y remédier",
+        "J'ai tendance à utiliser la bienveillance, l'humour et trop de GIF comme moyens de communication."
+    ],
+    "offers_title": "Missions 🎟",
+    "offers_presentation": "Je propose les prestations suivantes",
+    "offer_1": [
+            "coding__1_sbxf45",
+            "Développement",
+            "Améliorer un produit existant - aider l'équipe à atteindre le niveau supérieur",
+            "Reprendre le contrôle de votre legacy - retrouver qualité et vélocité",
+            "Concevoir et démarrer un nouveau produit - seul ou avec une équipe"
+    ],
+    "offer_2": [
+        "team_work_jtjsh2",
+        "Accompagnement craft - premiers pas en équipe",
+        "Ateliers et mise en pratiques - développement piloté par les tests, conception pilotée par le domaine, architecture propre, intégration continue",
+        "Travailler intégré à l'équipe pour atteindre les premier jalons: le premier test, commencer l'intégration continuer, construire un flow agile adapté à l'équipe"
+    ],
+    "skills": [
+        [
+            "Languages and frameworks", [
+                "Python",
+                "Django",
+                "Javascript",
+                "VueJS",
+                "HTML",
+                "CSS",
+                "Numpy",
+                "Jupyter",
+                "Gridsome"
+            ]
+        ],
+        [
+            "Databases", [
+                "SQL",
+                "PostgreSQL",
+                "MySQL"
+            ]
+        ],
+        [
+            "Design",
+            [
+                "Web architecture",
+                "Software design",
+                "REST API",
+                "Mobile applications"
+            ]
+        ],
+        [
+            "Software craft", [
+                "TDD",
+                "DDD",
+                "Clean code",
+                "Clean architecture",
+                "CI / CD",
+                "Agile: Kanban, Flow, XP"
+            ]
+        ],
+        [
+            "Management", [
+                "Tech leadership",
+                "CTO",
+                "Team management",
+                "Project management",
+                "Gitlab",
+                "Jira"
+            ]
+        ],
+        [
+            "Ops", [
+                "Cloud computing",
+                "Docker",
+                "AWS",
+                "Sentry",
+                "Paas: Platform.sh, Clever Cloud",
+                "Nginx",
+                "Gitlab CI",
+                "Linux",
+                "Gunicorn",
+                "Git "
+            ]
+        ]
+    ],
+    "testimonies_title": "Témoignages ⭐",
+    "testimonies": [
+        {
+            "name": "Mickaël Hoareau",
+            "image": "micka_ijnnhj.jpeg",
+            "context": "Ingénieur logiciel - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "text": "Votre équipe de développeur a la capacité de s'organiser mieux, mais n'y arrive pas seul.[...]Rémi, c'est clairement la personne qui peut aider une petite équipe à se structurer, il a une facilité déconcertante à plonger dans du code qu'il ne connaît pas, à le corriger, à l'améliorer, à former les équipes pour ne plus retomber dans les mêmes pièges. Il cherche les solutions qui s'adaptent le mieux au fonctionnement de l'équipe.\n C'est un véritable atout à avoir dans l'équipe, sans parler de sa bienveillance, de sa bonne humeur et de sa capacité à bosser à 100% en télétravail et à s'adapter aux collègues en décalage horaire."
+        },
+        {
+            "name": "Elie Sloïm",
+            "image": "elie_y6wxuo.jpeg",
+            "context": "CEO et fondateur - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "text": "[...]La situation technique de la société avant la mission de Rémi était la suivante : une dette technique importante, un code legacy très lourd et peu évolutif,[...] des temps de développements longs, des applications trop fragiles [...] Rémi a travaillé avec les équipes de développeurs et avec le reste des équipes. [...] Il a organisé des ateliers auprès des développeurs et changé en profondeur à la fois les modes de travail, l’architecture, et les choix technologiques de l’entreprise. [...] Rémi a fait preuve d’une écoute et d’une capacité d’adaptation hors du commun, pouvant passer avec aisance d’un chantier stratégique à un chantier de traitement de bugs [...] Son intervention auprès d’une équipe est au minimum utile et au moins en ce qui concerne Opquast, a été extrêmement rentable. [...]"
+        },
+        {
+            "name": "Régis Floret",
+            "context": "Ingénieur logiciel - Actiwine",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.linkedin.com/in/regis-floret-09728458/",
+            "image": "regis_ezqj1j.jpeg",
+            "text": "J'ai eu l'occasion de travailler avec Rémi pendant un an et sous son impulsion je n'ai jamais autant progressé et en aussi peu de temps. Avec lui, j'ai eu le sentiment d'être à la pointe de ce qui se fait, tant dans le domaine de la conception que dans l'utilisation des dernières technologies.[...]"
+        },
+        {
+            "name": "Samuel Martin",
+            "context": "Software engineer - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "image": "sam_ilb6xj",
+            "text": "[...] Il y a des rencontres que l’on sait importantes[...] La rencontre de Rémi fait partie  d’une étape importante, [...] a très largement consolidé la qualité de production et la résilience de l’équipe technique Opquast. Rémi, doté d’une incroyable bienveillance, a la capacité rare de comprendre immédiatement votre projet, votre module, votre code, d’en tirer ses faiblesses, d’entrevoir les axes d’améliorations. Rémi vous accompagne et vous emmène à revoir vos schémas de pensée, vous invite à vous poser les bonnes questions pour répondre aux besoins fonctionnels de vos utilisateurs. [...] Rémi maitrise la technique, Django chez nous, les concepts, une grande partie des designs patterns mais son expérience professionnelle lui permet de proposer un accompagnement et des formations toujours éclairées jamais dogmatiques [...]"
+        }
+    ]
+}

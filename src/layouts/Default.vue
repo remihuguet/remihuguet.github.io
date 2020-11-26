@@ -2,9 +2,11 @@
   <div id="app">
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" />
         <slot name="headerleft"></slot>
-      </div>  
+      </div>
+      <div class="header__center">
+        <a href="/">Rémi Huguet</a>
+      </div>
       <div class="header__right">
         <Links />
       </div>
@@ -22,8 +24,9 @@
         <span class="footer__copyright">© {{ new Date().getFullYear() }} Rémi Huguet.</span>
         <span class="footer__links">
           Site propulsé par
-          <a href="//gridsome.org" target="_blank" rel="noreferrer">Gridsome</a>.
-          Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <a href="//gridsome.org"  title="Gridsome" target="_blank" rel="noreferrer">Gridsome</a>. <br />
+          Icons made by <a href="http://www.freepik.com/" target="_blank" rel="noreferrer" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> <br />
+          Illustrations made by <a href="https://www.manypixels.co" target="_blank" rel="noreferrer" title="Manypixels">Manypixels</a>
         </span>
       </p>
     </footer>
@@ -56,16 +59,30 @@ export default {
   display: flex;
   justify-content: space-between;
   min-height: var(--header-height);
-  padding: 0 0 calc(var(--space) / 3) 0;
-  max-width: var(--content-width);
-  margin: calc(var(--space) / 2) auto;
-  border-bottom: solid 5px var(--link-color);
+  padding: calc(2 * var(--space)) calc(8 * var(--space));
+  margin: 0 0 calc(2 * var(--space)) 0;
+  background-color:var(--cultured);
+  box-shadow: 0px 2px 5px var(--platinum);
 
   &__left,
-  &__right {
+  &__right,
+  &__center {
     display: flex;
+    flex-basis: 33%;
     align-items: center;
   }
+  &__center {
+    font-weight: 700;
+    color: var(--independence);
+    justify-content: center;
+  }
+  &__left {
+    justify-content: flex-start;
+  }
+  &__right {
+    justify-content: flex-end;
+  }
+
 }
 
 .main {
@@ -80,7 +97,7 @@ export default {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.05);
   margin-top: 3rem;
-  padding: calc(var(--space) / 2);
+  padding: calc(2 * var(--space));
   text-align: center;
   font-size: 0.8em;
 
@@ -90,12 +107,13 @@ export default {
 
   &__copy {
     margin: 0.5rem 0;
+    font-size: 0.7em;
   }
 }
 
 @media screen and (max-width: 920px) {
   .header {
-    padding: 0 calc(var(--space) / 3) calc(var(--space) / 3) calc(var(--space) / 3);
+    padding: 0 var(--space) var(--space) var(--space);
   }
 }
 

@@ -1,0 +1,147 @@
+{
+    "id": "landing_en",
+    "locale": "en",
+    "rawpath": "landing",
+    "cta1": "Let's talk 💬",
+    "cta3": "Hire me 💬",
+    "cta2": "Upgrade my software stack! 💬",
+    "presentation": [
+        "Hello! I'm Rémi 👋",
+        "I'm a software developper 💻",
+        "I help organisations design, build and run better softwares, faster 🚀"
+    ],
+    "valueprop": "Upgrade your tech team ⚡",
+    "problems_intro": "Building software with highest quality and sustainability standards is hard. I can help software team:",
+    "solve_problems": [
+        "level up to deliver better software, faster",
+        "take back control of legacy software",
+        "build software product with top notch practices"
+    ],
+    "who": "Who am I 💭",
+    "skills_presentation": ["Theoretical physicist (PhD) turned software engineer, I am a constant learner with great ability to adapt, a strong problem solver and a creative mind.", "I build software and manage teams since 2008. I seek to build useful software, help organisations thrive, help developers grow and improve engineering practices."],
+    "skill_domain_1": ["🛠 Software craft expertise", "I adhere to craft mindset - quality and sustainability are paramount to my practice", "I practice and learn Test Driven Development, Domain Driven Design, lean and agile development, continuous integration and deployment"],
+    "skill_domain_2": ["⌨ Full-stack engineer", "My main focus is on backends and architecture", "I cultivate a large spectrum of skills, from product to operations, and front-end development"],
+    "skill_domain_3": ["🐍 Python expertise", "After years with Python as my primary language, I got a strong expertise with the ecosystem","From web development, to scientific and data applications"],
+    "why_me_vp": "My unfair advantages 🎯",
+    "why_me": [
+        "Transparency & radical candor - you'll know what I think is best for your product, what I'm doing and what I've done at every step of our collaboration",
+        "Excellence seeking - I'm learning everyday to achieve excellence in product engineering",
+        "Problem solver - I'll chase every problem in your product organisation to tackle it",
+        "I tend to use kindness, humor and too much GIFs as communication tools."
+    ],
+    "offers_title": "Missions 🎟",
+    "offers_presentation": "Here are the main service offers I propose",
+    "offer_1": [
+            "coding__1_sbxf45",
+            "Software development",
+            "Improve existing product - help team reach the upper level",
+            "Take back control of your legacy software - recover quality and velocity",
+            "Design and start a new product - alone or with a team"
+    ],
+    "offer_2": [
+        "team_work_jtjsh2",
+        "Craft apprenticeship - team first steps",
+        "Workshops and practical hands-on - testing, Test Driven Development, Domain Driven Design, clean architecture, lean & flow agile",
+        "Work with team to reach the first milestones: the first test, starting continuous integration, build an agile flow tailored to the team"
+    ],
+    "skills": [
+        [
+            "Languages and frameworks", [
+                "Python",
+                "Django",
+                "Javascript",
+                "VueJS",
+                "HTML",
+                "CSS",
+                "Numpy",
+                "Jupyter",
+                "Gridsome"
+            ]
+        ],
+        [
+            "Databases", [
+                "SQL",
+                "PostgreSQL",
+                "MySQL"
+            ]
+        ],
+        [
+            "Design",
+            [
+                "Web architecture",
+                "Software design",
+                "REST API",
+                "Mobile applications"
+            ]
+        ],
+        [
+            "Software craft", [
+                "TDD",
+                "DDD",
+                "Clean code",
+                "Clean architecture",
+                "CI / CD",
+                "Agile: Kanban, Flow, XP"
+            ]
+        ],
+        [
+            "Management", [
+                "Tech leadership",
+                "CTO",
+                "Team management",
+                "Project management",
+                "Gitlab",
+                "Jira"
+            ]
+        ],
+        [
+            "Ops", [
+                "Cloud computing",
+                "Docker",
+                "AWS",
+                "Sentry",
+                "Paas: Platform.sh, Clever Cloud",
+                "Nginx",
+                "Gitlab CI",
+                "Linux",
+                "Gunicorn",
+                "Git "
+            ]
+        ]
+    ],
+    "testimonies_title": "Testimonies ⭐",
+    "testimonies": [
+        {
+            "name": "Mickaël Hoareau",
+            "image": "micka_ijnnhj.jpeg",
+            "context": "Software engineer - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "text": "Your team of developers have the capacity to organize themselves better, but they cannot do it alone. [...] Rémi is clearly the person who can help a small team to structure itself, he has a disconcerting ease in dive into code he does not know, correct it, improve it, train teams so as not to fall back into the same traps. He looks for the solutions that best adapt to the functioning of the team. It is a real asset to have in the team, not to mention his kindness, his good humor and his ability to work 100% remote and adapting to colleagues with jet lag."
+        },
+        {
+            "name": "Elie Sloïm",
+            "image": "elie_y6wxuo.jpeg",
+            "context": "CEO / founder - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "text": "[...]The technical situation of the company before Rémi's mission was as follows: a significant technical debt, a very heavy and not very scalable legacy code, [...] long development times, applications that were too fragile [...] Rémi worked with the developer teams and with the rest of the teams. [...] He organized workshops with developers and fundamentally changed both the ways of working, the architecture, and the technological choices of the company. [...] Rémi showed a listening and a capacity of adaptation out of the ordinary, being able to pass with ease from a strategic assignement to a treatment of bugs [...] His intervention with 'one team is at least useful and at least as far as Opquast is concerned, has been extremely profitable.[...]"
+        },
+        {
+            "name": "Régis Floret",
+            "context": "Software engineer - Actiwine",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.linkedin.com/in/regis-floret-09728458/",
+            "image": "regis_ezqj1j.jpeg",
+            "text": "I had the opportunity to work with Rémi for a year and under his leadership I have never progressed so much and in such a short time. With him, I had the feeling of being at the forefront of state of the art, both in the field of design and in the use of the latest technologies.[...]"
+        },
+        {
+            "name": "Samuel Martin",
+            "context": "Ingénieur logiciel - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "image": "sam_ilb6xj",
+            "text": "[...] There are meetings that we know are important [...] Rémi's meeting is part of an important step, [...] it has greatly consolidated the quality of production and the resilience of the Opquast technical team . Rémi, endowed with incredible benevolence, has the rare ability to immediately understand your project, your module, your code, to draw out its weaknesses, to see areas for improvement. Rémi accompanies you and takes you to review your thought patterns, invites you to ask yourself the right questions to meet the functional needs of your users. [...] Rémi masters the technique, Django with us, the concepts, a large part of the design patterns but his professional experience allows him to offer support and training that is always enlightened, never dogmatic [...]"
+        }
+    ]
+}

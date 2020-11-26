@@ -1,7 +1,6 @@
 import '~/assets/style/index.scss'
 import 'typeface-merriweather';
 import 'typeface-oswald';
-// import CountryFlag from 'vue-country-flag';
 import DefaultLayout from '~/layouts/Default.vue';
 
 
