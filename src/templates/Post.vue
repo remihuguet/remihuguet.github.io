@@ -29,6 +29,9 @@ export default {
   },
   metaInfo () {
     return {
+      htmlAttrs: {
+        lang: this.$page.post.locale
+      },
       title: this.$page.post.title,
       meta: [
         {

@@ -2,11 +2,12 @@
   <Localized :locale="$page.messages.locale" :rawpath="$page.messages.rawpath"> 
 
     <Presentation :presentations="$page.messages.presentation" :cta="$page.messages.cta1" />
+
     <BannerBloc 
       :valueprop="$page.messages.valueprop"
       :intro="$page.messages.problems_intro"
       :items="$page.messages.solve_problems"
-      :cta="$page.messages.cta1"
+      :cta="$page.messages.cta3"
     />
  
     <Skills 
@@ -22,6 +23,7 @@
       :presentation="$page.messages.offers_presentation"
       :title="$page.messages.offers_title"
       :offers="[$page.messages.offer_1, $page.messages.offer_2]"
+      :cta="$page.messages.cta3"
     />
 
 
@@ -54,6 +56,7 @@ query Landing ($id: ID!) {
     offer_2,
     cta1,
     cta2,
+    cta3,
     problems_intro,
     skills_presentation,
     offers_presentation,
@@ -103,7 +106,6 @@ export default {
   },
   metaInfo() {
     return {
-      title: 'Accueil',
       htmlAttrs: {
         lang: this.$page.messages.locale
       },
@@ -131,23 +133,5 @@ export default {
 </script>
 
 <style lang="scss">
-button.cta {
-  font-family: var(--font-body);
-  font-size: 1em;
-
-  border: none;
-  border-radius: var(--border-radius);
-  box-shadow: 2px 2px 5px var(--independence);
-  
-  background-color: var(--persian-green);
-  color: var(--white);
-
-  padding: calc(1.5 * var(--space)) calc(3 * var(--space));
-
-  align-self: center;
-  &:hover {
-    box-shadow: 5px 5px 10px var(--independence);
-  }
-}
 
 </style>

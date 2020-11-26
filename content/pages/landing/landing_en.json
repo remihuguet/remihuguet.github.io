@@ -2,7 +2,8 @@
     "id": "landing_en",
     "locale": "en",
     "rawpath": "landing",
-    "cta1": "Let's talk ! 💬",
+    "cta1": "Let's talk 💬",
+    "cta3": "Hire me 💬",
     "cta2": "Upgrade my software stack! 💬",
     "presentation": [
         "Hello! I'm Rémi 👋",
@@ -12,9 +13,9 @@
     "valueprop": "Upgrade your tech team ⚡",
     "problems_intro": "Building software with highest quality and sustainability standards is hard. I can help software team:",
     "solve_problems": [
-        "level up your team to deliver better and faster",
-        "take back control of your legacy software",
-        "build your product with top notch practices"
+        "level up to deliver better software, faster",
+        "take back control of legacy software",
+        "build software product with top notch practices"
     ],
     "who": "Who am I 💭",
     "skills_presentation": ["Theoretical physicist (PhD) turned software engineer, I am a constant learner with great ability to adapt, a strong problem solver and a creative mind.", "I build software and manage teams since 2008. I seek to build useful software, help organisations thrive, help developers grow and improve engineering practices."],

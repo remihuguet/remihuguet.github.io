@@ -17,15 +17,20 @@
         </div>
       </div>
       
-      <button class="cta">{{cta}}</button>
+      <contact-button :cta="cta" />
 
     </div>
   </div>
 </template>
 
 <script>
+import ContactButton from '~/components/landing/ContactButton.vue';
+
 export default {
-  props : ["domains", "presentation", "cta", "title"]
+  props : ["domains", "presentation", "cta", "title"],
+  components: {
+    ContactButton
+  }
 }
 </script>
 
@@ -34,7 +39,7 @@ export default {
 
 .bg-wrapper {
   background-color: var(--light-grey);
-  padding: calc(2 * var(--space)) calc(6 * var(--space));
+  padding: calc(2 * var(--space)) calc(6 * var(--space)) calc(4 * var(--space)) calc(6 * var(--space));
 
   @media screen and (max-width: 650px) {
     padding: calc(2 * var(--space)) calc(2 * var(--space));
@@ -52,7 +57,7 @@ export default {
 
     &__domains {
       display:flex;
-      margin: calc(2 * var(--space));
+      margin: calc(2 * var(--space)) calc(2 * var(--space)) 0 calc(2 * var(--space));
       justify-content: space-evenly;
 
       @media screen and (max-width: 1080px) {

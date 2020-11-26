@@ -9,14 +9,16 @@
         <ul>
           <li v-for="(p, i) in items" :key="i">{{p}}</li>
         </ul>
-        <button v-if="cta" class="cta">{{cta}}</button>
+        <contact-button :cta="cta" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import ContactButton from './ContactButton.vue'
 export default {
+  components: { ContactButton },
   props: ["valueprop", "items", "intro", "cta"]
 }
 </script>

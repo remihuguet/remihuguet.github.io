@@ -3,7 +3,7 @@
         <g-image alt="" class="me__image" :src="myself_url" blur="5"/>
         <div class="me__iam">
           <p v-for="(p, i) in presentations" :key="i">{{p}}</p>
-          <button class="cta">{{cta}}</button>
+          <contact-button :cta="cta" />
           <Social />
         </div>
     </div>
@@ -11,6 +11,7 @@
 
 <script>
 import Social from '~/components/Social.vue';
+import ContactButton from './ContactButton.vue';
 import {Cloudinary} from 'cloudinary-core';
 
 const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
@@ -18,6 +19,7 @@ const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
 export default {
   components: {
     Social,
+    ContactButton,
   },
   props: ["presentations", "cta"],
   computed: {

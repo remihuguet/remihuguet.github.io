@@ -16,34 +16,36 @@
           <p v-for="(p,i) in items(offer)" :key="i">{{p}}</p>
         </div>
       </div>
+      <contact-button :cta="cta" />
     </div>
   </div>
 </template>
 
 <script>
+import ContactButton from './ContactButton.vue';
 import {Cloudinary} from 'cloudinary-core';
 
 const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
 
-  export default {
-      props: ["presentation", "title", "offers"],
-      methods: {
-        items: function (offer) {
-          return offer.filter((v, i, a) => i > 1);
-        },
-        cloudy_url: function (img) {
-          return cl.url(img);
-        }
+export default {
+  components: { ContactButton },
+  props: ["presentation", "title", "offers", "cta"],
+  methods: {
+      items: function (offer) {
+        return offer.filter((v, i, a) => i > 1);
       },
-
-  }
+      cloudy_url: function (img) {
+        return cl.url(img);
+      }
+    }
+} 
 </script>
 
 <style lang="scss" scoped>
 
 .bg-wrapper {
   background-color: var(--light-grey);
-  padding: calc(2 * var(--space)) calc(6 * var(--space));
+  padding: calc(2 * var(--space)) calc(6 * var(--space)) calc(4 * var(--space)) calc(6 * var(--space));
 
   @media screen and (max-width: 650px) {
     padding: calc(2 * var(--space)) calc(2 * var(--space));

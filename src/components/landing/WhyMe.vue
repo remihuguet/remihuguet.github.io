@@ -8,20 +8,21 @@
           <li v-for="(p, i) in items" :key="i">{{p}}</li>
         </ul>
       </div>
-      <button class="cta">{{cta}}</button>
+      <contact-button :cta="cta" />
     </div>
   </div>
 </template>
 
 <script>
+import ContactButton from './ContactButton.vue'
 export default {
+  components: { ContactButton },
   props: ["valueprop", "items", "cta"]
 }
 </script>
 
 <style lang="scss" scoped>
 .bg-wrapper {
-  // background-color: var(--light-grey);
   padding: calc(2 * var(--space)) calc(6 * var(--space));
 
   .whyme {

@@ -15,16 +15,23 @@
 export default {
     computed: {
         crumbs () {
-            let c = [{name: 'Accueil', path: '/'}];
+            let c = [{name: 'Home', path: '/'}];
             if (this.$route.params.title) {
                 return c.concat([{name: "Blog", path: '/blog/'}, {name: this.$page.post.title}]);
             }
             else if (this.$route.path == "/blog/") {
                 return c.concat([{name: "Blog"}]);
             }
+            else if ((this.$route.path == "/fr/about")){
+                return c.concat([{name: "À propos"}]);
+            }
             else if ((this.$route.path == "/about/")){
                 return c.concat([{name: "À propos"}]);
             }
+            else if ((this.$route.path == "/en/about")){
+                return c.concat([{name: "About"}]);
+            }
+
         }
     }
 }

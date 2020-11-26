@@ -59,7 +59,7 @@ export default {
     Pager
   },
   metaInfo: {
-    title: 'Accueil'
+    title: 'Blog'
   },
   computed: {
     nextPageUrl() {
@@ -102,13 +102,11 @@ export default {
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   .title__title {
     font-size: 6em;
     margin: 0;
     color: var(--primary-color);
-    text-decoration: underline;
   }
 
   hr {
