@@ -2,12 +2,12 @@
     "$schema": "https://json.schemastore.org/resume",
     "basics": {
         "name": "Rémi Huguet",
-        "label": "Fullstack software engineer 💻 - Web & Python 🐍 expert - Crafter 🛠️ - Tech lead 🥇",
+        "label": "Fullstack software explorer 💻 - Web & Python 🐍 expert - Crafter 🛠️ - Tech lead 🥇",
         "image": "https://remihuguet.dev/assets/static/author.47aaf4d.0f798715a70e166dfa2aa160d2286178.jpg",
         "email": "me@remihuguet.dev",
         "phone": "(+33) 06 83 43 72 72",
         "url": "https://www.remihuguet.dev",
-        "summary": "I help organisations design, build and run great softwares. For that purpose, I continuously learn and perfect my craft of software engineering. I can help you with the following problems: \n- Creating your product with highest quality and sustainability standards\n- Help your team level up, improving quality and accelerate\n- Take back control of a legacy system",
+        "summary": "I help organisations design, build and run better softwares, faster 🚀. Building software with highest quality and sustainability standards is hard. I can help software team:\n- level up to deliver better software, faster\n- take back control of legacy software\n- build software product with top notch practices",
         "location": {
             "address": "Bordeaux region, France",
             "postalCode": "33000",

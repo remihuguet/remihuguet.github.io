@@ -2,15 +2,15 @@
     "$schema": "https://json.schemastore.org/resume",
     "basics": {
         "name": "Rémi Huguet",
-        "label": "Fullstack software engineer 💻 - Web & Python 🐍 expert - Crafter 🛠️ - Tech lead 🥇",
+        "label": "Fullstack software explorer 💻 - Web & Python 🐍 expert - Crafter 🛠️ - Tech lead 🥇",
         "image": "https://remihuguet.dev/assets/static/author.47aaf4d.0f798715a70e166dfa2aa160d2286178.jpg",
         "email": "me@remihuguet.dev",
         "phone": "(+33) 06 83 43 72 72",
         "url": "https://www.remihuguet.dev",
-        "summary": "J'aide les organisations à concevoir, construire et opérer des logiciels de qualité. Pour cela, j'apprends et perfectionne en permanence mon savoir faire en ingéniérie logicielle. Je peux vous aider avec les problèmes suivants : \n- Création de votre produit avec les normes de qualité et de durabilité les plus élevées \n - Aidez votre équipe à progresser, à améliorer la qualité et à accélérer \n - Reprendre le contrôle de votre software legacy",
+        "summary": "J'aide les organisations à concevoir, construire et exécuter de meilleurs logiciels, plus rapidement 🚀 Construire un logiciel avec les standards de qualité et de durabilité les plus élevées est difficile. Je peux vous aider:\n- passer au niveau supérieur pour délivrer un meilleur logiciel, plus vite\n- reprenez le contrôle d'un logiciel legacy\n- créez un produit avec des pratiques de premier ordre.",
         "location": {
             "address": "Région de Bordeaux, France",
-            "postalCode": "33000",
+            "postalCode": "33000", 
             "city": "Bordeaux",
             "countryCode": "FR",
             "region": "Aquitaine"
