@@ -117,5 +117,18 @@ export default {
   }
 }
 
+@media print {
+  body {
+    font-size: 12px;
+  }
+  
+  main, .main {
+    width: var(--content-width);
+    padding: 0;
+  }
 
+  .header, .footer {
+    display: none;
+  }
+}
 </style>

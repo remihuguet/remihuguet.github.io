@@ -1,4 +1,6 @@
 {
+    "locale": "fr",
+    "id": "resume_fr",
     "$schema": "https://json.schemastore.org/resume",
     "basics": {
         "name": "Rémi Huguet",

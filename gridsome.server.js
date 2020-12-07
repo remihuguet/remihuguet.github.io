@@ -15,6 +15,13 @@ module.exports = function (api) {
       });
     api.createPages(({ createPage }) => {
         createPage({
+          path: '/resume',
+          component: './src/templates/Resume.vue',
+          context: {'id': 'resume_en'}
+        });
+      });
+    api.createPages(({ createPage }) => {
+        createPage({
           path: '/about',
           component: './src/pages/fr/About.vue'
         });

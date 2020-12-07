@@ -92,9 +92,6 @@ import Offers from '~/components/landing/Offers.vue';
 import Testimony from '~/components/landing/Testimony.vue';
 import WhyMe from '~/components/landing/WhyMe.vue';
 
-import {Cloudinary, Layer, TextLayer} from 'cloudinary-core';
-
-const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
 
 export default {
   components: {
@@ -107,19 +104,6 @@ export default {
     Offers,
     Testimony,
     WhyMe
-  },
-  computed: {
-    cloudy_image: function () {
-      return cl.url('cover.jpg', {transformation: [
-        {height: 380, width: 1200, crop: "thumb"},
-        {height: 380, overlay: new Layer().publicId("cover_xb5won"), opacity: 51, width: 1200, crop: "scale"},
-        {
-          overlay: new TextLayer().fontFamily("Oswald").fontSize(100).fontWeight("bold").text(this.$page.metadata.siteName),
-          effect: "colorize",
-          color: "white"
-        },
-      ]});
-    }
   },
   metaInfo() {
     return {
@@ -142,10 +126,6 @@ export default {
         {
           property: "og:url",
           content: this.$page.metadata.siteUrl
-        },
-        {
-          property: "og:image",
-          content: this.cloudy_image
         }
       ]
     };

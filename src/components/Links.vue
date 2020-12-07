@@ -4,6 +4,9 @@
             <g-link to="/blog/">Blog</g-link>
         </li>
         <li>
+            <g-link to="/resume/">CV</g-link>
+        </li>
+        <li>
             <g-link to="/about/">About</g-link>
         </li>
     </ul>

@@ -57,10 +57,18 @@ body {
     --space: 0.5rem;
     --header-height: 30px;
     --content-width: 820px;
-
   }
 }
 
+@media print {
+  html {
+    --base-font-size: 14px;
+  }
+  body {
+    --space: 0.25rem;
+    --content-width: 600px;
+  }
+}
 
 // Override variables for Dark theme
 body[data-theme="dark"] {

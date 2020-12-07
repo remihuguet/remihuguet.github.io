@@ -7,6 +7,7 @@ module.exports = {
   },
   templates: {
     Landing: '/:locale/:rawpath',
+    Resume: '/:locale/resume',
     Post: '/blog/:year/:month/:day/:title',
     Tag: '/tag/:id'
   },
@@ -16,6 +17,13 @@ module.exports = {
       options: {
         typeName: 'Landing',
         path: 'content/pages/landing/*.json',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Resume',
+        path: 'content/pages/resume/resume_*.json',
       }
     },
     {

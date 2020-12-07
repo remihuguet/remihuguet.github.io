@@ -1,15 +1,18 @@
 {
+    "locale": "en",
+    "id": "resume_en",
     "$schema": "https://json.schemastore.org/resume",
     "basics": {
         "name": "Rémi Huguet",
-        "label": "Fullstack software explorer 💻 - Web & Python 🐍 expert - Crafter 🛠️ - Tech lead 🥇",
+        "label": "Software&nbsp;engineer&nbsp;💻 -  Crafter&nbsp;🛠️ - Python&nbsp;🐍&nbsp;&&nbsp;web&nbsp;expert - Tech&nbsp;lead&nbsp;🥇",
         "image": "https://remihuguet.dev/assets/static/author.47aaf4d.0f798715a70e166dfa2aa160d2286178.jpg",
         "email": "me@remihuguet.dev",
-        "phone": "(+33) 06 83 43 72 72",
-        "url": "https://www.remihuguet.dev",
-        "summary": "I help organisations design, build and run better softwares, faster 🚀. Building software with highest quality and sustainability standards is hard. I can help software team:\n- level up to deliver better software, faster\n- take back control of legacy software\n- build software product with top notch practices",
+        "phone": "(+33)6 83 43 72 72",
+        "url": "remihuguet.dev",
+        "summary": "I help organisations design, build and run better softwares, faster 🚀. Building software with highest quality and sustainability standards is hard. I can help software team:",
+        "summary_items": ["level up to deliver better software, faster", "take back control of legacy software", "build software product with top notch practices"],
         "location": {
-            "address": "Bordeaux region, France",
+            "address": "Bordeaux, France",
             "postalCode": "33000",
             "city": "Bordeaux",
             "countryCode": "FR",
@@ -46,37 +49,24 @@
             "url": "https://www.opquast.com",
             "startDate": "2020-02-01",
             "endDate": "2021-01-31",
-            "summary": "Opquast is the skills certification for web professions and offers a repository of good practices, online training and skills certification. After validating its model, Opquast is accelerating its development in France, and will open internationally. \nI help Opquast team to prepare the software platform and the technical team for scaling up.\n- advice and strategy on the technical trajectory with the CEO\n- architecture trajectory of the platform\n- development of new features\n- coaching and development of craft skills of the technical team (2 developers)\n Actions:\n- action plan and architecture for consolidation of legacy software\n- action plan for the implementation of a new infrastructure: gradual transition to Paas, use of managed services\n- review and improvement of the organization of developments: communication, follow-up of problems\n- implementation of automated tests\n- implementation of continuous integration\n- training and support for the team to build skills: clean code, automated tests, TDD, Clean architecture, introduction to DDD\n- development of new features",
-            "highlights": [
-                "Development of new features including dedicated IAM service, passing of exam under automatic supervision",
-                "Change from zero test coverage to 50% on the administration platform",
-                "Technical team working with TDD and improving daily on craft",
-                "Refocusing on the core business product: shutdowns of many services leading to the removal of thousands of lines of code and expansive infrastructures",
-                "Simplification of infrastructure, migration to Paas Platform.sh",
-                "TDD, Clean architecture, Kanbon flow, DDD, Python, Django, PostgreSQL, Platform.sh, Docker, Gitlab CI, PHP, Wordpress, MySQL"
-            ]
-        },
-        {
-            "name": "Rhug",
-            "position": "Freelance Software engineer",
-            "url": "https://remihuguet.dev",
-            "startDate": "2017-12-31",
-            "endDate": "",
-            "highlights": [
-            ],
-            "summary": "- Web development expertise - full-stack profile with a focus on backends and services architectures\n- Craft expertise - TDD, DDD, Clean architecture and clean, CI / CD, Flow\n- Python expertise - Craft with python (TDD, Clean architecture and clean code, DDD patterns)"
+            "summary": "Opquast is the skills certification for web professions and offers a repository of good practices, online training and skills certification. I helped Opquast team prepare the software platform and the tecj team for scaling up.",
+            "missions": [],
+            "actions": ["strategic analysis, architecture and implementation of improvements of legacy software", "migration to a new infrastructure: gradual transition to Paas, use of managed services", "improvement of the development flow: Kanban flow implementation, improving communication and Gitlab usage", "creation of automated tests (0 to 60 % coverage ) and set-up of continuous integration", "training of the team: clean code, automated tests, TDD, Clean architecture, introduction to DDD", "Development of new features"],
+            "highlights": []
         },
         {
             "name": "eshard",
             "position": "Lead Developer",
             "startDate": "2018-02-28",
             "endDate": "2020-01-31",
-            "summary": "eshard is a startup expert in security of connected objects.\nesDynamic is the software platform for security experts. Based on the best open-source tools for data science (Jupyterlab, Python, Numpy), esDynamic provides analysis tools for traditional or deep-learning side-channel attacks, as well as tracing tools and software faults for cryptographic white boxes. I'm leading the esdynamic product team.",
+            "summary": "eshard is a startup expert in security of connected objects. esDynamic is the software platform for security experts. Based on the best open-source tools for data science (Jupyterlab, Python, Numpy), esDynamic provides analysis tools for traditional or deep-learning side-channel attacks, as well as tracing tools and software faults for cryptographic white boxes. I'm leading the esdynamic product team.",
+            "actions": [],
+            "missions": [],
             "highlights": [
-                "Driving the roadmap and product development esDynamic",
-                "Architecture and development of the open-source scared library",
-                "Management of the core dev team and contributors security experts",
                 "Implementation and evangelization of the best software practices",
+                "Architecture and development of the open-source scared library",
+                "Driving the roadmap and product development esDynamic",
+                "Management of contributions from the core dev team and contributors security experts",
                 "TDD, DDD, Python, Jupyter Notebook, Jupyter Lab, Numpy, Gitlab CI, Docker"
             ],
             "url": "https://eshard.com"
@@ -87,13 +77,15 @@
             "endDate": "2017-11-30",
             "position": "Chief Technology Officer",
             "summary": "Actiwine is an online marketplace for wine professionals. I join the company at its start to build the product. Actiwine raises 0.5M € in 2016 to support its development.\nI join the founding team to develop the platform and lead the technology.",
+            "actions": [],
+            "missions": [],
             "highlights": [
                 "Architecture, design and development of the marketplace",
                 "Recruitment and management of the product team (3 developers)",
                 "Organization and structuring of product and technical processes",
                 "Kanban Flow, Python, Django, PostgreSQL Javascript, Vue.js, Webpack, HTML, CSS & SCSS, Amazon WebServices"
             ],
-            "url": "https://web.archive.org/web/20190520090417/https://www.actiwine.com/"
+            "url": ""
         },
         {
             "name": "Tiki Move",
@@ -101,6 +93,8 @@
             "endDate": "2015-03-31",
             "position": "Partner & production manager",
             "summary": "Created in 2008, Tiki Move is a company specialized in the development of applications and video games on mobile platforms. In a few years, Tiki Move delivers more than 100 applications, and addresses the development of multichannel digital devices on behalf of its customers. In 2014, Tiki Move joined Clever Age to strengthen the mobile division.\nI joined Tiki Move in 2011 as Production Manager to support the growth of the company.",
+            "actions": [],
+            "missions": [],
             "highlights": [
                 "Architecture and developments for backends and mobile apps",
                 "Recruitment and management of the team: from 5 to 15 devs between 2011 and the end of 2012",
@@ -118,6 +112,8 @@
             "startDate": "2008-10-31",
             "endDate": "2011-04-30",
             "summary": "As part of the SICOM (SI COMmercial) application maintenance third party on behalf of EDF, I carried out various missions on a service production application for the billing of EDF's key account customers.",
+            "actions": [],
+            "missions": [],
             "highlights": [
                 "Responsible for the MOC activity (3 FTEs) then application manager (5 FTEs, evolutions> 300 days / hour)",
                 "Technical and functional analyst",
@@ -131,6 +127,8 @@
             "position": "PhD researcher and teacher",
             "startDate": "2005-09-30",
             "summary": "Group of Theoretical Physics",
+            "actions": [],
+            "missions": [],
             "highlights": [
                 "creation of models of description of the stable nuclear matter from the sub-nucleonic degrees of freedoms",
                 "Teachings in license: general physics, special relativity, computer science for the physics, formation in the professional project."
@@ -152,7 +150,7 @@
         {
             "institution": "Université de Bordeaux",
             "area": "Physics",
-            "studyType": "Bachelor & Master degrees",
+            "studyType": "Master degree",
             "startDate": "2003-12-31",
             "endDate": "2005-12-31",
             "score": "Very good (Highest grade - 'Mention très bien')",
@@ -201,27 +199,25 @@
     ],
     "skills": [
         {
-            "name": "Languages and frameworks",
+            "name": "Software craft",
+            "level": "",
+            "keywords": [
+                "Web architecture",
+                "TDD",
+                "DDD",
+                "Clean code & architecture",
+                "Agile Kanban & Flow",
+                "Continuous Integration"
+            ]
+        },
+        {
+            "name": "Languages & frameworks",
             "level": "",
             "keywords": [
                 "Python",
                 "Django",
                 "Javascript",
-                "VueJS",
-                "HTML",
-                "CSS",
-                "Numpy",
-                "Jupyter",
-                "Gridsome"
-            ]
-        },
-        {
-            "name": "Software design",
-            "level": "",
-            "keywords": [
-                "Web architecture",
-                "REST API",
-                "Mobile applications"
+                "VueJS"
             ]
         },
         {
@@ -229,49 +225,17 @@
             "level": "",
             "keywords": [
                 "SQL",
-                "PostgreSQL",
-                "MySQL"
-                
-            ]
-        },
-        {
-            "name": "Software craft",
-            "level": "",
-            "keywords": [
-                "TDD",
-                "DDD",
-                "Clean code",
-                "Clean architecture",
-                "CI / CD",
-                "Agile: Kanban, Flow, XP"
-            ]
-        },
-        {
-            "name": "Management",
-            "level": "",
-            "keywords": [
-                "Tech leadership",
-                "CTO",
-                "Team management",
-                "Project management",
-                "Gitlab",
-                "Jira"
+                "PostgreSQL"
             ]
         },
         {
             "name": "Ops and tools",
             "level": "",
             "keywords": [
-                "Cloud computing",
-                "Docker",
-                "AWS",
-                "Sentry",
-                "Paas: Platform.sh, Clever Cloud",
-                "Nginx",
+                "Git",
                 "Gitlab CI",
-                "Linux",
-                "Gunicorn",
-                "Git"
+                "Docker",
+                "Cloud basic usage: AWS, Paas( Platform.sh, Clever Cloud)"
             ]
         }
     ],
