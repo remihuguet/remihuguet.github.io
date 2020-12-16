@@ -61,11 +61,12 @@ export default {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
+      flex-direction: row;
 
       &__testimony {
         display: flex;
         flex-direction: column;
-        flex-basis: 25%;
+        flex-basis: 40%;
         flex-shrink: 0;
         flex-grow: 0;
         justify-content: space-between;
