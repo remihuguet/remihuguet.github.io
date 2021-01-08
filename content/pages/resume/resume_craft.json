@@ -1,0 +1,232 @@
+{
+    "locale": "craft",
+    "id": "resume_craft",
+    "$schema": "https://json.schemastore.org/resume",
+    "basics": {
+        "name": "Rémi Huguet",
+        "label": "Software&nbsp;engineer&nbsp;💻 - Coach Craft&nbsp;🛠️",
+        "image": "https://remihuguet.dev/assets/static/author.47aaf4d.0f798715a70e166dfa2aa160d2286178.jpg",
+        "email": "me@remihuguet.dev",
+        "phone": "(+33) 06 83 43 72 72",
+        "url": "remihuguet.dev",
+        "summary": "J'aide les organisations à concevoir, construire et exécuter de meilleurs logiciels, plus rapidement 🚀. Adepte de l'approche \"craft\", je peux aider l'équipe logicielle à progresser sur ce chemin:",
+        "summary_items":  [
+            "passer au niveau supérieur pour délivrer un meilleur logiciel, plus vite",
+            "reprendre le contrôle d'un logiciel legacy",
+            "créer un produit avec les meilleures pratiques du craft"
+        ],
+        "location": {
+            "address": "Région de Bordeaux, France",
+            "postalCode": "33000", 
+            "city": "Bordeaux",
+            "countryCode": "FR",
+            "region": "Aquitaine"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "remihuguet",
+                "url": "https://www.linkedin.com/in/remihuguet/"
+            },
+            {
+                "network": "Twitter",
+                "username": "RemiHuguet",
+                "url": "https://twitter.com/RemiHuguet"
+            },
+            {
+                "network": "Github",
+                "username": "remihuguet",
+                "url": "https://github.com/remihuguet"
+            },
+            {
+                "network": "Malt",
+                "username": "remihuguet",
+                "url": "https://www.malt.fr/profile/remihuguet"
+            }
+
+        ]
+    },
+    "work": [
+        {
+            "name": "Opquast",
+            "position": "Coach craft & ingénieur logiciel indépendant",
+            "url": "https://www.opquast.com",
+            "startDate": "2020-02-01",
+            "endDate": "2021-01-31",
+            "summary": "Opquast est la certification de compétences pour les métiers du web et propose un référentiel de bonnes pratiques, des formations en ligne et une certification. J'aide l'équipe d'Opquast à préparer la plateforme logicielle et l'équipe technique au passage à l'échelle.",
+            "missions": [],
+            "actions": [
+                "coaching craft de l'équipe: code propre, tests automatisés, TDD, architecture propre, introduction à DDD",
+                "amélioration du flux de développement: implémentation du flux Kanban, amélioration de la communication et de l'utilisation de Gitlab",
+                "création de tests automatisés (couverture de 0 à 60%) et mise en place d'une intégration continue",
+                "analyse stratégique, architecture et mise en œuvre des améliorations des logiciels existants",
+                "migration vers une nouvelle infrastructure: transition progressive vers Paas, utilisation de services gérés",
+                "développement de nouvelles fonctionnalités"
+            ],
+            "highlights": []
+        },
+        {
+            "name": "eshard",
+            "position": "Lead Developer",
+            "startDate": "2018-02-28",
+            "endDate": "2020-01-31",
+            "summary": "eshard est une startup experte en sécurité des objets connectés. esDynamic est la plateforme logicielle des experts en attaque side-channel. Basée sur les meilleurs outils open-source pour la science des données (Jupyterlab, Python, Numpy), esDynamic fournit des outils d'analyse pour les attaques side-channel, en deep-learning, ainsi que des outils de traçage et des défauts logiciels pour les boîtes blanches cryptographiques. Je dirige l'équipe produit esdynamic et coach l'équipe pour l'adoption des meilleures pratiques.",
+            "actions": [],
+            "missions": [],
+            "highlights": [
+                "Implémentation, évangélisation et coaching de l'équipe sur les pratiques craft",
+                "Gestion des contributions de l'équipe de développement principale et des experts en sécurité contributeurs",
+                "Piloter la feuille de route et le développement produit esDynamic",
+                "Architecture et développement de la bibliothèque open-source scared",
+                "TDD, DDD, Python, Jupyter Notebook, Jupyter Lab, Numpy, Gitlab CI, Docker"
+            ],
+            "url": "https://eshard.com"
+        },
+        {
+            "name": "Actiwine",
+            "startDate": "30/04/2015",
+            "endDate": "2017-11-30",
+            "position": "Chief Technology Officer",
+            "summary": "Actiwine est une place de marché en ligne pour les professionnels du vin. Je rejoins l'entreprise à ses débuts pour construire le produit. Actiwine lève 0,5M € en 2016 pour soutenir son développement.",
+            "actions": [],
+            "missions": [],
+            "highlights": [
+                "Architecture, conception et développement de la marketplace",
+                "Recrutement et management de l'équipe produit (3 développeurs)",
+                "Organisation et structuration du produit et des processus techniques",
+                "Flux Kanban, Python, Django, Javascript PostgreSQL, Vue.js, Webpack, HTML, CSS et SCSS, Amazon WebServices"
+            ],
+            "url": ""
+        },
+        {
+            "name": "Tiki Move",
+            "startDate": "2011-05-31",
+            "endDate": "31/03/2015",
+            "position": "Associé et directeur de production",
+            "summary": "Créée en 2008, Tiki Move est une société spécialisée dans le développement d'applications et de jeux vidéo sur des plateformes mobiles. En quelques années, Tiki Move délivre plus de 100 applications, et aborde le développement de dispositifs numériques multicanaux. En 2014, Tiki Move a rejoint Clever Age pour renforcer la division mobile. J'ai rejoint Tiki Move en 2011 en tant que directeur de production pour accompagner la croissance de l'entreprise.",
+            "Actions": [],
+            "missions": [],
+            "points forts": [
+                "Architecture et développements pour les backends et les applications mobiles",
+                "Recrutement et management de l'équipe: de 5 à 15 devs entre 2011 et fin 2012",
+                "Gestion de projet et de production",
+                "Processus de développement et de livraison, système qualité",
+                "Gestion de l'intégration Tiki Move au sein de Clever Age",
+                "Développement et gestion d'une activité de développement avec un partenaire offshore (Vietnam)",
+                "Python, Django, Amazon WebServices, flux Kanban, Google AppEngine, Android, iOS"
+            ],
+            "url": ""
+        },
+        {
+            "nom": "Logica",
+            "position": "Ingénieur logiciel",
+            "startDate": "2008-10-31",
+            "endDate": "2011-04-30",
+            "résumé": "Dans le cadre de la tierece maintenance applicative SICOM (SI COMmercial) pour le compte d'EDF, j'ai réalisé diverses missions sur une application de production de services pour la facturation des clients grands comptes d'EDF.",
+            "Actions": [],
+            "missions": [],
+            "points forts": [
+                "Responsable de l'activité MOC (3 ETP) puis responsable applicatif (5 ETP, évolutions> 300 jours / heure)",
+                "Analyste technique et fonctionnel",
+                "Design et développement"
+            ],
+            "url": ""
+        },
+        {
+            "name": "CENBG",
+            "endDate": "2008-08-31",
+            "position": "PhD researcher and teacher",
+            "startDate": "2005-09-30",
+            "summary": "Groupe de physique théorique",
+            "highlights": [
+                "Création de modèles de description de la matière nucléaire stable à partir des degrés sous-nucléoniques de libertés",
+                "Enseignements en licence: physique générale, relativité restreinte, informatique pour la physique, formation au projet professionnel."
+            ],
+            "url": ""
+        }
+    ],
+    "education": [
+        {
+            "institution": "Université de Bordeaux",
+            "area": "Physique théorique",
+            "studyType": "Doctorat",
+            "startDate": "2005-12-31",
+            "endDate": "2008-12-31",
+            "score": "",
+            "courses": []
+        },
+        {
+            "institution": "Université de Bordeaux",
+            "area": "Physique",
+            "studyType": "Licence & Master recherche",
+            "startDate": "2003-12-31",
+            "endDate": "2005-12-31",
+            "score": "Mention très bien",
+            "courses": []
+        },
+        {
+            "institution": "Classe préparatoire aux grandes écoles, Lycée Camille Jullian",
+            "area": "Physique - Chimie",
+            "studyType": "PCSI - PC",
+            "startDate": "2001-12-31",
+            "endDate": "2002-12-31",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "skills_intro": "Je suis un ingénieur logiciel avec des valeurs artisanales (mouvement \"craft\").  Bien que mes principales compétences techniques sont concentrées sur les backends et l'architecture, je cultive un large spectre de compétences, du produit aux opérations, et au  front-end.",
+    "skills_title": "Principales compétences",
+    "skills": [
+        {
+            "name": "Craft",
+            "level": "",
+            "keywords": [
+                "XP",
+                "TDD",
+                "DDD",
+                "Clean code & architecture",
+                "Agile Kanban, Flow",
+                "Continuous Integration",
+                "Web architecture"
+            ]
+        },
+        {
+            "name": "Languages & frameworks",
+            "level": "",
+            "keywords": [
+                "Python",
+                "Django",
+                "Javascript",
+                "VueJS"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "",
+            "keywords": [
+                "SQL",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "name": "Ops and tools",
+            "level": "",
+            "keywords": [
+                "Git",
+                "Gitlab CI",
+                "Docker",
+                "Cloud basic usage: AWS, Paas( Platform.sh, Clever Cloud)"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional"
+        }
+    ]
+}
