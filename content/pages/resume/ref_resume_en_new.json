@@ -136,6 +136,7 @@
             "url": ""
         }
     ],
+    "volunteer": [],
     "education": [
         {
             "institution": "Université de Bordeaux",
@@ -165,8 +166,37 @@
             "courses": []
         }
     ],
-    "skills_intro": "I'm a full-stack engineer with craft attitude. Although my main focus is on backends and architecture, I cultivate a large spectrum of skills, from product to operations, and front-end development.",
-    "skills_title": "Main skills",
+    "awards": [],
+    "publications": [
+        {
+            "name": "Nuclear matter descriptions including quark structure of the hadrons",
+            "publisher": "PhD Thesis",
+            "releaseDate": "2008-07-01",
+            "url": "https://tel.archives-ouvertes.fr/tel-00410091/document",
+            "summary": ""
+        },
+        {
+            "name": "A nuclear matter description based on quark structure of the nucleon and pion exchange",
+            "publisher": "Nuclear Physics A",
+            "releaseDate": "2008-06-09",
+            "url": "http://arxiv.org/abs/0712.3661",
+            "summary": ""
+        },
+        {
+            "name": "In-medium omega meson mass and quark condensate in a Nambu Jona-Lasinio model constrained by recent experimental data",
+            "publisher": "Physical Review C",
+            "releaseDate": "2007-03-13",
+            "url": "http://arxiv.org/abs/nucl-th/0703040",
+            "summary": ""
+        },
+        {
+            "name": "Saturation properties of nuclear matter in a relativistic mean field model constrained by the quark dynamics",
+            "publisher": "Nuclear Physics A",
+            "releaseDate": "2006-10-26",
+            "url": "http://arxiv.org/abs/nucl-th/0610099",
+            "summary": ""
+        }
+    ],
     "skills": [
         {
             "name": "Software craft",
@@ -217,6 +247,34 @@
         {
             "language": "English",
             "fluency": "Professional"
+        }
+    ],
+    "references": [
+        {
+            "name": "Regis FLORET - Software developer",
+            "reference": "I had the opportunity to work with Rémi for a year and under his leadership I have never progressed so much and in such a short time. With him, I had the feeling of being at the forefront of what is being done, both in the field of design and in the use of the latest technologies. \nHe has this great quality in being sensitive to your arguments and recommendations. What is important for Rémi is the product, not the ego of the developers. \nI really enjoyed working with Rémi."
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+              "Ferrets",
+              "Unicorns"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "The world wide web",
+            "description": "A so cool project",
+            "highlights": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "",
+            "roles": [],
+            "entity":"",
+            "type": ""
         }
     ]
 }

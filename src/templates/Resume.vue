@@ -43,9 +43,9 @@
 
     <div class="panel">
       <div class="panel__header">
-        <h2>Main skills</h2>
+        <h2>{{$page.messages.skills_title}}</h2>
         <p>
-          I'm a full-stack engineer with craft attitude. Although my main focus is on backends and architecture, I cultivate a large spectrum of skills, from product to operations, and front-end development.
+          {{$page.messages.skills_intro}}
         </p>
       </div>
 
@@ -158,6 +158,8 @@ query Resume ($id: ID!) {
       endDate (format: "YYYY-MM"),
       score
     },
+    skills_title,
+    skills_intro,
     skills {
       name,
       keywords
