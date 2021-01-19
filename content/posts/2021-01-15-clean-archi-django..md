@@ -1,9 +1,9 @@
 ---
 title: "Clean architecture with Django"
 description: "Where we draw a quick path to use clean architecture with Django framework"
-date: 2020-01-15
+date: 2021-01-15
 tags: ["craft", "django", "python"]
-locale: en-GB
+locale: en-gb
 published: true
 ---
 
