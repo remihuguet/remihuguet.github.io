@@ -1,5 +1,5 @@
 <template>
-  <Localized :locale="$page.messages.locale" :rawpath="$page.messages.rawpath"> 
+  <Localized :locale="$page.messages.locale" :rawpath="$page.messages.rawpath" path=""> 
 
     <Presentation :presentations="$page.messages.presentation" :cta="$page.messages.cta1" />
 
@@ -17,7 +17,7 @@
       :cta="$page.messages.cta2"
     />
 
-    <Testimony :testimonies="$page.messages.testimonies" :title="$page.messages.testimonies_title" />
+    <Testimony :locale="$page.messages.locale" :testimonies="$page.messages.testimonies" :title="$page.messages.testimonies_title" />
 
     <Offers
       :presentation="$page.messages.offers_presentation"
@@ -62,10 +62,12 @@ query Landing ($id: ID!) {
     offers_presentation,
     why_me_vp,
     testimonies {
+      id,
       name,
       image,
       context,
-      text,
+      shorttext,
+      longtext,
       linkedin,
       link
     },
@@ -91,6 +93,9 @@ import BannerBloc from '~/components/landing/BannerBloc.vue';
 import Offers from '~/components/landing/Offers.vue';
 import Testimony from '~/components/landing/Testimony.vue';
 import WhyMe from '~/components/landing/WhyMe.vue';
+import {Cloudinary} from 'cloudinary-core';
+
+const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
 
 
 export default {
@@ -104,6 +109,13 @@ export default {
     Offers,
     Testimony,
     WhyMe
+  },
+  computed: {
+    myself_url: function () {
+      return cl.url('portrait2018_p3ku3w.jpg', {transformation: [
+        {effect: "sharpen:100", width: 360, crop: "scale"},
+      ]});
+    }
   },
   metaInfo() {
     return {
@@ -126,6 +138,10 @@ export default {
         {
           property: "og:url",
           content: this.$page.metadata.siteUrl
+        },
+        {
+          property: "og:image",
+          content: this.myself_url
         }
       ]
     };

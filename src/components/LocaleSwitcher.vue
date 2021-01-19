@@ -14,10 +14,10 @@
 <script>
 export default {
   name: "LocaleSwitcher",
-  props: ['currentLocale', 'rawpath'],
+  props: ['currentLocale', 'rawpath', 'path'],
   methods: {
     localeChanged (locale) {
-      return '/' + locale +'/' + this.rawpath;
+      return `/${locale}/${this.rawpath}/${this.path}`;
     }
   }
 }

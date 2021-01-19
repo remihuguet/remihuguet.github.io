@@ -1,7 +1,7 @@
 <template>
   <Layout> 
     <template v-slot:headerleft>
-      <LocaleSwitcher :currentLocale="locale" :rawpath="rawpath" />
+      <LocaleSwitcher :currentLocale="locale" :rawpath="rawpath" :path="path" />
     </template>
     <template>
       <slot />
@@ -13,7 +13,7 @@
 import LocaleSwitcher from '~/components/LocaleSwitcher.vue';
 
 export default {
-  props: ["locale", "rawpath"],
+  props: ["locale", "rawpath", "path"],
   components: {
     LocaleSwitcher
   }

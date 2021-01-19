@@ -2,14 +2,14 @@
   <div class="bg-wrapper">
     <div class="test">
       <div class="testimony">
-        <h2>{{title}}</h2>
+        <g-link :to="`/${locale}/landing/testimonies/`"><h2>{{title}}</h2></g-link>
         <hr />
       </div>
       <div class="testimonies">
         <div class="testimonies__testimony" v-for="(t, i) in testimonies" :key="i">
           <p class="testimonies__testimony__text">
-            {{t.text}} <br>
-            <a :href="t.linkedin" target="_blank">Full version</a>
+            {{t.shorttext}} <br>
+            <g-link :to="`/${locale}/landing/testimonies/#${t.id}`">See full version</g-link>
           </p>
           <div class="testimonies__testimony__id">
             <g-image alt="" class="testimonies__testimony__id__image" :src="cloudy_url(t.image)" blur="5"/>
@@ -30,7 +30,7 @@ import {Cloudinary} from 'cloudinary-core';
 
 const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
 export default {
-  props: ["testimonies", "title"],
+  props: ["testimonies", "title", "locale"],
   methods: {
     cloudy_url: function (img) {
       return cl.url(img, {transformation: [

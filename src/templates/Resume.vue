@@ -1,5 +1,5 @@
 <template>
-  <Localized :locale="$page.messages.locale" rawpath="resume"> 
+  <Localized :locale="$page.messages.locale" rawpath="resume" path=""> 
     <div class="panel">
       <div class="left-panel">
         <g-image alt="" class="me__image" :src="myself_url" blur="5"/>
