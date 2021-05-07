@@ -1,6 +1,10 @@
 <template>
   <Layout>
     <Post :post="this.$page.post" />
+        <div class="ml-form-embed"
+      data-account="3133558:z6k9c8a6o1"
+      data-form="4049125:f3t1z4">
+    </div>
   </Layout>
 </template>
 
