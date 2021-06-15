@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi les choix techniques se sont pas (si) importants"
+title: "Pourquoi les choix techniques ne sont pas (si) importants"
 description: "Où il est question de succès et de problèmes dans les équipes logicielles, et des choix techniques"
 date: 2021-06-12
 tags: ["agile", "software", "architecture"]
@@ -80,7 +80,7 @@ Les technologies et les choix techniques que nous faisons sont structurants dans
 Le succès, et les problèmes, d'une équipe sont déterminés par les compétences transverses, le bon fonctionnement de l'équipe, sa capacité à innover et à s'approprier le domaine et le problème qu'elle essaye de résoudre. Développer ces aspects exige un investissement important et de long terme sur les gens. Cela peut être difficile à faire, les résultats peuvent mettre du temps, c'est un terrain mouvant et complexe. Sur le long terme, c'est votre levier le plus sûr sur le succès ou l'échec d'un produit - bien plus que n'importe quel choix technologique.
 
 
-Il peut arriver qu’un échec soit réellement imputable à un mauvais choix technique. Mais même dans ce cas, le vrai problème sous-jacent, c’est bien la compétence des membres de l’équipe et la connaissance du problème à résoudre, qui a mené a tapé totalement à côté de la cible.
+Il peut arriver qu’un échec soit réellement imputable à un mauvais choix technique. Mais même dans ce cas, le vrai problème sous-jacent, c’est bien la compétence des membres de l’équipe et la connaissance du problème à résoudre, qui a mené a taper totalement à côté de la cible.
 
 Il reste un autre déterminant majeur de succès ou d’échecs: les dysfonctionnements de l'organisation, et les problèmes systémiques en qui en découlent. Pour résoudre ces problèmes, résistez à l'envie de déployer une architecture microservices comme solution.
 
