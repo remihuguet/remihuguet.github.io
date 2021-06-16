@@ -9,7 +9,7 @@ module.exports = {
     Landing: '/:locale/:rawpath',
     Testimonies: '/:locale/:rawpath/testimonies',
     Resume: '/:locale/resume',
-    Post: '/blog/:year/:month/:day/:title',
+    Post: '/blog/:year/:month/:day/:slug',
     Tag: '/tag/:id'
   },
   plugins: [

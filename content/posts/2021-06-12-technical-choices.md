@@ -1,5 +1,6 @@
 ---
 title: "Pourquoi les choix techniques ne sont pas (si) importants"
+slug: "pourquoi-les-choix-techniques-se-sont-pas-si-importants"
 description: "Où il est question de succès et de problèmes dans les équipes logicielles, et des choix techniques"
 date: 2021-06-12
 tags: ["agile", "software", "architecture"]
