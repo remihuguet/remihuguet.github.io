@@ -51,8 +51,8 @@ Personne ne parvient à expliquer ce résultat à l’aide d’interprétations 
 
 Einstein va résoudre le problème en reprenant le problème au fondement.
 Il part des seules hypothèses qui lui semblent être fondamentales:
-les lois de la physique, mécaniques et électrodynamiques, sont les mêmes dans tous les référentiels galiléens
-puisqu’il n’est pas possible de mesurer une vitesse de la lumière différente selon le référentiel, il postule que la vitesse de la lumière dans le vide est la même quel que soit le référentiel
+- les lois de la physique, mécaniques et électrodynamiques, sont les mêmes dans tous les référentiels galiléens
+- puisqu’il n’est pas possible de mesurer une vitesse de la lumière différente selon le référentiel, il postule que la vitesse de la lumière dans le vide est la même quel que soit le référentiel.
 
 
 Sur cette base, il construit, au long d’un article fascinant de 9000 mots, sans aucune référence ni note, une théorie du mouvement des corps dont les impacts vont être l’un des fondements de la physique développée au XXème siècle[^3].
