@@ -61,6 +61,20 @@
             "highlights": []
         },
         {
+            "name": "Adenia Conseil",
+            "position": "Formation artisanat logiciel",
+            "url": "https://www.adenia-conseil.com/",
+            "startDate": "2021-02-01",
+            "endDate": "2021-03-31",
+            "summary": "Adenia Conseil est une société de conseil en structuration, financement et exécution de projet. Dans le cadre de sa R&D, Adenia expérimente le développement de logiciels pour soutenir son activité, autour du CEO et de 2 jeunes développeurs. Afin de partir sur les meilleures bases, j'accompagne l'équipe sur un coaching d'artisanat logiciel et de l'accompagnement.",
+            "missions": [],
+            "actions": [
+                "formations et workshops autour des sujets prioritaires pour l'équipe: Déploiement et mise en production sur un PaaS, De l'idée à la prod - organiser le flux de développement, code et architecture propre, test driven development",
+                "accompagnement technique et conseil sur le lancement des premiers développement de l'équipe"
+            ],
+            "highlights": []
+        },
+        {
             "name": "Opquast",
             "position": "Ingénieur logiciel indépendant",
             "url": "https://www.opquast.com",
@@ -97,7 +111,7 @@
         },
         {
             "name": "Actiwine",
-            "startDate": "30/04/2015",
+            "startDate": "2015-04-30",
             "endDate": "2017-11-30",
             "position": "Chief Technology Officer",
             "summary": "Actiwine est une place de marché en ligne pour les professionnels du vin. Je rejoins l'entreprise à ses débuts pour construire le produit. Actiwine lève 0,5M € en 2016 pour soutenir son développement.",
@@ -114,7 +128,7 @@
         {
             "name": "Tiki Move",
             "startDate": "2011-05-31",
-            "endDate": "31/03/2015",
+            "endDate": "2015-03-31",
             "position": "Associé et directeur de production",
             "summary": "Créée en 2008, Tiki Move est une société spécialisée dans le développement d'applications et de jeux vidéo sur des plateformes mobiles. En quelques années, Tiki Move délivre plus de 100 applications, et aborde le développement de dispositifs numériques multicanaux. En 2014, Tiki Move a rejoint Clever Age pour renforcer la division mobile. J'ai rejoint Tiki Move en 2011 en tant que directeur de production pour accompagner la croissance de l'entreprise.",
             "Actions": [],

@@ -59,6 +59,20 @@
             "highlights": []
         },
         {
+            "name": "Adenia Conseil",
+            "position": "Craft coaching",
+            "url": "https://www.adenia-conseil.com/",
+            "startDate": "2021-02-01",
+            "endDate": "2021-03-31",
+            "summary": "Adenia Conseil is a consulting firm in structuring, financing and project execution. As part of its R&D, Adenia is experimenting with software development to support its activity, around the CEO and 2 young developers. In order to start on the best possible basis, I accompany the team on software craft coaching and support. ",
+            "missions": [],
+            "actions": [
+                "training and workshops around priority topics for the team: Deployment and production on a PaaS, From idea to production - organize the development flow, code and clean architecture, test driven development",
+                "technical support and advice on the start of the first developments" 
+            ],
+            "highlights": []
+        },
+        {
             "name": "Opquast",
             "position": "Freelance software engineer",
             "url": "https://www.opquast.com",

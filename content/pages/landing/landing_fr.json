@@ -10,7 +10,7 @@
         "Je suis développeur logiciel 💻",
         "J'aide les organisations à concevoir, construire et exécuter de meilleurs logiciels, plus rapidement 🚀"
     ],
-    "valueprop": "Améliorez votre équipe tech ⚡",
+    "valueprop": "Créer de meilleurs logiciels, ensemble ⚡",
     "problems_intro": "Construire un logiciel avec les standards de qualité et de durabilité les plus élevées est difficile. Je peux vous aider:",
     "solve_problems": [
         "passer au niveau supérieur pour délivrer un meilleur logiciel, plus vite",
@@ -44,82 +44,17 @@
         "Ateliers et mise en pratiques - développement piloté par les tests, conception pilotée par le domaine, architecture propre, intégration continue",
         "Travailler intégré à l'équipe pour atteindre les premier jalons: le premier test, mettre en place l'intégration continue, construire un flow agile adapté à l'équipe"
     ],
-    "skills": [
-        [
-            "Languages and frameworks", [
-                "Python",
-                "Django",
-                "Javascript",
-                "VueJS",
-                "HTML",
-                "CSS",
-                "Numpy",
-                "Jupyter",
-                "Gridsome"
-            ]
-        ],
-        [
-            "Databases", [
-                "SQL",
-                "PostgreSQL",
-                "MySQL"
-            ]
-        ],
-        [
-            "Design",
-            [
-                "Web architecture",
-                "Software design",
-                "REST API",
-                "Mobile applications"
-            ]
-        ],
-        [
-            "Software craft", [
-                "TDD",
-                "DDD",
-                "Clean code",
-                "Clean architecture",
-                "CI / CD",
-                "Agile: Kanban, Flow, XP"
-            ]
-        ],
-        [
-            "Management", [
-                "Tech leadership",
-                "CTO",
-                "Team management",
-                "Project management",
-                "Gitlab",
-                "Jira"
-            ]
-        ],
-        [
-            "Ops", [
-                "Cloud computing",
-                "Docker",
-                "AWS",
-                "Sentry",
-                "Paas: Platform.sh, Clever Cloud",
-                "Nginx",
-                "Gitlab CI",
-                "Linux",
-                "Gunicorn",
-                "Git "
-            ]
-        ]
-    ],
     "testimonies_title": "Témoignages ⭐",
     "testimonies": [
-        {   "id": 1,
-            "name": "Mickaël Hoareau",
-            "image": "micka_ijnnhj.jpeg",
-            "context": "Ingénieur logiciel - Opquast",
+        {
+            "id": 5,
+            "name": "Gary McDowell",
+            "context": "Engineering manager - Sennder",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
-            "link":"https://www.opquast.com",
-            "shorttext": "[...]Rémi, c'est clairement la personne qui peut aider une petite équipe à se structurer, il a une facilité déconcertante à plonger dans du code qu'il ne connaît pas, à le corriger, à l'améliorer, à former les équipes pour ne plus retomber dans les mêmes pièges. Il cherche les solutions qui s'adaptent le mieux au fonctionnement de l'équipe.",
-            "longtext": "Votre équipe de développeur a la capacité de s'organiser mieux, mais n'y arrive pas seul. Parce que trop la tête dans le guidon, et donc pas le temps de prendre le temps ?\n Vous avez des projets anciens sous python, avec une dette technique énorme (vieux paradigmes, branches de projet mortes mais difficile à désimbriquer du code utile, manque de découplage entre le métier, les interfaces, le stockage ...) ?\n Rémi, c'est clairement la personne qui peut aider une petite équipe à se structurer, il a une facilité déconcertante à plonger dans du code qu'il ne connaît pas, à le corriger, à l'améliorer, à former les équipes pour ne plus retomber dans les mêmes pièges. Il cherche les solutions qui s'adaptent le mieux au fonctionnement de l'équipe.\n C'est un véritable atout à avoir dans l'équipe, sans parler de sa bienveillance, de sa bonne humeur et de sa capacité à bosser à 100% en télétravail et à s'adapter aux collègues en décalage horaire."
-
+            "link":"https://www.linkedin.com/in/garydmcdowell/",
+            "image": "1594287130980_vu1pt2",
+            "shorttext": "Un génie absolu de développeur et quelqu'un que je recommanderais instantanément à n'importe qui. [...]",
+            "longtext": "Un génie absolu de développeur et quelqu'un que je recommanderais instantanément à n'importe qui. Il était à jour et opérationnel sur nos processus et plateformes en deux temps trois mouvements. Il connaît bien les modèles architecturaux comme la clean architecture et il a contribué dès le premier jour. Exactement ce que vous attendez d'un développeur indépendant - une personne adorable et un team player absolu, aidant ses collègues afin de livrer avec qualité et rapidité. Une recrue incontournable si vous en avez l'occasion."
         },
         {
             "id": 2,
@@ -130,6 +65,25 @@
             "link":"https://www.opquast.com",
             "shorttext": "[...] Rémi a travaillé avec les équipes de développeurs et avec le reste des équipes. [...] Il a organisé des ateliers auprès des développeurs et changé en profondeur à la fois les modes de travail, l’architecture, et les choix technologiques de l’entreprise.",
             "longtext": "En tant que CEO et fondateur du projet Opquast, j’ai fait appel à Rémi Huguet pendant la quasi totalité de l’année 2020. La situation technique de la société avant la mission de Rémi était la suivante :\n - une dette technique importante,\n- un code legacy très lourd et peu évolutif,\n- une équipe technique très investie mais qui subissait plus qu’elle n’accueillait les demandes d’évolutions et de fonctionnalités\n- une architecture de services complexe\n- Une scalabilité insuffisante\n- Des temps de développements longs\n- Des applications trop fragiles\nJe n’ai pas de honte à présenter un tel tableau, car je sais qu’il est très fréquent, voire une peu normal dans les entreprises du secteur.\n Cela dit, rester dans un état de ce type n’est toutefois pas possible si l’on veut se développer, améliorer son agilité, travailler plus vite, accueillir plus de clients, faire en sorte que les équipes de développements soient heureuses de travailler et informées des meilleurs pratiques et de l’état de l’Art.\n Connaissant Rémi depuis plusieurs années et je lui ai demandé de s’attaquer de front à tous ces sujets. Pendant tout l’année 2020, Rémi a travaillé avec les équipes de développeurs et avec le reste des équipes. Il a alterné des chantiers de fond et des interventions beaucoup plus rapides. Il a organisé des ateliers auprès des développeurs et changé en profondeur à la fois les modes de travail, l’architecture, et les choix technologiques de l’entreprise. De mon côté, j’ai également été amené à faire des choix majeurs, mais je crois pouvoir dire que ni moi ni mes équipes n’ont été brusquées ou contraintes lors de cette période. Rémi a fait preuve d’une écoute et d’une capacité d’adaptation hors du commun, pouvant passer avec aisance d’un chantier stratégiques à un chantier de traitement de bugs urgent pour suppléer l’équipe en cas de besoin. Bref, Rémi est une ressource très précieuse, avec une excellente capacité d’écoute et d’adaptation. Son intervention auprès d’une équipe est au minimum utile et au moins en ce qui concerne Opquast, a été extrêmement rentable.\nCe tableau dithyrambique n’aurait de valeur que s’il mentionnait également des faiblesses: j’en citerai deux, une petite tendance à abuser des gifs et son revers au tennis de table."
+        },
+        {   "id": 6,
+            "name": "Julien Hovelaque",
+            "image": "",
+            "context": "Développeur - Adenia Conseil",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.linkedin.com/in/julien-hovelaque-55946717b/",
+            "shorttext": "[...] Il nous a permis d'éviter de nombreux pièges, de nous sensibiliser aux  bonnes pratiques et de mettre un pied dans le TDD. En tant que développeur junior, son expertise n'en a été que plus précieuse.",
+            "longtext": "Rémi a été d'une grande aide à notre équipe de développeur. Il nous a permis d'éviter de nombreux pièges, de nous sensibiliser aux  bonnes pratiques et de mettre un pied dans le TDD. En tant que développeur junior, son expertise n'en a été que plus précieuse. Grâce à lui, notre projet va pouvoir grandir sur des bases saine."
+        },
+        {   "id": 1,
+            "name": "Mickaël Hoareau",
+            "image": "micka_ijnnhj.jpeg",
+            "context": "Ingénieur logiciel - Opquast",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.opquast.com",
+            "shorttext": "[...]Rémi, c'est clairement la personne qui peut aider une petite équipe à se structurer, il a une facilité déconcertante à plonger dans du code qu'il ne connaît pas, à le corriger, à l'améliorer, à former les équipes pour ne plus retomber dans les mêmes pièges. Il cherche les solutions qui s'adaptent le mieux au fonctionnement de l'équipe.",
+            "longtext": "Votre équipe de développeur a la capacité de s'organiser mieux, mais n'y arrive pas seul. Parce que trop la tête dans le guidon, et donc pas le temps de prendre le temps ?\n Vous avez des projets anciens sous python, avec une dette technique énorme (vieux paradigmes, branches de projet mortes mais difficile à désimbriquer du code utile, manque de découplage entre le métier, les interfaces, le stockage ...) ?\n Rémi, c'est clairement la personne qui peut aider une petite équipe à se structurer, il a une facilité déconcertante à plonger dans du code qu'il ne connaît pas, à le corriger, à l'améliorer, à former les équipes pour ne plus retomber dans les mêmes pièges. Il cherche les solutions qui s'adaptent le mieux au fonctionnement de l'équipe.\n C'est un véritable atout à avoir dans l'équipe, sans parler de sa bienveillance, de sa bonne humeur et de sa capacité à bosser à 100% en télétravail et à s'adapter aux collègues en décalage horaire."
+
         },
         {
             "id": 3,

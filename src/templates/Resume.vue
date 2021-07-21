@@ -66,13 +66,13 @@
 
     <div class="panel">
       <div class="panel__header">
-        <h2>Work experience</h2>
+        <h2>Work</h2>
       </div>
       <template v-for="(w, i) in $page.messages.work">
           <div class="left-panel work" :key="i">
             <p>{{w.name}}</p>
             <p class="position">{{w.position}}</p>
-            <p>{{w.startDate}} to {{w.endDate}}</p>
+            <p>{{w.startDate}} - {{w.endDate}}</p>
             <a target='_blank' rel="noreferrer" :href="w.url">{{w.url}}</a>
           </div>
           <div class="right-panel" :key="i">
