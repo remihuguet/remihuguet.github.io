@@ -46,6 +46,21 @@
     },
     "work": [
         {
+            "name": "Sennder",
+            "position": "Backend engineer freelance",
+            "url": "https://www.sennder.com",
+            "startDate": "2021-02-07",
+            "endDate": "2021-07-30",
+            "summary": "Sennder est le partenaire de transport digital des entrerprises. Au sein du pod portal, j'ai contribué au développement du portail pour les expéditeurs petites et moyennes entreprises, en self service.",
+            "missions": [],
+            "actions": [
+                "Développements sur le back-end monolithique historique Python Django PostgreSQL",
+                "Développements du premier micro-service du pod et mise en place d'une architecture de base pour les services Python - Python, FastAPI, PostgreSQL, Kafka, Terraform et AWS ECS",
+                "Architecture et développements du microservice paiements"
+            ],
+            "highlights": []
+        },
+        {
             "name": "Opquast",
             "position": "Ingénieur logiciel indépendant",
             "url": "https://www.opquast.com",
@@ -180,11 +195,13 @@
             "level": "",
             "keywords": [
                 "Web architecture",
-                "TDD",
-                "DDD",
-                "Clean code & architecture",
+                "Services architecture",
+                "Domain-Driven Design",
+                "Clean architecture",
+                "Test-Driven Design", 
+                "Testing",
                 "Agile Kanban, Flow",
-                "Continuous Integration"
+                "Continuous Integration & deployment"
             ]
         },
         {
@@ -192,17 +209,28 @@
             "level": "",
             "keywords": [
                 "Python",
-                "Django",
+                "Django", "FastAPI",
                 "Javascript",
                 "VueJS"
             ]
         },
         {
-            "name": "Databases",
+            "name": "API integrations",
+            "level": "",
+            "keywords": [
+                "Stripe",
+                "Slack",
+                "Algolia"
+            ]
+        },
+        {
+            "name": "Persistence and messaging",
             "level": "",
             "keywords": [
                 "SQL",
-                "PostgreSQL"
+                "PostgreSQL",
+                "Kafka",
+                "SQLAlchemy", "Django ORM"
             ]
         },
         {
@@ -212,7 +240,8 @@
                 "Git",
                 "Gitlab CI",
                 "Docker",
-                "Cloud basic usage: AWS, Paas( Platform.sh, Clever Cloud)"
+                "Terraform",
+                "Cloud: AWS, Paas( Platform.sh, Clever Cloud)"
             ]
         }
     ],

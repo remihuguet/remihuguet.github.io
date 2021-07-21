@@ -44,14 +44,36 @@
     },
     "work": [
         {
+            "name": "Sennder",
+            "position": "Backend engineer freelance",
+            "url": "https://www.sennder.com",
+            "startDate": "2021-02-07",
+            "endDate": "2021-07-30",
+            "summary": "Sennder is the digital transport partner of companies. Within the pod portal, I contributed to the development of the self-service portal for small and medium-sized shippers.",
+            "missions": [],
+            "actions": [
+                "Developments on the legacy monolith Python Django PostgreSQL back-end",
+                "Developments of the first pod micro-service and implementation of a basic architecture for Python services - Python, FastAPI, PostgreSQL, Kafka, Terraform and AWS ECS",
+                "Architecture and developments of the payments microservice" 
+            ],
+            "highlights": []
+        },
+        {
             "name": "Opquast",
             "position": "Freelance software engineer",
             "url": "https://www.opquast.com",
             "startDate": "2020-02-01",
             "endDate": "2021-01-31",
-            "summary": "Opquast is the skills certification for web professions and offers a repository of good practices, online training and skills certification. I helped Opquast team prepare the software platform and the tech team for scaling up.",
+            "summary": "Opquast is the skills certification for web professions and offers a repository of good practices, online training and certification. I help the Opquast team prepare the software platform and the technical team for scaling up.",
             "missions": [],
-            "actions": ["strategic analysis, architecture and implementation of improvements of legacy software", "migration to a new infrastructure: gradual transition to Paas, use of managed services", "improvement of the development flow: Kanban flow implementation, improving communication and Gitlab usage", "creation of automated tests (0 to 60 % coverage ) and set-up of continuous integration", "training of the team: clean code, automated tests, TDD, Clean architecture, introduction to DDD", "Development of new features"],
+            "actions": [
+                "strategic analysis, architecture and implementation of improvements to existing software",
+                "migration to a new infrastructure: gradual transition to Paas, use of managed services",
+                "improvement of the development flow: implementation of the Kanban flow, improvement of communication and the use of Gitlab",
+                "creation of automated tests (0 to 60% coverage) and implementation of continuous integration",
+                "team training: clean code, automated tests, TDD, clean architecture, introduction to DDD",
+                "development of new features"
+            ],
             "highlights": []
         },
         {
@@ -173,11 +195,13 @@
             "level": "",
             "keywords": [
                 "Web architecture",
-                "TDD",
-                "DDD",
-                "Clean code & architecture",
-                "Agile Kanban & Flow",
-                "Continuous Integration"
+                "Services architecture",
+                "Domain-Driven Design",
+                "Clean architecture",
+                "Test-Driven Design", 
+                "Testing",
+                "Agile Kanban, Flow",
+                "Continuous Integration & deployment"
             ]
         },
         {
@@ -185,17 +209,28 @@
             "level": "",
             "keywords": [
                 "Python",
-                "Django",
+                "Django", "FastAPI",
                 "Javascript",
                 "VueJS"
             ]
         },
         {
-            "name": "Databases",
+            "name": "API integrations",
+            "level": "",
+            "keywords": [
+                "Stripe",
+                "Slack",
+                "Algolia"
+            ]
+        },
+        {
+            "name": "Persistence and messaging",
             "level": "",
             "keywords": [
                 "SQL",
-                "PostgreSQL"
+                "PostgreSQL",
+                "Kafka",
+                "SQLAlchemy", "Django ORM"
             ]
         },
         {
@@ -205,7 +240,8 @@
                 "Git",
                 "Gitlab CI",
                 "Docker",
-                "Cloud basic usage: AWS, Paas( Platform.sh, Clever Cloud)"
+                "Terraform",
+                "Cloud: AWS, Paas( Platform.sh, Clever Cloud)"
             ]
         }
     ],
