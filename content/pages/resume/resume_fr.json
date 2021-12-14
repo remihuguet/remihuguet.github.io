@@ -46,6 +46,20 @@
     },
     "work": [
         {
+            "name": "Alma",
+            "position": "Backend engineer freelance",
+            "url": "https://www.getalma.eu",
+            "startDate": "2021-09-06",
+            "endDate": "2022-02-28",
+            "summary": "Alma est une solution de paiement en plusieurs fois. Au sein de la team Merchant Acquisition, j'ai contribué aux développements de l'API de paiement.",
+            "missions": [],
+            "actions": [
+                "Développements sur l'API de paiement et les applicatifs Point of Sale (Python, Flask, FastAPI, PostgreSQL)",
+                "Développements d'intégration du service Alma à des partenaires de paiements tiers et solutions de terminaux de paiement pour point de vente"
+            ],
+            "highlights": []
+        },
+        {
             "name": "Sennder",
             "position": "Backend engineer freelance",
             "url": "https://www.sennder.com",
