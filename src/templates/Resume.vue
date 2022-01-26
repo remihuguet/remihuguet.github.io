@@ -303,14 +303,14 @@ hr {
 
     .title {
       h1 {
-        color: var(--persian-green);
+        color: var(--green);
       }
       p {
-        background-color: var(--persian-green);
+        background-color: var(--green);
         color: var(--cultured);
         padding: calc(2 * var(--space)) var(--space);
         text-align: center;
-        font-family: var(--font-headers);
+        font-family: var(--font-family-base);
         font-size: 1.2rem;
       }
     }

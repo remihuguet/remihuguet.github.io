@@ -86,7 +86,7 @@ export default {
         width: 50%;
         margin: calc(2 * var(--space)) auto;
         height: 5px;
-        border-bottom: 1px solid var(--persian-green);
+        border-bottom: 1px solid var(--green);
       }
 
       & p:not(first-child) {

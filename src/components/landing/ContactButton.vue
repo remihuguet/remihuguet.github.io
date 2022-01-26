@@ -17,14 +17,14 @@ export default {
 
 <style lang="scss" scoped>
     button.cta {
-    font-family: var(--font-body);
+    font-family: var(--font-family-base);
     font-size: 1em;
 
     border: none;
     border-radius: var(--border-radius);
     box-shadow: 2px 2px 5px var(--independence);
     
-    background-color: var(--persian-green);
+    background-color: var(--green);
     color: var(--white);
 
     padding: calc(1.5 * var(--space)) calc(3 * var(--space));

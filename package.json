@@ -18,8 +18,7 @@
     "gridsome": "^0.7.21",
     "gridsome-plugin-rss": "^1.2.0",
     "remark-footnotes": "^2.0.0",
-    "typeface-merriweather": "1.1.13",
-    "typeface-oswald": "1.1.13"
+    "typeface-rubik": "^1.1.13"
   },
   "devDependencies": {
     "eslint": "^7.11.0",

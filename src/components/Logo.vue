@@ -1,6 +1,7 @@
 <template>
     <g-link :to="'/'">
         <span class="logo">
+          <g-image width="100" src='~/assets/images/logo-secondaire.svg' alt="Logo Rémi Huguet" />
         </span>
     </g-link>
 </template>
@@ -15,9 +16,16 @@ query {
 
 <style lang="scss" >
 .logo {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  & > g-image {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 a {

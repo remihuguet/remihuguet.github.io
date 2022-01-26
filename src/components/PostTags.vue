@@ -19,7 +19,7 @@ export default {
   > a.post-tags__link {
     margin-right: .5em;
     font-size: .7em;
-    font-family: var(--font-headers);
+    font-family: var(--font-family-base);
     text-transform: lowercase;
   }
 }

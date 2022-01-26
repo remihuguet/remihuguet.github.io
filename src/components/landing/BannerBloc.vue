@@ -32,9 +32,9 @@ export default {
   &__valueprop {
     display: flex;
     width: 100%;
-    background-color: var(--persian-green);
+    background-color: var(--green);
     color: var(--white);
-    font-family: var(--font-headers);
+    font-family: var(--font-family-base);
     font-size: 6em;
     font-weight: 700;
     line-height: 1;
@@ -73,7 +73,7 @@ export default {
   
         &::marker {
         content: "✔";
-        color: var(--persian-green);
+        color: var(--green);
         }
       }
 

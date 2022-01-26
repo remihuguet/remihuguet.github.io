@@ -29,7 +29,7 @@ export default {
 <style lang="scss">
 .post-card {
   display: flex;
-  border-bottom: 1px solid var(--persian-green);
+  border-bottom: 1px solid var(--green);
   border-left: none;
   border-right: none;
   margin: calc(var(--space)) auto;

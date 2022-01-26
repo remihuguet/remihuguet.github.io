@@ -1,6 +1,5 @@
 import '~/assets/style/index.scss'
-import 'typeface-merriweather';
-import 'typeface-oswald';
+import 'typeface-rubik';
 import DefaultLayout from '~/layouts/Default.vue';
 
 

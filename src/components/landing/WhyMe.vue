@@ -37,7 +37,7 @@ export default {
       & li {
         &::marker {
           content: "✔";
-          color: var(--persian-green);
+          color: var(--green);
         }
         padding-left: var(--space);
         margin-bottom: calc(2 * var(--space));

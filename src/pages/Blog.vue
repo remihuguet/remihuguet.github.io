@@ -86,7 +86,7 @@ export default {
   display:flex;
   align-items: center;
   justify-content: space-around;
-  font-family: var(--font-headers);
+  font-family: var(--font-family-base);
   font-variant: small-caps;
   font-size: 0.8em;
 }

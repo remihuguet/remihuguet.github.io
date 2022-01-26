@@ -1,38 +1,41 @@
 // Default variables
 
 html {
-  --base-font-size: 21px;
+  --base-font-size: 16px;
 }
 
 // Light default theme
 body {
-  --persian-green: #009688ff;
+  --green: #28ae91;
+  --yellow: #ffd004;
+  --black: #2a2c24;
+  --white: #fffefa;
+
   --ruby: #d81e5bff;
   --independence: #45425aff;
   --platinum: #e6e6e9ff;
   --cultured: #f4f4f6ff;
   --pine-tree: #2a2c24ff;
-  --black: #2a2c24;
-  --white: #FEFDFF;
-  --blue: #0E499F;
+  --base-black: #06252f;
+  --blue: #0e499f;
   --light-grey: #fffcf182;
 
-  --primary-color: var(--persian-green);
+  --primary-color: var(--green);
   --secondary-color: var(--ruby);
 
-  --font-body: "Merriweather", system-ui, Times, serif;
-  --font-headers: "Oswald", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-base: "Rubik", system-ui, sans-serif;
   --bg-color: var(--white);
+  --body-color: var(--base-black);
+
   --bg-code: var(--cultured);
-  --body-color: var(--pine-tree);
   --link-color: var(--independence);
   --border-color: var(--pine-tree);
   --border-quote: var(--black);
   --header-color: var(--white);
   --title-color: var(--secondary-color);
   --space: 0.5rem;
-  --content-width: 1080px;
-  --header-height: 40px;
+  --content-width: 960px;
+  --header-height: 54px;
   --radius: 2px;
 }
 
@@ -45,11 +48,10 @@ body {
     --space: 0.4rem;
     --header-height: 20px;
     --content-width: 560px;
-
   }
 }
 
-@media screen and (min-width:651px ) and (max-width: 1080px) {
+@media screen and (min-width: 651px) and (max-width: 1080px) {
   html {
     --base-font-size: 20px;
   }
@@ -74,8 +76,8 @@ body {
 body[data-theme="dark"] {
   --bg-color: rgb(6, 22, 36);
   --bg-content-color: rgb(6, 22, 36);
-  --bg-code: rgba(0,0,0,.3);
-  --border-color:  rgba(255,255,255,0);;
+  --bg-code: rgba(0, 0, 0, 0.3);
+  --border-color: rgba(255, 255, 255, 0);
   --body-color: #ced8de;
   --title-color: #fff;
   --link-color: #009688;

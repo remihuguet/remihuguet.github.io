@@ -44,10 +44,10 @@ export default {
 <style lang="scss">
 .post-title {
   text-align: center;
-
+  width: 66%;
   &__title {
-    margin-bottom: var(--space);
-    color: var(--primary-color);
+    // margin-bottom: var(--space);
+    // color: var(--primary-color);
 
     @media screen and (max-width: 650px) {
       font-size: 4rem;
@@ -62,7 +62,7 @@ export default {
 
   &__subtitle {
     color: var(--independence);
-    font-family: var(--font-headers);
+    font-family: var(--font-family-base);
     font-size: 1.3rem;
     padding: 1rem 0;
     border-top: solid 1px var(--secondary-color);

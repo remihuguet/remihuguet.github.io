@@ -2,10 +2,11 @@
   <div id="app">
     <header class="header">
       <div class="header__left">
+        <Logo />
         <slot name="headerleft"></slot>
       </div>
       <div class="header__center">
-        <a href="/">Rémi Huguet</a>
+        <slot name="headercenter"></slot>
       </div>
       <div class="header__right">
         <Links />
@@ -61,7 +62,7 @@ export default {
   min-height: var(--header-height);
   padding: calc(2 * var(--space)) calc(8 * var(--space));
   margin: 0 0 calc(2 * var(--space)) 0;
-  background-color:var(--cultured);
+  background-color:var(--green);
   box-shadow: 0px 2px 5px var(--platinum);
 
   &__left,
