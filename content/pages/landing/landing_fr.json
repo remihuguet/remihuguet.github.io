@@ -47,6 +47,16 @@
     "testimonies_title": "Témoignages ⭐",
     "testimonies": [
         {
+            "id": 7,
+            "name": "Maxime Teissier",
+            "context": "Product Manager - Sennder",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.linkedin.com/in/maximeteissier/",
+            "image": "1592405528684_d1dbuq",
+            "shorttext": "[...]J'ai été impressionné par la rapidité avec laquelle Rémi est devenu le pilier technique de notre équipe. [...] Toujours disponible et pédagogue, Rémi a naturellement endossé un rôle de référant technique au sein de l'équipe.[...]",
+            "longtext": "Rémi est parmi les développeurs les plus expérimentés avec qui j'ai pu travailler. J'ai été impressionné par la rapidité avec laquelle Rémi est devenu le pilier technique de notre équipe. Rémi est très indépendant a une vraie capacité résoudre des problèmes techniques complexes grâce à son expertise, notamment en Python.\n Rémi a été aussi très précieux pour notre équipe d'un point de vue humain. Toujours disponible et pédagogue, Rémi a naturellement endossé un rôle de référant technique au sein de l'équipe.\n Enfin Rémi est allé plus loin que son rôle de développeur en participant à des discussions techniques au niveau de sennder groupe et en étant force de proposition pour améliorer nos méthodes de travail.\n Je ne peux que recommander Rémi car travailler avec lui est efficace et agréable. J'espère avoir l'occasion de collaborer à nouveau avec lui à l'avenir!"
+        },
+        {
             "id": 5,
             "name": "Gary McDowell",
             "context": "Engineering manager - Sennder",
@@ -68,7 +78,7 @@
         },
         {   "id": 6,
             "name": "Julien Hovelaque",
-            "image": "",
+            "image": "1604074909491_mts03h",
             "context": "Développeur - Adenia Conseil",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.linkedin.com/in/julien-hovelaque-55946717b/",

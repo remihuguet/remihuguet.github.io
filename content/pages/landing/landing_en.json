@@ -47,6 +47,16 @@
     "testimonies_title": "Testimonies ⭐",
     "testimonies": [
         {
+            "id": 7,
+            "name": "Maxime Teissier",
+            "context": "Product Manager - Sennder",
+            "linkedin": "https://www.linkedin.com/in/remihuguet/",
+            "link":"https://www.linkedin.com/in/maximeteissier/",
+            "image": "1592405528684_d1dbuq",
+            "shorttext": "[...]I was impressed by how quickly Rémi became the technical pillar of our team. [...] Always available and a teacher, Rémi naturally took on the role of technical referent within the team.[...]",
+            "longtext": "Rémi is one of the most experienced developers I've worked with. I was impressed by how quickly Rémi became the technical pillar of our team. Rémi is very independent and has a real ability to solve complex technical problems thanks to his expertise, particularly in Python.\n Rémi was also very valuable to our team from a human point of view. Always available and a teacher, Rémi naturally took on the role of technical referent within the team.\n Finally, Rémi went further than his role as a developer by participating in technical discussions at the group sender level and by being a force to proposal to improve our working methods.\n I can only recommend Rémi because working with him is efficient and pleasant. I hope to have the opportunity to collaborate with him again in the future!"
+        },
+        {
             "id": 5,
             "name": "Gary McDowell",
             "context": "Engineering manager - Sennder",
@@ -68,7 +78,7 @@
         },
         {   "id": 6,
             "name": "Julien Hovelaque",
-            "image": "",
+            "image": "1604074909491_mts03h",
             "context": "Developper - Adenia Conseil",
             "linkedin": "https://www.linkedin.com/in/remihuguet/",
             "link":"https://www.linkedin.com/in/julien-hovelaque-55946717b/",
