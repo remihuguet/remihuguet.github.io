@@ -19,9 +19,9 @@
     ],
     "who": "Qui je suis 💭",
     "skills_presentation": ["Physicien théoricien (PhD) devenu ingénieur logiciel, je suis un apprenant constant avec une grande capacité d'adaptation, un  problem solver et un esprit créatif.", "Je crée des logiciels et encadre des équipes depuis 2008. Je cherche à créer des logiciels utiles, à aider les organisations à prospérer, à aider les développeurs à progresser et à améliorer leurs pratiques d'ingénierie."],
-    "skill_domain_1": ["🛠 Software craft expertise", "J'adhère à l'esprit du software craft - la qualité et la durabilité sont primordiales dans ma pratique", "Je pratique et perfectionne  le développement piloté par les tests (TDD), la conception pilotée par domaine (DDD), le développement lean et agile, l'intégration et le déploiement continus"],
+    "skill_domain_1": ["🛠 Software craft", "J'adhère à l'esprit du software craft - la qualité et la durabilité sont primordiales dans ma pratique", "Je pratique et perfectionne  le développement piloté par les tests (TDD), la conception pilotée par domaine (DDD), le développement lean et agile, l'intégration et le déploiement continus"],
     "skill_domain_2": ["⌨ Ingénieur full-stack", "Mon coeur de compétences sont les backends et l'architecture", "Je cultive un large spectre de compétences, du produit aux opérations, en passant par le développement front-end"],
-    "skill_domain_3": ["🐍 Expertise Python", "Après des années avec Python comme langage principal, j'ai acquis une solide expertise et connaissance de l'écosystème","Du développement web aux applications scientifiques et data"],
+    "skill_domain_3": ["🐍 Python", "Après des années avec Python comme langage principal, j'ai acquis une solide expertise et connaissance de l'écosystème","Du développement web aux applications scientifiques et data"],
     "why_me_vp": "Mes plus secrets 🎯",
     "why_me": [
         "Transparence & franchise radicale - vous saurez ce que je pense être le mieux pour votre produit, ce que je fais et ce que j'ai fait à chaque étape de notre collaboration",
@@ -34,13 +34,14 @@
     "offer_1": [
         "coding__1_sbxf45",
         "Développement",
-        "Améliorer un produit existant - aider l'équipe à atteindre le niveau supérieur",
+        "Améliorer un produit existant - aider l'équipe à améliorer le logiciel",
         "Reprendre le contrôle de votre legacy - retrouver qualité et vélocité",
-        "Concevoir et démarrer un nouveau produit - seul ou avec une équipe"
+        "Concevoir et démarrer un nouveau produit"
     ],
     "offer_2": [
         "team_work_jtjsh2",
-        "Accompagnement craft - premiers pas en équipe",
+        "Coach tech",
+        "Accompagner une équipe dans l'amélioration de ses pratiques d'ingénierie",
         "Ateliers et mise en pratiques - développement piloté par les tests, conception pilotée par le domaine, architecture propre, intégration continue",
         "Travailler intégré à l'équipe pour atteindre les premier jalons: le premier test, mettre en place l'intégration continue, construire un flow agile adapté à l'équipe"
     ],

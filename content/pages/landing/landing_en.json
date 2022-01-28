@@ -19,9 +19,9 @@
     ],
     "who": "Who am I 💭",
     "skills_presentation": ["Theoretical physicist (PhD) turned software engineer, I am a constant learner with great ability to adapt, a strong problem solver and a creative mind.", "I build software and manage teams since 2008. I seek to build useful software, help organisations thrive, help developers grow and improve engineering practices."],
-    "skill_domain_1": ["🛠 Software craft expertise", "I adhere to craft mindset - quality and sustainability are paramount to my practice", "I practice and learn Test Driven Development, Domain Driven Design, lean and agile development, continuous integration and deployment"],
+    "skill_domain_1": ["🛠 Software craft", "I adhere to craft mindset - quality and sustainability are paramount to my practice", "I practice and learn Test Driven Development, Domain Driven Design, lean and agile development, continuous integration and deployment"],
     "skill_domain_2": ["⌨ Full-stack engineer", "My main focus is on backends and architecture", "I cultivate a large spectrum of skills, from product to operations, and front-end development"],
-    "skill_domain_3": ["🐍 Python expertise", "After years with Python as my primary language, I got a strong expertise with the ecosystem","From web development, to scientific and data applications"],
+    "skill_domain_3": ["🐍 Python", "After years with Python as my primary language, I got a strong expertise with the ecosystem","From web development, to scientific and data applications"],
     "why_me_vp": "My unfair advantages 🎯",
     "why_me": [
         "Transparency & radical candor - you'll know what I think is best for your product, what I'm doing and what I've done at every step of our collaboration",
@@ -34,13 +34,14 @@
     "offer_1": [
         "coding__1_sbxf45",
         "Software development",
-        "Improve existing product - help team reach the upper level",
+        "Improve existing product - help team improving the software",
         "Take back control of your legacy software - recover quality and velocity",
-        "Design and start a new product - alone or with a team"
+        "Design and start a new product"
     ],
     "offer_2": [
         "team_work_jtjsh2",
-        "Craft apprenticeship - team first steps",
+        "Tech coach",
+        "Support a team in improving its engineering practices",
         "Workshops and practical hands-on - testing, Test Driven Development, Domain Driven Design, clean architecture, lean & flow agile",
         "Work with team to reach the first milestones: the first test, starting continuous integration, build an agile flow tailored to the team"
     ],

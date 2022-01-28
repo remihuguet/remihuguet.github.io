@@ -228,7 +228,8 @@
                 "Clean architecture",
                 "Test-Driven Design", 
                 "Testing",
-                "Agile Kanban, Flow",
+                "Kanban, Flow",
+                "Agile",
                 "Continuous Integration & deployment"
             ]
         },
@@ -237,7 +238,7 @@
             "level": "",
             "keywords": [
                 "Python",
-                "Django", "FastAPI",
+                "Django", "FastAPI", "Flask",
                 "Javascript",
                 "VueJS"
             ]
@@ -267,9 +268,10 @@
             "keywords": [
                 "Git",
                 "Gitlab CI",
+                "Github",
                 "Docker",
                 "Terraform",
-                "Cloud: AWS, Paas( Platform.sh, Clever Cloud)"
+                "Cloud: AWS, GCE, Paas( Platform.sh, Clever Cloud)"
             ]
         }
     ],
