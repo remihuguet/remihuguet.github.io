@@ -24,7 +24,7 @@ export default {
         {height: 380, width: 1200, crop: "thumb"},
         {height: 380, overlay: new Layer().publicId("cover_xb5won"), opacity: 51, width: 1200, crop: "scale"},
         {
-          overlay: new TextLayer().fontFamily("Oswald").fontSize(100).fontWeight("bold").text(this.$page.post.title),
+          overlay: new TextLayer().fontFamily("Oswald").fontSize(100).fontWeight("bold").text(encodeURI(this.$page.post.title.substring(0, 26))),
           effect: "colorize",
           color: "white"
         },
