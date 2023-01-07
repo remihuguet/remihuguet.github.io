@@ -1,6 +1,6 @@
 module.exports = {
   siteName: '🚀 Build better software, faster.',
-  siteDescription: 'Software explorer - I can build better software and help teams level up.',
+  siteDescription: 'Software explorer - I build better software and help teams level up.',
   siteUrl: 'https://remihuguet.dev',
   permalinks: {
     trailingSlash: false
