@@ -60,10 +60,10 @@ module.exports = {
         },
         feedItemOptions: node => ({
             title: node.title,
-            description: node.description,
+            description: node.description + " - " + node.content,
             url: 'https://remihuguet.dev' + node.path,
             date: node.date,
-            author: node.author
+            author: node.author,
         })
       }
     }
