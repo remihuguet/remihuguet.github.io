@@ -56,8 +56,9 @@ module.exports = {
           title: 'Blog - Rémi Huguet, Software explorer',
           description: 'Feed for the blog of Rémi Huguet, software explorer.',
           feed_url: 'https://remihuguet.dev/rss.xml',
-          site_url: 'https://remihuguet.dev'
+          site_url: 'https://remihuguet.dev',
         },
+        filterItems: node => node.published,
         feedItemOptions: node => ({
             title: node.title,
             description: node.description + " - " + node.content,
