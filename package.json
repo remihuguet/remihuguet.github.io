@@ -1,5 +1,5 @@
 {
-  "name": "www.remihuguet.com",
+  "name": "www.remihuguet.dev",
   "private": true,
   "scripts": {
     "build": "gridsome build",
