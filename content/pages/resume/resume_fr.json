@@ -47,6 +47,17 @@
   },
   "work": [
     {
+      "name": "BackMarket",
+      "position": "Dévellopeur backend",
+      "url": "https://www.backmarket.fr",
+      "startDate": "2023-10-4",
+      "endDate": "",
+      "summary": "Back Market est la place de marché leader pour les produits reconditionnés. J'ai renforcé la squad Payout, responsable des paiements sortants.",
+      "missions": [],
+      "actions": [],
+      "highlights": []
+    },
+    {
       "name": "MEE6",
       "position": "Expert développeur backend",
       "url": "https://mee6.xyz",
@@ -54,17 +65,13 @@
       "endDate": "2023-09-30",
       "summary": "MEE6 est le plus important bot Discord tout-en-un, avec 20 millions de communautés qui l'utilisent dans le monde. J'ai rejoint l'équipe début 2022 pour accompagner la croissance de l'équipe ingénierie et produits.",
       "missions": [],
-      "actions": [
-        "Développements Memberhsips: fonctionnalités de type Patreon pour aider les propriétaires de serveurs à monétiser leurs communautés. Améliorations de l'architecture, des tests et de la fiabilité. Intégration des paiements (paiement direct Stripe, Stripe Connect, Paypal, paiements crypto ETH)",
-        "Développements IA: intégrations OpenAI ChatGPT (fonctionnalité de commande directe et de trame de fond), génération d'images via l'intégration de l'API Stability XL, abonnements de serveurs aux fonctionnalités IA",
-        "Développements de fonctionnalités du bot (emojis module, paiements, ...)",
-        "Créé et animé la guilde Backend, un groupe de travail transversal pour tous les développeurs backend des squads, gérant des initiatives techniques transversales, autour des problématiques d'évolutivité et de maintenabilité, de partage de connaissances, de guidelines et de composants communs",
-        "Promotion et mise en œuvre de patterns de clean architecture et event driven architecture, à travers de multiples présentations et documentations",
-        "Promotion du Test Driven Development",
-        "Promotion et mise en œuvre de l'utilisation d'API REST HATEOAS orientées domaine. Présentation, formation, réalisation des premières implémentations backend et outillages",
-        "Contribuer à promouvoir et diffuser les tests automatisés dans le backend Python"
-      ],
-      "highlights": []
+      "actions": [],
+      "highlights": [
+        "Contribution au recrutement et structuration de l'équipe (de 5  20 pers.)",
+        "Création et animation de la guilde Backend, groupe gérant les initiatives techniques transversales (perfs, évolutivité, maintenabilité, partage de connaissances, guidelines et composants communs)",
+        "Mise en œuvre et promotion de pratiques craft: patterns de clean architecture et event driven architecture, tests automatisés, TDD, refactoring, HATEOAS API",
+        "Développements sur le bot, notamment Memberhsips (Patreon-like, intégration de paiements Stripe, crypto ETH, Paypal), fonctionnalités IA basées sur les API Open AI et Stability XL"
+      ]
     },
     {
       "name": "Alma",
@@ -74,11 +81,11 @@
       "endDate": "2021-12-31",
       "summary": "Alma est une solution de paiement en plusieurs fois. Au sein de la team Merchant Acquisition, j'ai contribué aux développements de l'API de paiement.",
       "missions": [],
-      "actions": [
+      "actions": [],
+      "highlights": [
         "Développements sur l'API de paiement et les applicatifs Point of Sale (Python, Flask, FastAPI, PostgreSQL)",
         "Développements d'intégration du service Alma à des partenaires de paiements tiers et solutions de terminaux de paiement pour point de vente"
-      ],
-      "highlights": []
+      ]
     },
     {
       "name": "Sennder",
@@ -88,12 +95,12 @@
       "endDate": "2021-07-30",
       "summary": "Sennder est le partenaire de transport digital des entrerprises. Au sein du pod portal, j'ai contribué au développement du portail pour les expéditeurs petites et moyennes entreprises, en self service.",
       "missions": [],
-      "actions": [
+      "actions": [],
+      "highlights": [
         "Développements sur le back-end monolithique historique Python Django PostgreSQL",
         "Développements du premier micro-service du pod et mise en place d'une architecture de base pour les services Python - Python, FastAPI, PostgreSQL, Kafka, Terraform et AWS ECS",
         "Architecture et développements du microservice paiements"
-      ],
-      "highlights": []
+      ]
     },
     {
       "name": "Adenia Conseil",
@@ -103,11 +110,11 @@
       "endDate": "2021-03-31",
       "summary": "Adenia Conseil est une société de conseil en structuration, financement et exécution de projet. Dans le cadre de sa R&D, Adenia expérimente le développement de logiciels pour soutenir son activité, autour du CEO et de 2 jeunes développeurs. Afin de partir sur les meilleures bases, j'accompagne l'équipe sur un coaching d'artisanat logiciel et de l'accompagnement.",
       "missions": [],
-      "actions": [
-        "formations et workshops autour des sujets prioritaires pour l'équipe: Déploiement et mise en production sur un PaaS, De l'idée à la prod - organiser le flux de développement, code et architecture propre, test driven development",
-        "accompagnement technique et conseil sur le lancement des premiers développement de l'équipe"
-      ],
-      "highlights": []
+      "actions": [],
+      "highlights": [
+        "Formations et workshops autour des sujets prioritaires pour l'équipe: Déploiement et mise en production sur un PaaS, De l'idée à la prod - organiser le flux de développement, code et architecture propre, test driven development",
+        "Accompagnement technique et conseil sur le lancement des premiers développement de l'équipe"
+      ]
     },
     {
       "name": "Opquast",
@@ -117,15 +124,15 @@
       "endDate": "2021-01-31",
       "summary": "Opquast est la certification de compétences pour les métiers du web et propose un référentiel de bonnes pratiques, des formations en ligne et une certification. J'aide l'équipe d'Opquast à préparer la plateforme logicielle et l'équipe technique au passage à l'échelle.",
       "missions": [],
-      "actions": [
-        "analyse stratégique, architecture et mise en œuvre des améliorations des logiciels existants",
-        "migration vers une nouvelle infrastructure: transition progressive vers Paas, utilisation de services gérés",
-        "amélioration du flux de développement: implémentation du flux Kanban, amélioration de la communication et de l'utilisation de Gitlab",
-        "création de tests automatisés (couverture de 0 à 60%) et mise en place d'une intégration continue",
-        "formation de l'équipe: code propre, tests automatisés, TDD, architecture propre, introduction à DDD",
-        "développement de nouvelles fonctionnalités"
-      ],
-      "highlights": []
+      "actions": [],
+      "highlights": [
+        "Analyse stratégique, architecture et mise en œuvre des améliorations des logiciels existants",
+        "Migration vers une nouvelle infrastructure: transition progressive vers Paas, utilisation de services gérés",
+        "Amélioration du flux de développement: implémentation du flux Kanban, amélioration de la communication et de l'utilisation de Gitlab",
+        "Création de tests automatisés (couverture de 0 à 60%) et mise en place d'une intégration continue",
+        "Formation de l'équipe: code propre, tests automatisés, TDD, architecture propre, introduction à DDD",
+        "Développement de nouvelles fonctionnalités"
+      ]
     },
     {
       "name": "eshard",
@@ -270,7 +277,13 @@
     {
       "name": "API integrations",
       "level": "",
-      "keywords": ["Stripe", "Discord", "Paypal", "Algolia", "Slack"]
+      "keywords": [
+        "Stripe",
+        "Discord",
+        "Paypal",
+        "Algolia",
+        "Slack"
+      ]
     },
     {
       "name": "Persistence and messaging",
