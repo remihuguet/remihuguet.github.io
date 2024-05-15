@@ -48,14 +48,17 @@
   "work": [
     {
       "name": "BackMarket",
-      "position": "Dévellopeur backend",
+      "position": "Backend engineer freelance",
       "url": "https://www.backmarket.fr",
-      "startDate": "2023-10-4",
-      "endDate": "",
-      "summary": "Back Market est la place de marché leader pour les produits reconditionnés. J'ai renforcé la squad Payout, responsable des paiements sortants.",
+      "startDate": "2023-10-04",
+      "endDate": "2024-06-28",
+      "summary": "Back Market est la place de marché leader pour la vente de produits électroniques reconditionnés. J'ai renforcé la squad Payout, responsable des paiements sortants.",
       "missions": [],
       "actions": [],
-      "highlights": []
+      "highlights": [
+        "Contributions aux développements de la squad et aux différents services (Python, Django, Flask, FastAPI, PostgreSQL, Kafka)",
+        "Conception et développement d'un service responsable du stockage des informations personnelles"
+      ]
     },
     {
       "name": "MEE6",
