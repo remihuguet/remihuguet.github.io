@@ -55,14 +55,10 @@
       "summary": "MEE6 is the largest all-in-one Discord bot, with 20 million communities using it worldwide. I joined the team in early 2022 to support the growth of the engineering and product team.",
       "missions": [],
       "actions": [
-        "Memberhsips Developments: Patreon-like features to help server owners monetize their communities. Architectural, testing and reliability improvements. Payments integration (Stripe direct payment, Stripe Connect, Paypal, ETH crypto payments)",
-        "AI Developments: OpenAI ChatGPT (direct command and shading functionality) integrations, image generation via Stability XL API integration, server subscriptions to AI features",
-        "Bot functionality developments (emojis module, payments, etc.)",
-        "Created and led the Backend guild, a cross-functional working group for all squad backend developers, managing cross-functional technical initiatives, around issues of scalability and maintainability, knowledge sharing, guidelines and common components",
-        "Promotion and implementation of clean architecture and event driven architecture patterns, through multiple presentations and documentation",
-        "Promotion of Test Driven Development",
-        "Promotion and implementation of the use of domain-oriented HATEOAS REST APIs. Presentation, training, creation of the first backend implementations and tooling",
-        "Help promote and disseminate automated testing in the Python backend"
+        "Contribution to the recruitment and structuring of the team (of 5 to 20 people)",
+        "Creation and animation of the Backend guild, a group managing transversal technical initiatives (performance, scalability, maintainability, knowledge sharing, guidelines and common components)",
+        "Implementation and promotion of craft practices: clean architecture and event driven architecture patterns, automated tests, TDD, refactoring, HATEOAS API",
+        "Bot developments, including Memberhsips (Patreon-like, Stripe payment integration, crypto ETH, Paypal), AI features based on Open AI and Stability XL APIs"
       ],
       "highlights": []
     },
@@ -74,11 +70,11 @@
       "endDate": "2021-12-31",
       "summary": "Alma is a payment solution in several installments. Within the Merchant Acquisition team, I contributed to the development of the payment API.",
       "missions": [],
-      "actions": [
+      "actions": [],
+      "highlights": [
         "Developments on the payment API and Point of Sale applications (Python, Flask, FastAPI, PostgreSQL)",
         "Developments to integrate the Alma service with third-party payment partners and point-of-sale payment terminal solutions"
-      ],
-      "highlights": []
+      ]
     },
     {
       "name": "Sennder",
@@ -88,12 +84,12 @@
       "endDate": "2021-07-30",
       "summary": "Sennder is the digital transport partner of companies. Within the pod portal, I contributed to the development of the self-service portal for small and medium-sized shippers.",
       "missions": [],
-      "actions": [
+      "actions": [],
+      "highlights": [
         "Developments on the legacy monolith Python Django PostgreSQL back-end",
         "Developments of the first pod micro-service and implementation of a basic architecture for Python services - Python, FastAPI, PostgreSQL, Kafka, Terraform and AWS ECS",
         "Architecture and developments of the payments microservice"
-      ],
-      "highlights": []
+      ]
     },
     {
       "name": "Adenia Conseil",
@@ -103,11 +99,11 @@
       "endDate": "2021-03-31",
       "summary": "Adenia Conseil is a consulting firm in structuring, financing and project execution. As part of its R&D, Adenia is experimenting with software development to support its activity, around the CEO and 2 young developers. In order to start on the best possible basis, I accompany the team on software craft coaching and support. ",
       "missions": [],
-      "actions": [
-        "training and workshops around priority topics for the team: Deployment and production on a PaaS, From idea to production - organize the development flow, code and clean architecture, test driven development",
-        "technical support and advice on the start of the first developments"
-      ],
-      "highlights": []
+      "actions": [],
+      "highlights": [
+        "Training and workshops around priority topics for the team: Deployment and production on a PaaS, From idea to production - organize the development flow, code and clean architecture, test driven development",
+        "Technical support and advice on the start of the first developments"
+      ]
     },
     {
       "name": "Opquast",
@@ -117,15 +113,15 @@
       "endDate": "2021-01-31",
       "summary": "Opquast is the skills certification for web professions and offers a repository of good practices, online training and certification. I help the Opquast team prepare the software platform and the technical team for scaling up.",
       "missions": [],
-      "actions": [
-        "strategic analysis, architecture and implementation of improvements to existing software",
-        "migration to a new infrastructure: gradual transition to Paas, use of managed services",
-        "improvement of the development flow: implementation of the Kanban flow, improvement of communication and the use of Gitlab",
-        "creation of automated tests (0 to 60% coverage) and implementation of continuous integration",
-        "team training: clean code, automated tests, TDD, clean architecture, introduction to DDD",
-        "development of new features"
-      ],
-      "highlights": []
+      "actions": [],
+      "highlights": [
+        "Strategic analysis, architecture and implementation of improvements to existing software",
+        "Migration to a new infrastructure: gradual transition to Paas, use of managed services",
+        "Improvement of the development flow: implementation of the Kanban flow, improvement of communication and the use of Gitlab",
+        "Creation of automated tests (0 to 60% coverage) and implementation of continuous integration",
+        "Team training: clean code, automated tests, TDD, clean architecture, introduction to DDD",
+        "Development of new features"
+      ]
     },
     {
       "name": "eshard",
@@ -271,12 +267,22 @@
     {
       "name": "API integrations",
       "level": "",
-      "keywords": ["Stripe", "Slack", "Algolia"]
+      "keywords": [
+        "Stripe",
+        "Slack",
+        "Algolia"
+      ]
     },
     {
       "name": "Persistence and messaging",
       "level": "",
-      "keywords": ["SQL", "PostgreSQL", "Kafka", "SQLAlchemy", "Django ORM"]
+      "keywords": [
+        "SQL",
+        "PostgreSQL",
+        "Kafka",
+        "SQLAlchemy",
+        "Django ORM"
+      ]
     },
     {
       "name": "Ops and tools",
