@@ -47,6 +47,20 @@
   },
   "work": [
     {
+      "name": "BackMarket",
+      "position": "Backend engineer freelance",
+      "url": "https://www.backmarket.fr",
+      "startDate": "2023-10-04",
+      "endDate": "2024-06-28",
+      "summary": "Back Market is the leading marketplace for the sale of refurbished electronic products. I strengthened the Payout squad, responsible for outgoing payments.",
+      "missions": [],
+      "actions": [],
+      "highlights": [
+        "Contributions to the squad's developments and to the various services (Python, Django, Flask, FastAPI, PostgreSQL, Kafka)",
+        "Design and development of a service responsible for storing personal information"
+      ]
+    },
+    {
       "name": "MEE6",
       "position": "Expert backend developer",
       "url": "https://mee6.xyz",
