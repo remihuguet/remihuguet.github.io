@@ -47,6 +47,19 @@
   },
   "work": [
     {
+      "name": "Saint-Gobain Glass France",
+      "position": "Fullstack engineer freelance",
+      "url": "https://www.backmarket.fr",
+      "startDate": "2024-07-01",
+      "endDate": "",
+      "summary": "Within the thin film R&D team, I contribute to the architecture and development of software for optimizing thin film processes.",
+      "missions": [],
+      "actions": [],
+      "highlights": [
+        "Development of new features on the production optimization application (Python, Django, VueJS, Postgresql, Pandas, Numpy)"
+      ]
+    },
+    {
       "name": "BackMarket",
       "position": "Backend engineer freelance",
       "url": "https://www.backmarket.fr",
@@ -257,12 +270,10 @@
       "keywords": [
         "Web architecture",
         "Services architecture",
+        "Test-Driven Design",
         "Domain-Driven Design",
         "Clean architecture",
-        "Test-Driven Design",
-        "Testing",
-        "Kanban, Flow",
-        "Agile",
+        "Agile - Kanban, Flow",
         "Continuous Integration & deployment"
       ]
     },
@@ -283,8 +294,10 @@
       "level": "",
       "keywords": [
         "Stripe",
-        "Slack",
-        "Algolia"
+        "Discord",
+        "Paypal",
+        "Algolia",
+        "Slack"
       ]
     },
     {
@@ -305,8 +318,6 @@
         "Git",
         "Gitlab CI",
         "Github",
-        "Docker",
-        "Terraform",
         "Cloud: AWS, GCE, Paas( Platform.sh, Clever Cloud)"
       ]
     }

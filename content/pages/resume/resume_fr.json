@@ -47,6 +47,19 @@
   },
   "work": [
     {
+      "name": "Saint-Gobain Glass France",
+      "position": "Fullstack engineer freelance",
+      "url": "https://www.backmarket.fr",
+      "startDate": "2024-07-01",
+      "endDate": "",
+      "summary": "Au sein de l'équipe de R&D couches minces, je contribue à l'architecture et au développement des logiciels pour l'optimisation des procédés de couches minces.",
+      "missions": [],
+      "actions": [],
+      "highlights": [
+        "Développements de nouvelles fonctionnalités sur l'application d'optimisation de la production (Python, Django, VueJS, Postgresql, Pandas, Numpy)"
+      ]
+    },
+    {
       "name": "BackMarket",
       "position": "Backend engineer freelance",
       "url": "https://www.backmarket.fr",
@@ -70,7 +83,7 @@
       "missions": [],
       "actions": [],
       "highlights": [
-        "Contribution au recrutement et structuration de l'équipe (de 5  20 pers.)",
+        "Contribution au recrutement et structuration de l'équipe (de 5 à 20 pers.)",
         "Création et animation de la guilde Backend, groupe gérant les initiatives techniques transversales (perfs, évolutivité, maintenabilité, partage de connaissances, guidelines et composants communs)",
         "Mise en œuvre et promotion de pratiques craft: patterns de clean architecture et event driven architecture, tests automatisés, TDD, refactoring, HATEOAS API",
         "Développements sur le bot, notamment Memberhsips (Patreon-like, intégration de paiements Stripe, crypto ETH, Paypal), fonctionnalités IA basées sur les API Open AI et Stability XL"
@@ -246,7 +259,7 @@
       "courses": []
     }
   ],
-  "skills_intro": "Je suis un ingénieur logiciel avec des valeurs artisanales (mouvement \"craft\").  Bien que mes principales compétences techniques sont concentrées sur les backends et l'architecture, je cultive un large spectre de compétences, du produit aux opérations, et au  front-end.",
+  "skills_intro": "Je suis un ingénieur logiciel avec des valeurs artisanales.  Bien que mes principales compétences techniques sont concentrées sur les backends et l'architecture, je cultive un large spectre de compétences, du produit aux opérations, et au  front-end.",
   "skills_title": "Principales compétences",
   "skills": [
     {
@@ -255,13 +268,10 @@
       "keywords": [
         "Services architecture",
         "Web architecture",
-        "Clean architecture",
         "Test-Driven Design",
+        "Clean architecture",
         "Domain-Driven Design",
-        "Domain oriented HATEOAS REST API",
-        "Testing",
-        "Kanban, Flow",
-        "Agile",
+        "Agile - Kanban, Flow",
         "Continuous Integration & deployment"
       ]
     },
@@ -309,8 +319,6 @@
         "Gitlab CI",
         "Github",
         "Docker",
-        "Kubernetes",
-        "Terraform",
         "Cloud: AWS, GCE, Paas( Platform.sh, Clever Cloud)"
       ]
     }

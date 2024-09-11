@@ -2,9 +2,9 @@
   "name": "www.remihuguet.dev",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "explore": "NODE_OPTIONS=--openssl-legacy-provider gridsome explore",
     "predeploy": "npm run build"
   },
   "dependencies": {
