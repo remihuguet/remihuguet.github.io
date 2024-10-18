@@ -3,6 +3,10 @@
 
     <Presentation :presentations="$page.messages.presentation" :cta="$page.messages.cta1" />
 
+    <ClientBanner 
+      :title="$page.messages.client_banner.title"
+      :clients="$page.messages.client_banner.clients"
+    />
     <BannerBloc 
       :valueprop="$page.messages.valueprop"
       :intro="$page.messages.problems_intro"
@@ -64,6 +68,13 @@ query Landing ($id: ID!) {
     skills_presentation,
     offers_presentation,
     why_me_vp,
+    client_banner {
+      title,
+      clients {
+        name,
+        logo
+      }
+    },
     testimonies {
       id,
       name,
@@ -96,6 +107,7 @@ import BannerBloc from '~/components/landing/BannerBloc.vue';
 import Offers from '~/components/landing/Offers.vue';
 import Testimony from '~/components/landing/Testimony.vue';
 import WhyMe from '~/components/landing/WhyMe.vue';
+import ClientBanner from '~/components/landing/ClientBanner.vue';
 import {Cloudinary} from 'cloudinary-core';
 
 const cl = new Cloudinary({cloud_name: "dy3n8on06", secure: true});
@@ -111,7 +123,8 @@ export default {
     BannerBloc,
     Offers,
     Testimony,
-    WhyMe
+    WhyMe,
+    ClientBanner
   },
   computed: {
     myself_url: function () {

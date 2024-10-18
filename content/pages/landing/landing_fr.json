@@ -142,7 +142,6 @@
       "shorttext": "Rémi est un excellent développeur et un très bon architecte. Au sein de notre équipe, il a su mettre en place des process et accompagner les développeurs tout au long du changement. Très fiable et sympathique, il est toujours prêt à aider quand on en a besoin.",
       "longtext": "Rémi est un excellent développeur et un très bon architecte. Au sein de notre équipe, il a su mettre en place des process et accompagner les développeurs tout au long du changement. Très fiable et sympathique, il est toujours prêt à aider quand on en a besoin."
     },
-
     {
       "id": 6,
       "name": "Julien Hovelaque",
@@ -183,5 +182,30 @@
       "shorttext": "[...](Rémi) a très largement consolidé la qualité de production et la résilience de l’équipe technique Opquast. Rémi, doté d’une incroyable bienveillance, a la capacité rare de comprendre immédiatement votre projet, votre module, votre code, d’en tirer ses faiblesses, d’entrevoir les axes d’améliorations.",
       "longtext": "Persuadée du bien fondé des tests fonctionnels et de l’approche TDD depuis bien des années, l’équipe technique, impuissante, n’arrivait jamais à passer l’étape de la mise en place pour la raison principale:  méthodologie !\n Quoi tester  ?  Comment le tester ? Jusqu’à quel niveau ?  Le mur semblait infranchissable, aucune vérification ne semblait possible sans faire appel à la base de données et un jeu de test conséquent, une frustration permanente, l’enfer. (Notre application a 11 ans).\n Depuis bien des années en bon étudiant et bon soldat nous avons suivis deux voies périlleuses, celle de la méthode Merise et  l’acceptation de l’ORM comme pierre angulaire de tout bon projet Web. C’est rassurant mais  il y a des limites.\n Il y a des rencontres que l’on sait importantes, que l’on espère parfois, et que l’on bénit d’être arrivée. Celle de Rémi est salvatrice à bien des égards.\n La rencontre de Rémi fait partie  d’une étape importante, qui, non contente d’avoir amélioré mes propres pratiques de développement, a très largement consolidé la qualité de production et la résilience de l’équipe technique Opquast.\n Rémi, doté d’une incroyable bienveillance, a la capacité rare de comprendre immédiatement votre projet, votre module, votre code, d’en tirer ses faiblesses, d’entrevoir les axes d’améliorations. Rémi vous accompagne et vous emmène à revoir vos schémas de pensée, vous invite à vous poser les bonnes questions pour répondre aux besoins fonctionnels de vos utilisateurs. Cela paraît évidant dit comme cela, mais le prisme technique nous absorbe très souvent.\n Rémi maitrise la technique, Django chez nous , les concepts, une grande partie des designs patterns mais son expérience professionnelle lui permet de proposer un accompagnement et des formations toujours éclairées jamais dogmatiques, un vrai bonheur.\n Je pense que vous l’avez compris,  telle une reine dans un jeu d’échec, Rémi est une ressource de qualité pour faire grandir vos équipes techniques.\n PS : Par manque d’humour il préfère communiquer par gif, parfois de plusieurs méga octets, bref l’écologie n’est pas son domaine.\n"
     }
-  ]
+  ],
+  "client_banner": {
+    "title": "",
+    "clients": [
+      {
+        "name": "Opquast",
+        "logo": "my0zwr44vgkro3gjbtns"
+      },
+      {
+        "name": "Mee6",
+        "logo": "s4brue2mhf8kbpievmie"
+      },
+      {
+        "name": "Backmarket",
+        "logo": "pul5vxpgssrbi0blr99h"
+      },
+      {
+        "name": "Sennder",
+        "logo": "krwso00pivvs8sglzptv"
+      },
+      {
+        "name": "Alma",
+        "logo": "vnogvi2pgy99tilu3qdq"
+      }
+    ]
+  }
 }

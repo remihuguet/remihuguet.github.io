@@ -63,14 +63,14 @@
   "testimonies_title": "Testimonies ⭐",
   "testimonies": [
     {
-    "id": 9,
-    "name": "Nitsan Seniak",
-    "context": "CTO - MEE6",
-    "linkedin": "https://www.linkedin.com/in/remihuguet/",
-    "link": "https://www.linkedin.com/in/nitsanseniak/",
-    "image": "1650470340637_lf2szg",
-    "shorttext": "[...] Rémi was able to very quickly enter a large code base and immediately have an impact.[...] Rémi also quickly gained influence among team members [...] thanks to his great culture in methodology and architecture. [...]",
-    "longtext": "I had the chance to work with Rémi for over a year and a half. Rémi joined a project that already had a long history, and he was able to very quickly enter a large code base and immediately have an impact. Rémi impressed me with his ability to tackle complex business issues in an incremental and pragmatic way and to produce high quality and very maintainable code and architecture. Rémi also quickly gained influence among team members - including the most experienced ones, myself included - thanks to his great culture in methodology and architecture. With teaching and patience, he made us grow by helping us adopt better practices, such as clean architecture. Rémi has had a positive impact well beyond his direct contribution to the code. I highly recommend it."
+      "id": 9,
+      "name": "Nitsan Seniak",
+      "context": "CTO - MEE6",
+      "linkedin": "https://www.linkedin.com/in/remihuguet/",
+      "link": "https://www.linkedin.com/in/nitsanseniak/",
+      "image": "1650470340637_lf2szg",
+      "shorttext": "[...] Rémi was able to very quickly enter a large code base and immediately have an impact.[...] Rémi also quickly gained influence among team members [...] thanks to his great culture in methodology and architecture. [...]",
+      "longtext": "I had the chance to work with Rémi for over a year and a half. Rémi joined a project that already had a long history, and he was able to very quickly enter a large code base and immediately have an impact. Rémi impressed me with his ability to tackle complex business issues in an incremental and pragmatic way and to produce high quality and very maintainable code and architecture. Rémi also quickly gained influence among team members - including the most experienced ones, myself included - thanks to his great culture in methodology and architecture. With teaching and patience, he made us grow by helping us adopt better practices, such as clean architecture. Rémi has had a positive impact well beyond his direct contribution to the code. I highly recommend it."
     },
     {
       "id": 5,
@@ -92,7 +92,6 @@
       "shorttext": "Rémi is an outstanding developer with whom I had the chance to work! The quality of his work is remarkable, reflecting his rigor and attention to detail. His critical thinking was able to provide innovative solutions to the problems encountered (whether purely tech or product)[...]",
       "longtext": "Rémi is an outstanding developer with whom I had the chance to work! The quality of his work is remarkable, reflecting his rigor and attention to detail. His critical thinking was able to provide innovative solutions to the problems encountered (whether purely tech or product): in summary, Rémi was a key element of the team, whom I therefore highly recommend :)"
     },
-
     {
       "id": 7,
       "name": "Maxime Teissier",
@@ -183,5 +182,30 @@
       "shorttext": "[...](Rémi) has greatly consolidated the quality of production and the resilience of the Opquast technical team . Rémi, endowed with incredible benevolence, has the rare ability to immediately understand your project, your module, your code, to draw out its weaknesses, to see areas for improvement.",
       "longtext": "Convinced of the merits of functional tests and the TDD approach for many years, the helpless technical team could never pass the implementation stage for the main reason: methodology! \n What to test ? How to test it? Up to what level? The wall seemed insurmountable, no verification seemed possible without calling on the database and a lot of testing, constant frustration, hell. (Our app is 11 years old.) \n For many years as a good student and good soldier we have followed two perilous paths, that of the Merise method and the acceptance of ORM as the cornerstone of any good web project. It's reassuring, but there are limits. \n There are meetings that we know are important, that we sometimes hope for, and that we are blessed for having arrived. Rémi's is saving in many respects. \n Rémi's meeting is part of an important step, which, not content with having improved my own development practices, has greatly consolidated the quality of production and the resilience of the Opquast technical team. \n Rémi, endowed with an incredible benevolence, has the rare capacity to immediately understand your project, your module, your code, to draw out its weaknesses, to foresee the axes of improvement. Rémi accompanies you and takes you to review your thought patterns, invites you to ask yourself the right questions to meet the functional needs of your users. It seems obvious said like that, but the technical prism very often absorbs us. \n Rémi masters the technique, Django with us, the concepts, a large part of the design patterns but his professional experience allows him to always offer support and training, enlightened never dogmatic, a real happiness. \n I think you understood it, like a queen in a game of chess, Rémi is a quality resource to help your technical teams grow. \n PS: For lack of humor he prefers to communicate by gif, sometimes of several mega bytes, in short ecology is not his domain."
     }
-  ]
+  ],
+  "client_banner": {
+    "title": "",
+    "clients": [
+      {
+        "name": "Opquast",
+        "logo": "my0zwr44vgkro3gjbtns"
+      },
+      {
+        "name": "Mee6",
+        "logo": "s4brue2mhf8kbpievmie"
+      },
+      {
+        "name": "Backmarket",
+        "logo": "pul5vxpgssrbi0blr99h"
+      },
+      {
+        "name": "Sennder",
+        "logo": "krwso00pivvs8sglzptv"
+      },
+      {
+        "name": "Alma",
+        "logo": "vnogvi2pgy99tilu3qdq"
+      }
+    ]
+  }
 }
