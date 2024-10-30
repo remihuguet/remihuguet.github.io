@@ -319,13 +319,15 @@ hr {
 
 @media print {
   h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   .panel {
+    max-width: calc(1.1 * var(--content-width));
+
     .left-panel {
 
     .me__image {
-        width: 22vw;
+        width: 20vw;
       }
 
     }

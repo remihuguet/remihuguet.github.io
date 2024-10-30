@@ -29,19 +29,9 @@
         "url": "https://www.linkedin.com/in/remihuguet/"
       },
       {
-        "network": "Twitter",
-        "username": "RemiHuguet",
-        "url": "https://twitter.com/RemiHuguet"
-      },
-      {
         "network": "Github",
         "username": "remihuguet",
         "url": "https://github.com/remihuguet"
-      },
-      {
-        "network": "Malt",
-        "username": "remihuguet",
-        "url": "https://www.malt.fr/profile/remihuguet"
       }
     ]
   },
@@ -268,8 +258,6 @@
       "name": "Software craft",
       "level": "",
       "keywords": [
-        "Web architecture",
-        "Services architecture",
         "Test-Driven Design",
         "Domain-Driven Design",
         "Clean architecture",
@@ -284,20 +272,7 @@
         "Python",
         "Django",
         "FastAPI",
-        "Flask",
-        "Javascript",
-        "VueJS"
-      ]
-    },
-    {
-      "name": "API integrations",
-      "level": "",
-      "keywords": [
-        "Stripe",
-        "Discord",
-        "Paypal",
-        "Algolia",
-        "Slack"
+        "Flask"
       ]
     },
     {
@@ -306,19 +281,7 @@
       "keywords": [
         "SQL",
         "PostgreSQL",
-        "Kafka",
-        "SQLAlchemy",
-        "Django ORM"
-      ]
-    },
-    {
-      "name": "Ops and tools",
-      "level": "",
-      "keywords": [
-        "Git",
-        "Gitlab CI",
-        "Github",
-        "Cloud: AWS, GCE, Paas( Platform.sh, Clever Cloud)"
+        "Redis"
       ]
     }
   ],
