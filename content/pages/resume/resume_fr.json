@@ -189,9 +189,9 @@
       "endDate": "2015-03-31",
       "position": "Associé et directeur de production",
       "summary": "Créée en 2008, Tiki Move est une société spécialisée dans le développement d'applications et de jeux vidéo sur des plateformes mobiles. En quelques années, Tiki Move délivre plus de 100 applications, et aborde le développement de dispositifs numériques multicanaux. En 2014, Tiki Move a rejoint Clever Age pour renforcer la division mobile. J'ai rejoint Tiki Move en 2011 en tant que directeur de production pour accompagner la croissance de l'entreprise.",
-      "Actions": [],
+      "actions": [],
       "missions": [],
-      "points forts": [
+      "highlights": [
         "Architecture et développements pour les backends et les applications mobiles",
         "Recrutement et management de l'équipe: de 5 à 15 devs entre 2011 et fin 2012",
         "Gestion de projet et de production",
@@ -203,14 +203,14 @@
       "url": ""
     },
     {
-      "nom": "Logica",
+      "name": "Logica",
       "position": "Ingénieur logiciel",
       "startDate": "2008-10-31",
       "endDate": "2011-04-30",
-      "résumé": "Dans le cadre de la tierece maintenance applicative SICOM (SI COMmercial) pour le compte d'EDF, j'ai réalisé diverses missions sur une application de production de services pour la facturation des clients grands comptes d'EDF.",
-      "Actions": [],
+      "summary": "Dans le cadre de la tierece maintenance applicative SICOM (SI COMmercial) pour le compte d'EDF, j'ai réalisé diverses missions sur une application de production de services pour la facturation des clients grands comptes d'EDF.",
+      "actions": [],
       "missions": [],
-      "points forts": [
+      "highlights": [
         "Responsable de l'activité MOC (3 ETP) puis responsable applicatif (5 ETP, évolutions> 300 jours / heure)",
         "Analyste technique et fonctionnel",
         "Design et développement"
