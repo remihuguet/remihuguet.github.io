@@ -1,7 +1,11 @@
 <template>
-  <section class="client-banner">
-    <div class="container">
-      <div class="logo-container">
+  <div class="bg-wrapper">
+    <div class="clients">
+      <div class="clients__title">
+        <h2>{{ title }}</h2>
+        <hr />
+      </div>
+      <div class="clients__logos">
         <g-image
           v-for="client in clients"
           :key="client.name"
@@ -11,7 +15,7 @@
         />
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -23,7 +27,7 @@ export default {
   methods: {
     cloudy_url: function (img) {
       return cl.url(img, {
-        transformation: [{ effect: "sharpen:100", width: 100, crop: "scale" }],
+        transformation: [{ effect: "sharpen:100", width: 200, crop: "scale" }],
       });
     },
   },
@@ -40,33 +44,31 @@ export default {
 };
 </script>
 
-<style scoped>
-.client-banner {
-  background-color: #f8f8f8;
-  padding: 40px 0;
-}
+<style lang="scss" scoped>
+.bg-wrapper {
+  padding: calc(2 * var(--space)) calc(6 * var(--space));
 
-.client-banner h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
+  @media screen and (max-width: 650px) {
+    padding: calc(2 * var(--space)) calc(2 * var(--space));
+  }
 
-.logo-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  .clients {
+    .clients__title {
+      max-width: var(--content-width);
+      margin: calc(2 * var(--space)) auto;
+    }
 
-.client-logo {
-  max-width: 150px;
-  height: auto;
-  margin: 10px;
-}
-
-@media (max-width: 768px) {
+    .clients__logos {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
   .client-logo {
-    max-width: 100px;
+    max-width: 200px;
+    height: auto;
+    margin: var(--space );
   }
 }
 </style>

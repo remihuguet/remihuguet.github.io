@@ -63,6 +63,16 @@
   "testimonies_title": "Testimonies ⭐",
   "testimonies": [
     {
+      "id": 5,
+      "name": "Gary McDowell",
+      "context": "Engineering manager - Sennder",
+      "linkedin": "https://www.linkedin.com/in/remihuguet/",
+      "link": "https://www.linkedin.com/in/garydmcdowell/",
+      "image": "1594287130980_vu1pt2",
+      "shorttext": "An absolute genius of a developer and someone I would recommend instantly to anyone.",
+      "longtext": "An absolute genius of a developer and someone I would recommend instantly to anyone. He was up to speed and operational on our processes and platforms in double time. He is well versed in architectural patterns like clean architecture and he was contributing from day 1. Exactly what you want from a freelance developer - a lovely person and absolute team player, seeking out his colleagues in order to deliver with quality and speed. A must hire if you get the chance"
+    },
+    {
       "id": 9,
       "name": "Nitsan Seniak",
       "context": "CTO - MEE6",
@@ -73,14 +83,24 @@
       "longtext": "I had the chance to work with Rémi for over a year and a half. Rémi joined a project that already had a long history, and he was able to very quickly enter a large code base and immediately have an impact. Rémi impressed me with his ability to tackle complex business issues in an incremental and pragmatic way and to produce high quality and very maintainable code and architecture. Rémi also quickly gained influence among team members - including the most experienced ones, myself included - thanks to his great culture in methodology and architecture. With teaching and patience, he made us grow by helping us adopt better practices, such as clean architecture. Rémi has had a positive impact well beyond his direct contribution to the code. I highly recommend it."
     },
     {
-      "id": 5,
-      "name": "Gary McDowell",
-      "context": "Engineering manager - Sennder",
+      "id": 13,
+      "name": "Ayile Delageot",
+      "context": "Engineering manager - Backmarket",
       "linkedin": "https://www.linkedin.com/in/remihuguet/",
-      "link": "https://www.linkedin.com/in/garydmcdowell/",
-      "image": "1594287130980_vu1pt2",
-      "shorttext": "An absolute genius of a developer and someone I would recommend instantly to anyone.",
-      "longtext": "An absolute genius of a developer and someone I would recommend instantly to anyone. He was up to speed and operational on our processes and platforms in double time. He is well versed in architectural patterns like clean architecture and he was contributing from day 1. Exactly what you want from a freelance developer - a lovely person and absolute team player, seeking out his colleagues in order to deliver with quality and speed. A must hire if you get the chance"
+      "link": "https://www.linkedin.com/in/adelageot/",
+      "image": "1638802212340_iz44tz",
+      "shorttext": "I had the pleasure of working with Rémi during his mission at Backmarket. Upon my arrival, he was always available to help me adapt to my role as the team manager. Rémi is both pedagogical and dedicated. He consistently shares his insights constructively, and his experience enables him to understand topics thoroughly and make relevant contributions. I recommend Rémi 100%.",
+      "longtext": "I had the pleasure of working with Rémi during his mission at Backmarket. Upon my arrival, he was always available to help me adapt to my role as the team manager. Rémi is both pedagogical and dedicated. He consistently shares his insights constructively, and his experience enables him to understand topics thoroughly and make relevant contributions. I recommend Rémi 100%."
+    },
+    {
+      "id": 2,
+      "name": "Elie Sloïm",
+      "image": "elie_y6wxuo.jpeg",
+      "context": "CEO / founder - Opquast",
+      "linkedin": "https://www.linkedin.com/in/remihuguet/",
+      "link": "https://www.opquast.com",
+      "shorttext": "...] Rémi worked with the teams of developers and with the rest of the teams. [...] He organized workshops with developers and fundamentally changed both the ways of working, the architecture, and the technological choices of the company.",
+      "longtext": "As CEO and founder of the Opquast project, I called on Rémi Huguet for almost the whole of 2020. The technical situation of the company before Rémi's mission was as follows: \n - a significant technical debt , \n- a very heavy and not very scalable legacy code, \n- a very invested technical team but which suffered more than it accommodated the requests for evolutions and functionalities \n- a complex service architecture \n- Insufficient scalability \n- Long development times \n- Applications that are too fragile \nI am not ashamed to present such a table, because I know that it is very frequent, even a little normal in the companies of the sector. \n That said, staying in a state of this type is not however possible if we want to develop, improve our agility, work faster, welcome more customers, ensure that the development teams are happy to work and informed of best practices and STATE OF THE ART. \n Having known Rémi for several years, I asked him to tackle all these topics head-on. Throughout 2020, Rémi worked with the developer teams and with the rest of the teams. He alternated between basic projects and much faster interventions. He organized workshops with developers and fundamentally changed the way the company works, its architecture, and its technological choices. For my part, I also had to make some major choices, but I think I can say that neither I nor my teams were abrupt or constrained during this period. Rémi has shown exceptional listening and adaptability, being able to move with ease from a strategic worksite to an urgent bugfixing site to supplement the team when needed. In short, Rémi is a very valuable resource, with excellent listening and adapting skills. His intervention with a team is at least useful and at least as far as Opquast is concerned, has been extremely profitable. \nThis rave board would only be of value if it also mentioned weaknesses: I will mention two, one little tendency to abuse gifs and its backhand in table tennis."
     },
     {
       "id": 12,
@@ -103,16 +123,6 @@
       "longtext": "Rémi is one of the most experienced developers I've worked with. I was impressed by how quickly Rémi became the technical pillar of our team. Rémi is very independent and has a real ability to solve complex technical problems thanks to his expertise, particularly in Python.\n Rémi was also very valuable to our team from a human point of view. Always available and a teacher, Rémi naturally took on the role of technical referent within the team.\n Finally, Rémi went further than his role as a developer by participating in technical discussions at the group sender level and by being a force to proposal to improve our working methods.\n I can only recommend Rémi because working with him is efficient and pleasant. I hope to have the opportunity to collaborate with him again in the future!"
     },
     {
-      "id": 2,
-      "name": "Elie Sloïm",
-      "image": "elie_y6wxuo.jpeg",
-      "context": "CEO / founder - Opquast",
-      "linkedin": "https://www.linkedin.com/in/remihuguet/",
-      "link": "https://www.opquast.com",
-      "shorttext": "...] Rémi worked with the teams of developers and with the rest of the teams. [...] He organized workshops with developers and fundamentally changed both the ways of working, the architecture, and the technological choices of the company.",
-      "longtext": "As CEO and founder of the Opquast project, I called on Rémi Huguet for almost the whole of 2020. The technical situation of the company before Rémi's mission was as follows: \n - a significant technical debt , \n- a very heavy and not very scalable legacy code, \n- a very invested technical team but which suffered more than it accommodated the requests for evolutions and functionalities \n- a complex service architecture \n- Insufficient scalability \n- Long development times \n- Applications that are too fragile \nI am not ashamed to present such a table, because I know that it is very frequent, even a little normal in the companies of the sector. \n That said, staying in a state of this type is not however possible if we want to develop, improve our agility, work faster, welcome more customers, ensure that the development teams are happy to work and informed of best practices and STATE OF THE ART. \n Having known Rémi for several years, I asked him to tackle all these topics head-on. Throughout 2020, Rémi worked with the developer teams and with the rest of the teams. He alternated between basic projects and much faster interventions. He organized workshops with developers and fundamentally changed the way the company works, its architecture, and its technological choices. For my part, I also had to make some major choices, but I think I can say that neither I nor my teams were abrupt or constrained during this period. Rémi has shown exceptional listening and adaptability, being able to move with ease from a strategic worksite to an urgent bugfixing site to supplement the team when needed. In short, Rémi is a very valuable resource, with excellent listening and adapting skills. His intervention with a team is at least useful and at least as far as Opquast is concerned, has been extremely profitable. \nThis rave board would only be of value if it also mentioned weaknesses: I will mention two, one little tendency to abuse gifs and its backhand in table tennis."
-    },
-    {
       "id": 8,
       "name": "Olivier Meurant",
       "context": "Backend Developer - MEE6",
@@ -131,26 +141,6 @@
       "image": "1645543806855_pr5r0i",
       "shorttext": "Rémi has been a total pleasure to work with [...], being a great example of what it is like to collaborate with an experienced senior software developer. [...] Rémi was there to address them fully, not missing anything, resolving not only the request itself, but reasons for it as well,[...]",
       "longtext": "Rémi has been a total pleasure to work with from a Product/Support perspective, being a great example of what it is like to collaborate with an experienced senior software developer. Whatever needs or questions I had, Rémi was there to address them fully, not missing anything, resolving not only the request itself, but reasons for it as well, and finally making adjustments, plans or notes for the future. Additionally, Rémi well documented the system that was developed, which served us well as a reference point. I would be happy and confident to work with Rémi on any project or product."
-    },
-    {
-      "id": 10,
-      "name": "Camille Wintz",
-      "context": "Dev front - MEE6",
-      "linkedin": "https://www.linkedin.com/in/remihuguet/",
-      "link": "https://www.linkedin.com/in/camille-wintz-31119651/",
-      "image": "1516494072396_ktnpjk",
-      "shorttext": "Rémi is an excellent developer and a very good architect. Within our team, he was able to set up processes and support developers throughout the change. Very reliable and friendly, he is always ready to help when needed.",
-      "longtext": "Rémi is an excellent developer and a very good architect. Within our team, he was able to set up processes and support developers throughout the change. Very reliable and friendly, he is always ready to help when needed."
-    },
-    {
-      "id": 6,
-      "name": "Julien Hovelaque",
-      "image": "1604074909491_mts03h",
-      "context": "Developper - Adenia Conseil",
-      "linkedin": "https://www.linkedin.com/in/remihuguet/",
-      "link": "https://www.linkedin.com/in/julien-hovelaque-55946717b/",
-      "shorttext": "[...] It allowed us to avoid many pitfalls, to make ourselves aware of good practices and to get a foothold in TDD. As a junior developer, his expertise has only been more valuable.",
-      "longtext": "Rémi has been a great help to our developer team. It allowed us to avoid many pitfalls, to make ourselves aware of good practices and to get a foothold in TDD. As a junior developer, his expertise has only been more valuable. Thanks to him, our project will be able to grow on a healthy basis."
     },
     {
       "id": 1,
@@ -173,6 +163,26 @@
       "longtext": "I had the opportunity to work with Rémi for a year and under his leadership I have never progressed so much and in such a short time. With him, I had the feeling of being at the forefront of what is being done, both in the field of design and in the use of the latest technologies. \n He has this great quality of being sensitive to your arguments and recommendations. What is important for Rémi is the product, not the ego of the developers. \n I really enjoyed working with Rémi."
     },
     {
+      "id": 10,
+      "name": "Camille Wintz",
+      "context": "Dev front - MEE6",
+      "linkedin": "https://www.linkedin.com/in/remihuguet/",
+      "link": "https://www.linkedin.com/in/camille-wintz-31119651/",
+      "image": "1516494072396_ktnpjk",
+      "shorttext": "Rémi is an excellent developer and a very good architect. Within our team, he was able to set up processes and support developers throughout the change. Very reliable and friendly, he is always ready to help when needed.",
+      "longtext": "Rémi is an excellent developer and a very good architect. Within our team, he was able to set up processes and support developers throughout the change. Very reliable and friendly, he is always ready to help when needed."
+    },
+    {
+      "id": 6,
+      "name": "Julien Hovelaque",
+      "image": "1604074909491_mts03h",
+      "context": "Developper - Adenia Conseil",
+      "linkedin": "https://www.linkedin.com/in/remihuguet/",
+      "link": "https://www.linkedin.com/in/julien-hovelaque-55946717b/",
+      "shorttext": "[...] It allowed us to avoid many pitfalls, to make ourselves aware of good practices and to get a foothold in TDD. As a junior developer, his expertise has only been more valuable.",
+      "longtext": "Rémi has been a great help to our developer team. It allowed us to avoid many pitfalls, to make ourselves aware of good practices and to get a foothold in TDD. As a junior developer, his expertise has only been more valuable. Thanks to him, our project will be able to grow on a healthy basis."
+    },
+    {
       "id": 4,
       "name": "Samuel Martin",
       "context": "Ingénieur logiciel - Opquast",
@@ -184,7 +194,7 @@
     }
   ],
   "client_banner": {
-    "title": "",
+    "title": "They trust me 🚀",
     "clients": [
       {
         "name": "Opquast",
@@ -196,15 +206,15 @@
       },
       {
         "name": "Backmarket",
-        "logo": "pul5vxpgssrbi0blr99h"
+        "logo": "backmarket_ulkls2"
       },
       {
         "name": "Sennder",
-        "logo": "krwso00pivvs8sglzptv"
+        "logo": "sennder_kchtrm"
       },
       {
         "name": "Alma",
-        "logo": "vnogvi2pgy99tilu3qdq"
+        "logo": "alma_pagyxe"
       }
     ]
   }
