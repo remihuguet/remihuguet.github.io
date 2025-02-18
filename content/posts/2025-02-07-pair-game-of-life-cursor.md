@@ -39,3 +39,6 @@ Mais j'ai apprécié l'exercice, et avec mon expérience, je me sens en contrôl
 
 Mais je sens aussi que cela pourrait être assez facilement l'inverse. Comment gérer un contexte technique que je ne maîtrise pas ? Un contexte métier qui n'est pas clair pour moi ? Si je n'ai pas d'idées claires sur l'architecture ou les exigences de qualité sur le code produit ? 
 
+---
+
+Publié sur Linkedin https://www.linkedin.com/posts/remihuguet_quand-je-fais-un-kata-en-pair-programming-activity-7295705764273287169-f8e7
