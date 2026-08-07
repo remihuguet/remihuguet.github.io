@@ -1,0 +1,33 @@
+---
+// Persistent footer: the contact / feed links, understated.
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <nav class="links" aria-label="Elsewhere">
+      <a href="https://linkedin.com/in/remihuguet/">LinkedIn</a>
+      <span class="sep">·</span>
+      <a href="mailto:me@remihuguet.dev">Email</a>
+      <span class="sep">·</span>
+      <a href="/rss.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+<style lang="scss">
+  .site-footer {
+    padding: 40px 0 48px;
+    margin-top: 64px;
+    flex: none;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+  .links .sep {
+    color: var(--soft);
+  }
+</style>

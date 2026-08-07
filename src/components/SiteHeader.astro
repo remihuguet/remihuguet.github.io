@@ -1,0 +1,81 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+// Persistent top header: identity + role grouped together on the left
+// (~/remihuguet[/section] · product engineer), theme toggle on the right.
+// The ~/remihuguet segment always links home (also the "back home" link).
+export interface Section {
+  label: string;
+  href?: string;
+}
+interface Props {
+  section?: Section;
+}
+const { section } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="container bar">
+    <nav class="ident" aria-label="Breadcrumb">
+      <a href="/">~/remihuguet</a>{
+        section && (
+          <>
+            <span class="slash">/</span>
+            {section.href ? (
+              <a href={section.href}>{section.label}</a>
+            ) : (
+              <span class="here" aria-current="page">
+                {section.label}
+              </span>
+            )}
+          </>
+        )
+      }
+    </nav>
+    <ThemeToggle />
+  </div>
+</header>
+
+<style lang="scss">
+  .site-header {
+    padding: 24px 0;
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .ident {
+    font-family: var(--font-mono);
+    font-size: 16px;
+    color: var(--muted);
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-width: 0;
+  }
+  .ident a {
+    color: var(--fg);
+  }
+  .ident a:hover {
+    color: var(--accent);
+  }
+  .ident .here {
+    color: var(--fg);
+  }
+  .ident .slash {
+    color: var(--soft);
+  }
+
+  @media (max-width: 600px) {
+    .site-header {
+      padding: 18px 0;
+    }
+    .ident {
+      font-size: 14px;
+      gap: 6px;
+    }
+  }
+</style>

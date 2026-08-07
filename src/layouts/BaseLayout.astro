@@ -1,0 +1,61 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import SiteHeader, { type Section } from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+// Self-hosted variable fonts (Fontsource) — no external request, simpler CSP.
+import '@fontsource-variable/jetbrains-mono/wght.css';
+import '@fontsource-variable/jetbrains-mono/wght-italic.css';
+import '@fontsource-variable/newsreader/opsz.css';
+import '@fontsource-variable/newsreader/opsz-italic.css';
+import '../styles/global.scss';
+
+interface Props {
+  title: string;
+  description: string;
+  ogType?: 'website' | 'article';
+  noindex?: boolean;
+  // Content language for <html lang>. Chrome pages are English; article pages
+  // pass the post's language so the document is tagged correctly.
+  lang?: string;
+  // Optional location segment shown in the header after ~/remihuguet.
+  section?: Section;
+}
+
+const { title, description, ogType, noindex, lang = 'en', section } =
+  Astro.props;
+---
+
+<!doctype html>
+<html lang={lang} data-theme="dark">
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      ogType={ogType}
+      noindex={noindex}
+    />
+    <!-- No-FOUC: set theme before first paint. Default dark; honour
+         prefers-color-scheme only when the user hasn't chosen. -->
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t !== 'dark' && t !== 'light') {
+            t = window.matchMedia('(prefers-color-scheme: light)').matches
+              ? 'light'
+              : 'dark';
+          }
+          document.documentElement.dataset.theme = t;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <SiteHeader section={section} />
+    <main class="main">
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>

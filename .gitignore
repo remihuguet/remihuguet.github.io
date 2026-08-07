@@ -4,6 +4,7 @@
 src/.temp
 node_modules
 dist
+.astro
 .env
 .env.*
 TODO.md

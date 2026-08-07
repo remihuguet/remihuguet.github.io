@@ -1,0 +1,142 @@
+@use 'prose';
+@use 'code';
+
+/* ============================================================================
+   Design tokens — terminal / "paper terminal" aesthetic.
+   Source of truth: design_handoff_wip_and_blog/README.md (authoritative over
+   the prototype HTML, which still carried the swatch-picker's gold default).
+   Single fixed accent (orange) shared by both themes.
+   ========================================================================== */
+:root {
+  /* dark theme (default) */
+  --bg: #010409;
+  --page: radial-gradient(1200px 600px at 30% -5%, #0d1117 0%, #010409 60%);
+  --surface: #0d1117;
+  --border: #30363d;
+  --soft: #21262d;
+  --fg: #e6edf3;
+  --dim: #c9d1d9;
+  --muted: #8b949e;
+  --green: #3fb950;
+  --code: #161b22;
+  --avatar: #161b22;
+  --shadow: 0 30px 70px rgba(0, 0, 0, 0.55);
+
+  /* accent — same in both themes */
+  --accent: #ff7a18;
+  --accent2: #ff9a4d;
+
+  /* type */
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SFMono-Regular',
+    Menlo, monospace;
+  --font-serif: 'Newsreader Variable', Georgia, 'Times New Roman', serif;
+
+  /* layout — wide frame (~10% narrower than before) */
+  --content-width: min(72vw, 1380px);
+  --list-width: 860px;
+  --reading-width: 720px;
+}
+
+:root[data-theme='light'] {
+  --bg: #fbfaf6;
+  --page: radial-gradient(1200px 600px at 30% -5%, #ffffff 0%, #fbfaf6 60%);
+  --surface: #ffffff;
+  --border: #e2dccf;
+  --soft: #ece7db;
+  --fg: #1c1a17;
+  --dim: #3f3a32;
+  --muted: #726b5c;
+  --green: #2f7d32;
+  --code: #f1ece0;
+  --avatar: #f1ece0;
+  --shadow: 0 22px 50px rgba(90, 78, 45, 0.14);
+  /* Deeper orange in light mode: bright #ff7a18 is only 2.3:1 on a light bg
+     (illegible); #d1540c is ~4:1 and still clearly orange. Dark mode keeps the
+     bright accent (7.9:1 on near-black). */
+  --accent: #d1540c;
+  --accent2: #e8621a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Column layout so the footer sits at the bottom and content starts at top. */
+  display: flex;
+  flex-direction: column;
+  /* Glow anchored to the top of the page (fades as you scroll), matching the
+     prototype — not viewport-fixed. */
+  background: var(--bg) var(--page) no-repeat;
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Soft theme switch */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Page body grows to push the footer down; flex column so a page can center
+   its content vertically (the homepage does). */
+.main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent2);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Wide frame, centered on the page, content directly on the background. */
+.container {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Readable sub-columns, left-aligned to the frame edge (so they line up with
+   the header) rather than re-centered. */
+.column--list {
+  max-width: var(--list-width);
+}
+.column--reading {
+  max-width: var(--reading-width);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 20px;
+  }
+}
