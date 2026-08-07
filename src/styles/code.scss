@@ -1,0 +1,35 @@
+/* ============================================================================
+   Code blocks (spec 1e). Container uses our own --code / --soft tokens so it
+   matches the design in both themes; syntax colours come from Shiki's dual
+   themes (defaultColor:false emits --shiki-light / --shiki-dark per token) and
+   switch on the `data-theme` attribute set by the no-FOUC script.
+   ========================================================================== */
+.prose pre.astro-code {
+  margin: 24px 0 0;
+  padding: 18px 20px;
+  background: var(--code);
+  border: 1px solid var(--soft);
+  border-radius: 10px;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+/* Default = dark palette (the no-FOUC script always stamps data-theme, but
+   dark is the correct fallback if it's ever absent). */
+.prose pre.astro-code,
+.prose pre.astro-code span {
+  color: var(--shiki-dark);
+  font-style: var(--shiki-dark-font-style);
+  font-weight: var(--shiki-dark-font-weight);
+  text-decoration: var(--shiki-dark-text-decoration);
+}
+
+:root[data-theme='light'] .prose pre.astro-code,
+:root[data-theme='light'] .prose pre.astro-code span {
+  color: var(--shiki-light);
+  font-style: var(--shiki-light-font-style);
+  font-weight: var(--shiki-light-font-weight);
+  text-decoration: var(--shiki-light-text-decoration);
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<meta name="design_doc_mode" content="canvas">
+<style>
+  *{box-sizing:border-box}
+  :root{
+    --bg:#010409;--surface:#0d1117;--void:#010409;--border:#30363d;--soft:#21262d;
+    --fg:#e6edf3;--muted:#8b949e;--dim:#c9d1d9;--accent:#e3b341;--accent2:#f0cd77;
+    --green:#3fb950;--code:#161b22;--avatar:#161b22;
+    --page:radial-gradient(1200px 600px at 30% -5%, #0d1117 0%, #010409 60%);
+    --shadow:0 30px 70px rgba(0,0,0,.55);
+  }
+  :root[data-theme="light"]{
+    --bg:#f4f1ea;--surface:#faf8f2;--void:#efeade;--border:#ddd6c7;--soft:#e8e2d4;
+    --fg:#1c1a17;--muted:#726b5c;--dim:#3f3a32;--accent:#cf8a0a;--accent2:#e6a52e;
+    --green:#2f7d32;--code:#efeade;--avatar:#efeade;
+    --page:radial-gradient(1200px 600px at 30% -5%, #ffffff 0%, #f4f1ea 60%);
+    --shadow:0 22px 50px rgba(90,78,45,.16);
+  }
+  body{margin:0;background:var(--bg)}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{color:var(--accent2)}
+  ::selection{background:var(--accent);color:var(--bg)}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes fadeup{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+</style>
+</helmet>
+
+<section style="min-height:100vh;padding:56px 64px 120px;background:var(--page);font-family:'JetBrains Mono',monospace;transition:background .3s">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:24px;margin-bottom:44px;max-width:2100px">
+    <div>
+      <div style="color:var(--muted);font-size:13px;letter-spacing:.06em">~/remi/redesign — round 01</div>
+      <h1 style="margin:10px 0 0;color:var(--fg);font-size:26px;font-weight:700">WIP landing · blog list · article</h1>
+      <p style="margin:8px 0 0;color:var(--muted);font-size:14px;max-width:660px;line-height:1.6">Landing (<a href="#1a">1a</a>), blog list (<a href="#1d">1d</a>) and article (<a href="#1e">1e</a>). Toggle theme and language to preview every combination.</p>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <div style="display:inline-flex;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+        <button onClick="{{ toDark }}" style="{{ darkTabStyle }}">DARK</button>
+        <button onClick="{{ toLight }}" style="{{ lightTabStyle }}">LIGHT</button>
+      </div>
+      <div style="display:inline-flex;border:1px solid var(--border);border-radius:8px;overflow:hidden">
+        <button onClick="{{ toEn }}" style="{{ enTabStyle }}">EN</button>
+        <button onClick="{{ toFr }}" style="{{ frTabStyle }}">FR</button>
+      </div>
+      <div style="display:inline-flex;align-items:center;gap:9px;padding:6px 12px;border:1px solid var(--border);border-radius:8px">
+        <span style="font:600 11px 'JetBrains Mono';color:var(--muted);letter-spacing:.06em">ACCENT</span>
+        <sc-for list="{{ swatches }}" as="sw" hint-placeholder-count="6">
+          <button onClick="{{ sw.pick }}" title="{{ sw.name }}" style="{{ sw.style }}"></button>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start">
+
+    <!-- 1a landing -->
+    <div id="1a" style="display:flex;flex-direction:column;gap:14px">
+      <div style="color:var(--accent);font-size:12px;font-weight:600;letter-spacing:.08em">1a · landing</div>
+      <div style="width:900px;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)">
+        <div style="padding:56px 52px 60px;color:var(--fg);min-height:520px">
+          <div style="color:var(--muted);font-size:14px">~/remi · product engineer &amp; manager · software craft</div>
+          <h1 style="margin:30px 0 0;font-size:42px;font-weight:700;line-height:1.12;letter-spacing:-.01em">
+            <span style="color:var(--accent)">{{ typed }}</span><span style="display:inline-block;width:13px;height:34px;background:var(--accent);margin-left:5px;vertical-align:-4px;animation:blink 1s steps(1) infinite"></span>
+          </h1>
+          <p style="margin:28px 0 0;font-family:'Newsreader',serif;font-size:20px;line-height:1.55;color:var(--dim);max-width:560px">{{ t.wipLine }}</p>
+          <p style="margin:14px 0 0;color:var(--muted);font-size:15px">{{ t.wipSub }}</p>
+          <div style="display:flex;gap:26px;margin-top:40px;font-size:14px">
+            <a href="#1d">→ {{ t.readBlog }}</a>
+            <a href="https://linkedin.com/in/remihuguet/">LinkedIn</a>
+            <a href="mailto:me@remihuguet.dev">Email</a>
+            <a href="/rss.xml">RSS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1d blog list -->
+    <div id="1d" style="display:flex;flex-direction:column;gap:14px">
+      <div style="color:var(--accent);font-size:12px;font-weight:600;letter-spacing:.08em">1d · blog list</div>
+      <div style="width:900px;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)">
+        <div style="padding:60px 56px 60px;color:var(--fg)">
+          <div style="color:var(--muted);font-size:13px">~/remi/blog</div>
+          <h1 style="margin:14px 0 0;font-family:'Newsreader',serif;font-size:44px;font-weight:500;letter-spacing:-.01em">{{ t.blogTitle }}</h1>
+          <p style="margin:12px 0 0;color:var(--muted);font-size:15px;max-width:520px;line-height:1.6">{{ t.blogIntro }}</p>
+          <div style="margin-top:38px">
+            <sc-for list="{{ posts }}" as="post" hint-placeholder-count="5">
+              <a href="#1e" style="display:grid;grid-template-columns:108px 1fr;gap:28px;padding:28px 0;border-top:1px solid var(--soft);color:inherit">
+                <div style="color:var(--muted);font-size:13px;padding-top:8px">{{ post.date }}</div>
+                <div>
+                  <h2 style="margin:0;font-family:'Newsreader',serif;font-size:26px;font-weight:500;color:var(--fg);letter-spacing:-.01em">{{ post.title }}</h2>
+                  <p style="margin:8px 0 0;font-family:'Newsreader',serif;font-size:17px;line-height:1.55;color:var(--muted)">{{ post.excerpt }}</p>
+                  <div style="margin-top:12px;display:flex;gap:16px;font-size:12px;color:var(--muted)"><span style="color:var(--accent)">{{ post.tags }}</span><span>{{ post.read }}</span></div>
+                </div>
+              </a>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1e article -->
+    <div id="1e" style="display:flex;flex-direction:column;gap:14px">
+      <div style="color:var(--accent);font-size:12px;font-weight:600;letter-spacing:.08em">1e · article detail</div>
+      <div style="width:900px;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)">
+        <div style="padding:56px 0 64px;color:var(--fg)">
+          <div style="max-width:640px;margin:0 auto;padding:0 48px">
+            <a href="#1d" style="font-size:13px;color:var(--muted)">← ~/remi/blog</a>
+            <div style="margin-top:26px;font-size:13px;color:var(--muted)">2025-09-18 · 9 min · <span style="color:var(--accent)">#craft #tdd</span></div>
+            <h1 style="margin:14px 0 0;font-family:'Newsreader',serif;font-size:40px;font-weight:500;line-height:1.15;letter-spacing:-.01em">TDD is a design tool, not a testing tool</h1>
+            <p style="margin:30px 0 0;font-family:'Newsreader',serif;font-size:19px;line-height:1.7;color:var(--dim)">Most teams adopt test-driven development hoping for fewer bugs. That is a side effect. The real payoff is the pressure it puts on your design — every hard-to-write test is a design smell talking to you.</p>
+            <h2 style="margin:40px 0 0;font-family:'JetBrains Mono';font-size:16px;font-weight:600;color:var(--fg)"><span style="color:var(--accent)">## </span>Listen to the friction</h2>
+            <p style="margin:16px 0 0;font-family:'Newsreader',serif;font-size:19px;line-height:1.7;color:var(--dim)">When a test needs five mocks to set up, the code under test is doing too much. The test is not the problem — it is the messenger.</p>
+            <pre style="margin:24px 0 0;background:var(--code);border:1px solid var(--soft);border-radius:10px;padding:18px 20px;overflow:auto;font:400 13px 'JetBrains Mono';color:var(--dim);line-height:1.65"><span style="color:var(--muted)"># red → green → refactor</span>
+def test_price_includes_tax():
+    <span style="color:var(--green)">assert</span> price_with_tax(100) == 120</pre>
+            <blockquote style="margin:28px 0 0;padding:6px 0 6px 22px;border-left:2px solid var(--accent);font-family:'Newsreader',serif;font-style:italic;font-size:20px;line-height:1.6;color:var(--fg)">Write the test you wish you had, then make the code deserve it.</blockquote>
+            <p style="margin:28px 0 0;font-family:'Newsreader',serif;font-size:19px;line-height:1.7;color:var(--dim)">Done well, the suite becomes an executable spec — and the design stays honest because it has to.</p>
+            <div style="margin-top:44px;padding-top:24px;border-top:1px solid var(--soft);display:flex;align-items:center;gap:16px">
+              <div style="width:40px;height:40px;border-radius:50%;background:var(--avatar);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--accent);font-size:14px">~</div>
+              <div style="font-size:13px;color:var(--muted)">Rémi Huguet · product engineer &amp; manager<br><a href="https://linkedin.com/in/remihuguet/">LinkedIn</a> · <a href="mailto:me@remihuguet.dev">Email</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { lang: 'en', theme: 'dark', accent: 'orange', typed: '' };
+  full = 'building something new';
+
+  accents = {
+    gold:    { name: 'Gold',    base: '#e3b341', soft: '#f0cd77' },
+    orange:  { name: 'Orange',  base: '#ff7a18', soft: '#ff9a4d' },
+    magenta: { name: 'Magenta', base: '#ff3d81', soft: '#ff6fa3' },
+    cyan:    { name: 'Cyan',    base: '#18d3e6', soft: '#5ee7f2' },
+    lime:    { name: 'Lime',    base: '#8fdc00', soft: '#b6f23a' },
+    green:   { name: 'Green',   base: '#42b883', soft: '#6fd0a6' },
+    violet:  { name: 'Violet',  base: '#8b5cf6', soft: '#a78bfa' },
+  };
+
+  applyTheme() {
+    const el = document.documentElement;
+    el.setAttribute('data-theme', this.state.theme);
+    const a = this.accents[this.state.accent];
+    el.style.setProperty('--accent', a.base);
+    el.style.setProperty('--accent2', a.soft);
+  }
+  startLoop() {
+    const full = this.full; let i = 0, dir = 1;
+    const tick = () => {
+      i += dir;
+      this.setState({ typed: full.slice(0, i) });
+      let delay = 95;
+      if (dir > 0 && i >= full.length) { dir = -1; delay = 1800; }
+      else if (dir < 0 && i <= 0) { dir = 1; delay = 700; }
+      else if (dir < 0) delay = 45;
+      this.tid = setTimeout(tick, delay);
+    };
+    tick();
+  }
+  componentDidMount() { this.applyTheme(); this.startLoop(); }
+  componentDidUpdate() { this.applyTheme(); }
+  componentWillUnmount() { clearTimeout(this.tid); }
+
+  renderVals() {
+    const en = {
+      wipLine: 'The old freelance site is retiring. Something calmer and more honest is on the way.',
+      wipSub: 'In the meantime, the writing stays online.',
+      readBlog: 'read the blog',
+      promptOut: 'Under reconstruction. The writing is still open — thanks for the patience.',
+      blogTitle: 'writing',
+      blogIntro: 'Notes on software, craft, teams, and the occasional rabbit hole.',
+    };
+    const fr = {
+      wipLine: "L'ancien site freelance prend sa retraite. Quelque chose de plus calme et honnête arrive.",
+      wipSub: 'En attendant, les articles restent en ligne.',
+      readBlog: 'lire le blog',
+      promptOut: "En reconstruction. Les articles restent ouverts — merci pour votre patience.",
+      blogTitle: 'le blog',
+      blogIntro: "Notes sur le logiciel, le craft, les équipes, et quelques digressions.",
+    };
+    const t = this.state.lang === 'fr' ? fr : en;
+    const tab = (active) => 'padding:8px 16px;border:none;cursor:pointer;font:600 12px "JetBrains Mono",monospace;' +
+      (active ? 'background:var(--accent);color:var(--bg)' : 'background:transparent;color:var(--muted)');
+    const posts = [
+      { date: '2025-11-02', title: 'Why I stopped calling myself a freelancer', excerpt: 'A quieter title, the same work: building good software with teams that want to get better.', tags: '#career', read: '6 min' },
+      { date: '2025-09-18', title: 'TDD is a design tool, not a testing tool', excerpt: 'The bugs it catches are a side effect. The real payoff is the pressure it puts on your design.', tags: '#craft #tdd', read: '9 min' },
+      { date: '2025-06-04', title: 'Managing without losing the keyboard', excerpt: 'Staying hands-on as a manager, without becoming the bottleneck the team routes around.', tags: '#management', read: '7 min' },
+      { date: '2025-03-21', title: 'Domain-driven design for small teams', excerpt: 'DDD is often sold as heavyweight. Most of its value shows up in teams of three to eight.', tags: '#ddd #architecture', read: '11 min' },
+      { date: '2024-12-10', title: 'From a physics PhD to shipping software', excerpt: 'What a theoretical physics background actually transfers to engineering — and what it does not.', tags: '#personal', read: '5 min' },
+    ];
+    const swatches = Object.keys(this.accents).map(id => {
+      const a = this.accents[id];
+      const active = this.state.accent === id;
+      return {
+        name: a.name,
+        pick: () => this.setState({ accent: id }),
+        style: 'width:20px;height:20px;border-radius:50%;cursor:pointer;background:' + a.base +
+          ';box-shadow:0 0 0 2px var(--surface),0 0 0 ' + (active ? '4px ' + a.base : '2px var(--border)') +
+          (active ? ',0 0 10px ' + a.base : '') + ';border:none;transition:box-shadow .15s',
+      };
+    });
+    return {
+      t, posts, swatches,
+      typed: this.state.typed,
+      toEn: () => this.setState({ lang: 'en' }),
+      toFr: () => this.setState({ lang: 'fr' }),
+      toDark: () => this.setState({ theme: 'dark' }),
+      toLight: () => this.setState({ theme: 'light' }),
+      enTabStyle: tab(this.state.lang === 'en'),
+      frTabStyle: tab(this.state.lang === 'fr'),
+      darkTabStyle: tab(this.state.theme === 'dark'),
+      lightTabStyle: tab(this.state.theme === 'light'),
+    };
+  }
+}
+</script>
+</body>
+</html>

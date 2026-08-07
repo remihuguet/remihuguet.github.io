@@ -1,0 +1,59 @@
+---
+// Dark/light toggle: a moon (dark) and a sun (light) button. Active state is
+// driven by <html data-theme> via CSS so it's correct before the script runs.
+// Initial attribute is set by the no-FOUC script in BaseLayout's <head>.
+---
+
+<div class="seg" role="group" aria-label="Theme">
+  <button type="button" data-set-theme="dark" aria-label="Dark theme" title="Dark">
+    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"></path>
+    </svg>
+  </button>
+  <button type="button" data-set-theme="light" aria-label="Light theme" title="Light">
+    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="4"></circle>
+      <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+    </svg>
+  </button>
+</div>
+
+<script>
+  const root = document.documentElement;
+  document.querySelectorAll<HTMLButtonElement>('[data-set-theme]').forEach((b) =>
+    b.addEventListener('click', () => {
+      const t = b.dataset.setTheme!;
+      root.dataset.theme = t;
+      try { localStorage.setItem('theme', t); } catch {}
+    }),
+  );
+</script>
+
+<style>
+  .seg {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .seg button {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+  .seg button:hover {
+    color: var(--fg);
+  }
+  :root[data-theme='dark'] .seg button[data-set-theme='dark'],
+  :root[data-theme='light'] .seg button[data-set-theme='light'] {
+    background: var(--accent);
+    color: var(--bg);
+  }
+</style>

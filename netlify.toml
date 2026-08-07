@@ -1,12 +1,54 @@
+# Build config now lives in the repo (was previously set in the Netlify UI).
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Astro 7 needs a modern Node runtime.
+  NODE_VERSION = "22"
+
+# --- Redirects for pages retired in Milestone 1 (preserve link equity) --------
+# Resume / About / old marketing landing → home; tag pages → the blog index.
+# No `force`, so any real static file always wins; these only fire as fallbacks.
+[[redirects]]
+  from = "/resume"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/tag/*"
+  to = "/blog"
+  status = 301
+
+# Old locale-prefixed marketing/resume/about/testimonies pages.
+[[redirects]]
+  from = "/fr/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/en/*"
+  to = "/"
+  status = 301
+
+# --- Security headers ---------------------------------------------------------
+# Tightened vs the Gridsome config: no third-party script hosts, no
+# 'unsafe-eval'. Vue islands are precompiled so they need neither.
 [[headers]]
-for = "/*"
+  for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
-    X-XSS-Protection = "1;mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "script-src 'self' assets.calendly.com static.mailerlite.com cdn.mailerlite.com 'unsafe-eval' 'unsafe-inline'; base-uri 'self';"
-    
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+
+# Astro emits content-hashed, immutable assets under /_astro/.
 [[headers]]
-for = "/assets/*"
-    [headers.values]
-      cache-control = "max-age=2592000"
+  for = "/_astro/*"
+  [headers.values]
+    cache-control = "public, max-age=31536000, immutable"

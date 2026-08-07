@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Rémi Huguet — product engineer"
+  description="Rémi Huguet — product engineer. Something new is on the way; the writing stays online."
+>
+  <section class="home">
+    <div class="home-inner">
+      <p class="intro">Rémi Huguet · product engineer · personal space</p>
+      <h1 class="status">
+        updating<span class="dots" aria-hidden="true"
+          ><span>.</span><span>.</span><span>.</span></span
+        >
+      </h1>
+      <a class="to-writings" href="/blog">writings &rarr;</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style lang="scss">
+  /* Fill the space between header and footer; the block is centered
+     vertically, constrained in width (less than the full page), with its
+     content left-aligned — like the original landing. */
+  .home {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 32px;
+  }
+  .home-inner {
+    width: 100%;
+    max-width: 720px;
+    text-align: left;
+  }
+
+  .intro {
+    margin: 0 0 14px;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    color: var(--muted);
+  }
+
+  .status {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    color: var(--fg);
+    white-space: nowrap;
+  }
+  /* Dots reveal one, two, three, then none — and loop. */
+  .dots {
+    display: inline-flex;
+    gap: 0.16em;
+    margin-left: 0.22em;
+  }
+  .dots span {
+    opacity: 0;
+  }
+  .dots span:nth-child(1) {
+    animation: dot1 1.6s steps(1, end) infinite;
+  }
+  .dots span:nth-child(2) {
+    animation: dot2 1.6s steps(1, end) infinite;
+  }
+  .dots span:nth-child(3) {
+    animation: dot3 1.6s steps(1, end) infinite;
+  }
+  @keyframes dot1 {
+    0%, 74% { opacity: 1; }
+    75%, 100% { opacity: 0; }
+  }
+  @keyframes dot2 {
+    0%, 24% { opacity: 0; }
+    25%, 74% { opacity: 1; }
+    75%, 100% { opacity: 0; }
+  }
+  @keyframes dot3 {
+    0%, 49% { opacity: 0; }
+    50%, 74% { opacity: 1; }
+    75%, 100% { opacity: 0; }
+  }
+
+  .to-writings {
+    display: inline-block;
+    margin-top: 44px;
+    font-family: var(--font-mono);
+    font-size: 22px;
+    color: var(--accent);
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+  }
+  .to-writings:hover {
+    color: var(--accent2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .dots span {
+      animation: none;
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .status {
+      font-size: 32px;
+    }
+    .to-writings {
+      font-size: 20px;
+    }
+  }
+</style>

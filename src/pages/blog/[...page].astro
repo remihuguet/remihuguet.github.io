@@ -1,0 +1,172 @@
+---
+import type { GetStaticPaths, Page } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {
+  getPublishedPosts,
+  postPath,
+  formatDate,
+  readingMinutes,
+  type Post,
+} from '../../lib/posts';
+
+// Paginate 10/page — preserves the Gridsome scheme (/blog, /blog/2, /blog/3 …).
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = await getPublishedPosts();
+  return paginate(posts, { pageSize: 10 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page<Post> };
+
+const rows = page.data.map((post) => ({
+  href: postPath(post),
+  date: formatDate(post.data.date),
+  title: post.data.title,
+  excerpt: post.data.description,
+  tags: post.data.tags.map((t) => `#${t}`).join(' '),
+  read: readingMinutes(post.body ?? ''),
+}));
+---
+
+<BaseLayout
+  title="writings — Rémi Huguet"
+  description="Notes on software, craft, teams, and the occasional rabbit hole."
+  section={{ label: 'writings' }}
+>
+  <div class="container">
+   <div class="column--list blog">
+    <h1 class="page-title">writings</h1>
+
+    <div class="posts">
+      {
+        rows.map((row) => (
+          <a class="row" href={row.href}>
+            <div class="date">{row.date}</div>
+            <div class="body">
+              <h2 class="title">{row.title}</h2>
+              <p class="excerpt">{row.excerpt}</p>
+              <div class="meta">
+                {row.tags && <span class="tags">{row.tags}</span>}
+                <span class="read">{row.read}</span>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+
+    {
+      (page.url.prev || page.url.next) && (
+        <nav class="pager" aria-label="Pagination">
+          {page.url.prev ? (
+            <a href={page.url.prev}>← newer</a>
+          ) : (
+            <span class="disabled">← newer</span>
+          )}
+          <span class="count">
+            {page.currentPage} / {page.lastPage}
+          </span>
+          {page.url.next ? (
+            <a href={page.url.next}>older →</a>
+          ) : (
+            <span class="disabled">older →</span>
+          )}
+        </nav>
+      )
+    }
+   </div>
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+  .blog {
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  .page-title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: -0.01em;
+    color: var(--fg);
+    line-height: 1.1;
+  }
+
+  .posts {
+    margin-top: 32px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 108px 1fr;
+    gap: 28px;
+    padding: 28px 0;
+    border-top: 1px solid var(--soft);
+    color: inherit;
+  }
+  .date {
+    color: var(--muted);
+    font-size: 15px;
+    padding-top: 8px;
+  }
+  .title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+    color: var(--fg);
+    transition: color 0.15s ease;
+  }
+  .row:hover .title {
+    color: var(--accent);
+  }
+  .excerpt {
+    margin: 8px 0 0;
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  .meta {
+    margin-top: 12px;
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .tags {
+    color: var(--accent);
+  }
+
+  .pager {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--soft);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .pager .count {
+    color: var(--muted);
+  }
+  .pager .disabled {
+    color: var(--soft);
+  }
+
+  @media (max-width: 600px) {
+    .page-title {
+      font-size: 36px;
+    }
+    .row {
+      grid-template-columns: 1fr;
+      gap: 6px;
+    }
+    .date {
+      padding-top: 0;
+    }
+  }
+</style>

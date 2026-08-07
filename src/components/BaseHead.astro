@@ -1,0 +1,44 @@
+---
+// SEO + Open Graph head tags (replaces Gridsome's vue-meta metaInfo()).
+// OG cover images are deferred to a later milestone (Cloudinary was dropped);
+// intentionally no og:image here yet.
+interface Props {
+  title: string;
+  description: string;
+  ogType?: 'website' | 'article';
+  noindex?: boolean;
+}
+
+const { title, description, ogType = 'website', noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href.replace(/\/$/, '') || Astro.site!.href;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+
+<title>{title}</title>
+<meta name="description" content={description} />
+{noindex && <meta name="robots" content="noindex" />}
+<link rel="canonical" href={canonical} />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+
+<!-- Open Graph -->
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content="Rémi Huguet" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+
+<!-- Feeds -->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="Rémi Huguet — blog"
+  href="/rss.xml"
+/>

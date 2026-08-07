@@ -1,0 +1,117 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { render } from 'astro:content';
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import {
+  getAllPosts,
+  postSlug,
+  postDateParts,
+  formatDate,
+  readingMinutes,
+  type Post,
+} from '../../../../../lib/posts';
+
+// A page for every post (incl. unpublished), URL parts computed to match the
+// Gridsome route `/blog/:year/:month/:day/:slug` exactly — zero SEO regression.
+export const getStaticPaths = (async () => {
+  const posts = await getAllPosts();
+  return posts.map((post) => {
+    const { year, month, day } = postDateParts(post);
+    return {
+      params: { year, month, day, slug: postSlug(post) },
+      props: { post },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { post } = Astro.props as { post: Post };
+const { Content } = await render(post);
+
+const date = formatDate(post.data.date);
+const read = readingMinutes(post.body ?? '');
+const tags = post.data.tags.map((t) => `#${t}`).join(' ');
+// Tag the document with the post's own language (content is fr or en).
+const lang = post.data.locale.split('-')[0];
+---
+
+<BaseLayout
+  title={`${post.data.title} — Rémi Huguet`}
+  description={post.data.description}
+  ogType="article"
+  noindex={!post.data.published}
+  lang={lang}
+  section={{ label: 'writings', href: '/blog' }}
+>
+  <div class="container">
+    <article class="column--reading article">
+      <p class="meta">
+        {date} · {read}{tags && <> · <span class="tags">{tags}</span></>}
+      </p>
+
+      <h1 class="title">{post.data.title}</h1>
+
+      <hr class="rule" />
+
+      <p class="lead">{post.data.description}</p>
+
+      <hr class="rule" />
+
+      <div class="prose">
+        <Content />
+      </div>
+    </article>
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+  .article {
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  .meta {
+    margin: 0;
+    font-size: 15px;
+    color: var(--muted);
+  }
+  .meta .tags {
+    color: var(--accent);
+  }
+  .title {
+    margin: 14px 0 0;
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--fg);
+  }
+  .rule {
+    margin: 28px 0 0;
+    border: 0;
+    border-top: 1px solid var(--soft);
+  }
+  /* Summary (the same text shown on the list card), emphasised in italic. */
+  .lead {
+    margin: 28px 0 0;
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--fg);
+  }
+  .article :global(.prose) {
+    margin-top: 28px;
+  }
+
+  @media (max-width: 600px) {
+    .title {
+      font-size: 32px;
+    }
+    .lead {
+      font-size: 20px;
+    }
+  }
+</style>
